@@ -1,0 +1,57 @@
+---
+title: "Security Breaches"
+author: "Brett Taylor"
+date: "October 30, 2015"
+output: word_document
+---
+ 
+```{r}
+library(data.table)
+library(lubridate)
+library(dplyr)
+breaches <- read.csv("./data/breach_report.csv" ,na.strings = c("","\\N"))
+breaches$Breach.Submission.Date <- mdy(breaches$Breach.Submission.Date)
+breaches$Breach.Year <- year(breaches$Breach.Submission.Date)
+breaches$Web.Description <- as.character(breaches$Web.Description)
+breachesWDesc<- breaches%>%filter(!is.na(Web.Description))
+#View(breachesWDesc%>%filter(grepl("phone",Web.Description)))
+
+```
+#Breaches by Year
+
+```{r, echo=TRUE}
+library(ggplot2)
+ggplot( breaches, aes( x = Breach.Year,fill=Covered.Entity.Type)) + 
+    geom_histogram( )+
+ 
+     theme_bw()+
+    theme( axis.text.x = element_text(angle = 45,vjust=.5)) 
+   
+```
+
+
+#Breaches by Type
+
+
+```{r, echo=TRUE}
+library(ggplot2)
+library(tm)
+library(RColorBrewer)
+library(wordcloud)
+chooseBioCmirror()
+ 
+ 	corp <-  VCorpus(VectorSource(breachesWDesc$Web.Description))
+  corp <- tm_map(corp, removePunctuation)
+	corp <- tm_map(corp, content_transformer(tolower))
+	corp <- tm_map(corp, removeNumbers)
+	corp <- tm_map(corp, function(x)removeWords(x,stopwords()))
+
+	term.matrix <- TermDocumentMatrix(corp)
+	term.matrix <- as.matrix(term.matrix)
+	wordCount <- data.frame(word=row.names(term.matrix),count=apply(term.matrix,1,sum))
+	wordCount <- wordCount%>%arrange(desc(count))
+#	colnames(term.matrix) <- c("SOTU 2010","SOTU 2011")
+	comparison.cloud(term.matrix,max.words=200,random.order=FALSE)
+	commonality.cloud(term.matrix,max.words=20,random.order=F)
+ 
+```
