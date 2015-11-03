@@ -40,9 +40,9 @@ dashboardPage(
         dashboardBody(tabItems(
                                tabItem(tabName = "breachByYear",
                                          fluidRow(
-                                                 box(plotOutput("breachPlotByYear")),
-                                                 box(plotOutput("breachImpactPlotByYear"))),
-                                       fluidRow(box(plotOutput("breachTypePlotByYear")))),
+                                                 box(title="Breach Count",plotOutput("breachPlotByYear")),
+                                                 box(title="Breach Impact",plotOutput("breachImpactPlotByYear"))),
+                                       fluidRow(box(title="Breach Types",plotOutput("breachTypePlotByYear")))),
                                tabItem(tabName = "breachByGeo",
                                        h1("Breach By Geography"),
                                        fluidRow(

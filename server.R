@@ -82,15 +82,12 @@ shinyServer(function(input, output) {
           
   })
   
-  output$breachTypePlotByYear <- renderPlot({          selectedEntityTypes <- input$covertedEntityType 
+  output$breachTypePlotByYear <- renderPlot({         
+          selectedEntityTypes <- input$covertedEntityType 
           range <- input$years
           firstYear <- range[1]
-#          message(firstYear)
           lastYear <- range[2]
-#          message(lastYear)
-           breachesRange <-breach.types%>%filter(((Breach.Year >= firstYear) & (Breach.Year <= lastYear)) ) 
- #         breachesRange <- breachesRange%>%filter(Covered.Entity.Type %in% selectedEntityTypes)
-         
+          breachesRange <-breach.types%>%filter(((Breach.Year >= firstYear) & (Breach.Year <= lastYear)) ) 
           ggplot( breachesRange, aes( x = as.factor(Breach.Year),fill=breach.type )) + 
                   geom_histogram()+
                   theme_bw()+
