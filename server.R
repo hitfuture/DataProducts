@@ -89,7 +89,7 @@ shinyServer(function(input, output) {
           lastYear <- range[2]
           breachesRange <-breach.types%>%filter(((Breach.Year >= firstYear) & (Breach.Year <= lastYear)) ) 
           ggplot( breachesRange, aes( x = as.factor(Breach.Year),fill=breach.type )) + 
-                  geom_histogram()+
+                  geom_histogram(color="black")+
                   theme_bw()+
                   theme( axis.text.x = element_text(angle = 45,vjust=.5)) 
           
