@@ -23,18 +23,38 @@ midYear <- minYear + round((maxYear - minYear) / 2)
 shinyServer(function(input, output) {
 
   output$breachPlotByYear <- renderPlot({
+          selectedEntityTypes <- input$covertedEntityType 
           range <- input$years
           firstYear <- range[[1]]
           message(firstYear)
           lastYear <- range[[2]]
           message(lastYear)
           breachesInRange <-breaches%>%filter((Breach.Year >= firstYear) & (Breach.Year <= lastYear))
-          ggplot( breachesInRange, aes( x = Breach.Year,fill=Covered.Entity.Type)) + 
+          breachesInRange <-breachesInRange%>%filter(Covered.Entity.Type %in% selectedEntityTypes)
+          ggplot( breachesInRange, aes( x = as.factor(Breach.Year),fill=Covered.Entity.Type)) + 
                   geom_histogram( )+
                   
                   theme_bw()+
                   theme( axis.text.x = element_text(angle = 45,vjust=.5)) 
 
+  })
+  output$breachImpactPlotByYear <- renderPlot({
+          selectedEntityTypes <- input$covertedEntityType 
+          range <- input$years
+          firstYear <- range[1]
+          message(firstYear)
+          lastYear <- range[2]
+          message(lastYear)
+          breachesRange <-breaches%>%filter(((Breach.Year >= firstYear) & (Breach.Year <= lastYear))&!is.na(Individuals.Affected))%>%filter(!is.na(Covered.Entity.Type)&!is.na(Individuals.Affected))  %>%
+                  group_by(Breach.Year,Covered.Entity.Type)%>% summarise(impacted=sum(Individuals.Affected))%>%ungroup()
+          breachesRange <- breachesRange%>%filter(Covered.Entity.Type %in% selectedEntityTypes)
+          
+          ggplot( breachesRange, aes( x = as.factor(Breach.Year),y=impacted ,fill=Covered.Entity.Type  )) + 
+                  geom_bar(stat = "identity"  )+
+                  
+                  theme_bw()+
+                  theme( axis.text.x = element_text(angle = 45,vjust=.5)) 
+          
   })
 
 })

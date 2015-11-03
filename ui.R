@@ -24,18 +24,30 @@ dashboardPage(
                 ),
                 menuItem("Breaches by Year", tabName = "breachByYear")
                 , icon = icon("th"),
-                        sliderInput(
+         menuItem("Breach Geography", tabName = "breachByGeo"), icon = icon("th"),
+        sliderInput(
                               inputId = "years",
                                  label = "Years:",
                                  min = minYear,
                                  max = maxYear,
                                  value = c(minYear, maxYear),
                                  step = 1
-                         )
+                         ),
+        checkboxGroupInput("covertedEntityType", label = h5("Covered Entity Type"), 
+                           choices = list("Business Associate", "Health Plan", "Healthcare Clearing House","Healthcare Provider"),
+                           selected = list("Business Associate", "Health Plan", "Healthcare Clearing House","Healthcare Provider"))
         ),
         dashboardBody(tabItems(
                                tabItem(tabName = "breachByYear",
-                                         fluidRow(plotOutput("breachPlotByYear")))
+                                         fluidRow(
+                                                 box(plotOutput("breachPlotByYear")),
+                                                 box(plotOutput("breachImpactPlotByYear")))),
+                               tabItem(tabName = "breachByGeo",
+                                       h1("Breach By Geography"),
+                                       fluidRow(
+                                               box()
+                                                )
+                                       )
         ))
        
         )
