@@ -32,8 +32,7 @@ shinyServer(function(input, output) {
           breachesInRange <-breaches%>%filter((Breach.Year >= firstYear) & (Breach.Year <= lastYear))
           breachesInRange <-breachesInRange%>%filter(Covered.Entity.Type %in% selectedEntityTypes)
           ggplot( breachesInRange, aes( x = as.factor(Breach.Year),fill=Covered.Entity.Type)) + 
-                  geom_histogram( )+
-                  
+                  geom_histogram(color="black" )+
                   theme_bw()+
                   theme( axis.text.x = element_text(angle = 45,vjust=.5)) 
 
@@ -50,7 +49,7 @@ shinyServer(function(input, output) {
           breachesRange <- breachesRange%>%filter(Covered.Entity.Type %in% selectedEntityTypes)
           
           ggplot( breachesRange, aes( x = as.factor(Breach.Year),y=impacted ,fill=Covered.Entity.Type  )) + 
-                  geom_bar(stat = "identity"  )+
+                  geom_bar(stat = "identity" ,color="black" )+
                   
                   theme_bw()+
                   theme( axis.text.x = element_text(angle = 45,vjust=.5)) 
