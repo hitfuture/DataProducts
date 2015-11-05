@@ -35,28 +35,34 @@ for(i in 1:ncol(df)) {
 }
 breaches<-cbind(breaches,df)
 breaches <- breaches%>%select(-breach.types)
-breachTypesByYear <- breaches[,c("Breach.Year",names(df))]
+breachTypesByYear <- breaches[,c("Breach.Year","Covered.Entity.Type","Individuals.Affected",names(df))]
 
-breach.types <- breachTypesByYear%>%gather(Breach.Year,Covered.Entity.Type)
-breach.types <- data.frame( Breach.Year=as.integer(as.character(breach.types[,1])),breach.type=breach.types[,3])
-breach.types <- breach.types%>%filter(!is.na(breach.type))
-
- 
-message("calc minYear")
+breach.types <- breachTypesByYear%>%gather(Breach.X,Breach.Type,-Breach.Year,-Covered.Entity.Type,-Individuals.Affected,na.rm=TRUE)
+breach.types <- breach.types%>%select(-Breach.X)
+  
 minYear <- min(breaches$Breach.Year)
 maxYear <- max(breaches$Breach.Year)
 midYear <- minYear + round((maxYear - minYear) / 2)
 shinyServer(function(input, output) {
 
-  output$breachPlotByYear <- renderPlot({
-          selectedEntityTypes <- input$covertedEntityType 
+  breach.filtered <- reactive(  {
+          selectedEntityTypes <- input$covertedEntityType
           range <- input$years
-          firstYear <- range[[1]]
+          firstYear <- range[1]
           message(firstYear)
-          lastYear <- range[[2]]
+          lastYear <- range[2]
           message(lastYear)
-          breachesInRange <-breaches%>%filter((Breach.Year >= firstYear) & (Breach.Year <= lastYear))
-          breachesInRange <-breachesInRange%>%filter(Covered.Entity.Type %in% selectedEntityTypes)
+          breachesRange <-
+                  breaches %>% filter((Breach.Year >= firstYear) &
+                                              (Breach.Year <= lastYear))
+          breachesRange <-
+                  breachesRange %>% filter(Covered.Entity.Type %in% selectedEntityTypes)
+          breachesRange
+  })
+  
+  
+  output$breachPlotByYear <- renderPlot({
+          breachesInRange <- breach.filtered()
           ggplot( breachesInRange, aes( x = as.factor(Breach.Year),fill=Covered.Entity.Type)) + 
                   geom_histogram(color="black" )+
                   theme_bw()+
@@ -64,19 +70,15 @@ shinyServer(function(input, output) {
 
   })
   output$breachImpactPlotByYear <- renderPlot({
-          selectedEntityTypes <- input$covertedEntityType 
-          range <- input$years
-          firstYear <- range[1]
-          message(firstYear)
-          lastYear <- range[2]
-          message(lastYear)
-          breachesRange <-breaches%>%filter(((Breach.Year >= firstYear) & (Breach.Year <= lastYear))&!is.na(Individuals.Affected))%>%filter(!is.na(Covered.Entity.Type)&!is.na(Individuals.Affected))  %>%
+          breachesInRange <- breach.filtered()
+
+          breachesRange <-breachesInRange%>%filter(!is.na(Individuals.Affected))%>%filter(!is.na(Covered.Entity.Type)&!is.na(Individuals.Affected))  %>%
                   group_by(Breach.Year,Covered.Entity.Type)%>% summarise(impacted=sum(Individuals.Affected))%>%ungroup()
-          breachesRange <- breachesRange%>%filter(Covered.Entity.Type %in% selectedEntityTypes)
-          
+ 
           ggplot( breachesRange, aes( x = as.factor(Breach.Year),y=impacted ,fill=Covered.Entity.Type  )) + 
                   geom_bar(stat = "identity" ,color="black" )+
-                  
+                  xlab("Year - Breach Submitted") +
+                  ylab("Number of Individuals Impacted") +
                   theme_bw()+
                   theme( axis.text.x = element_text(angle = 45,vjust=.5)) 
           
@@ -88,8 +90,27 @@ shinyServer(function(input, output) {
           firstYear <- range[1]
           lastYear <- range[2]
           breachesRange <-breach.types%>%filter(((Breach.Year >= firstYear) & (Breach.Year <= lastYear)) ) 
-          ggplot( breachesRange, aes( x = as.factor(Breach.Year),fill=breach.type )) + 
+          breachesRange <- breachesRange%>%filter(Covered.Entity.Type %in% selectedEntityTypes)
+          ggplot( breachesRange, aes( x = as.factor(Breach.Year),fill=Breach.Type )) + 
                   geom_histogram(color="black")+
+   #              facet_grid(.~Covered.Entity.Type)
+                  xlab("Year - Breach Submitted") +
+                  ylab("Breach Type - Count") +
+                  theme_bw()+
+                  theme( axis.text.x = element_text(angle = 45,vjust=.5)) 
+          
+  })
+  output$breachTypeImpactPlotByYear<- renderPlot({         
+          selectedEntityTypes <- input$covertedEntityType 
+          range <- input$years
+          firstYear <- range[1]
+          lastYear <- range[2]
+          breachesRange <-breach.types%>%filter(((Breach.Year >= firstYear) & (Breach.Year <= lastYear)) ) 
+          breachesRange <- breachesRange%>%filter(Covered.Entity.Type %in% selectedEntityTypes)
+          ggplot( breachesRange, aes( x = as.factor(Breach.Year),y=Individuals.Affected ,fill=Breach.Type  )) + 
+                  geom_bar(stat = "identity" ,color="black" )+
+                  xlab("Year - Breach Submitted") +
+                  ylab("Number of Individuals Impacted") +
                   theme_bw()+
                   theme( axis.text.x = element_text(angle = 45,vjust=.5)) 
           

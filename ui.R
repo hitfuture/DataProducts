@@ -42,7 +42,8 @@ dashboardPage(
                                          fluidRow(
                                                  box(title="Breach Count",plotOutput("breachPlotByYear")),
                                                  box(title="Breach Impact",plotOutput("breachImpactPlotByYear"))),
-                                       fluidRow(box(title="Breach Types",plotOutput("breachTypePlotByYear")))),
+                                       fluidRow(box(title="Breach Types - Count",plotOutput("breachTypePlotByYear")),
+                                                box(title="Breach Types - Impact",plotOutput("breachTypeImpactPlotByYear")))),
                                tabItem(tabName = "breachByGeo",
                                        h1("Breach By Geography"),
                                        fluidRow(
