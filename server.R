@@ -65,14 +65,16 @@ shinyServer(function(input, output) {
           breachesInRange <- breach.filtered()
           ggplot( breachesInRange, aes( x = as.factor(Breach.Year),fill=Covered.Entity.Type)) + 
                   geom_histogram(color="black" )+
+                  xlab("Year - Breach Submitted") +
+                  
                   theme_bw()+
                   theme( axis.text.x = element_text(angle = 45,vjust=.5)) 
 
   })
   output$breachImpactPlotByYear <- renderPlot({
           breachesInRange <- breach.filtered()
-
-          breachesRange <-breachesInRange%>%filter(!is.na(Individuals.Affected))%>%filter(!is.na(Covered.Entity.Type)&!is.na(Individuals.Affected))  %>%
+          
+          breachesRange <-breachesInRange%>%filter(!is.na(Covered.Entity.Type)&!is.na(Individuals.Affected))  %>%
                   group_by(Breach.Year,Covered.Entity.Type)%>% summarise(impacted=sum(Individuals.Affected))%>%ungroup()
  
           ggplot( breachesRange, aes( x = as.factor(Breach.Year),y=impacted ,fill=Covered.Entity.Type  )) + 
@@ -101,12 +103,15 @@ shinyServer(function(input, output) {
           
   })
   output$breachTypeImpactPlotByYear<- renderPlot({         
-          selectedEntityTypes <- input$covertedEntityType 
+          selectedEntityTypes <- input$covertedEntityType
           range <- input$years
           firstYear <- range[1]
           lastYear <- range[2]
           breachesRange <-breach.types%>%filter(((Breach.Year >= firstYear) & (Breach.Year <= lastYear)) ) 
           breachesRange <- breachesRange%>%filter(Covered.Entity.Type %in% selectedEntityTypes)
+          breachesRange <- breachesRange %>%filter(!is.na(Covered.Entity.Type)&!is.na(Individuals.Affected)) %>% group_by(Breach.Year,Breach.Type)%>%summarize(Individuals.Affected=sum(Individuals.Affected))
+          breachesRange[which(is.na(breachesRange$Individuals.Affected)),"Individuals.Affected"] <- 0
+          
           ggplot( breachesRange, aes( x = as.factor(Breach.Year),y=Individuals.Affected ,fill=Breach.Type  )) + 
                   geom_bar(stat = "identity" ,color="black" )+
                   xlab("Year - Breach Submitted") +
