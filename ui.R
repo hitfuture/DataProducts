@@ -3,6 +3,7 @@
 
 
 
+
 # This is the user-interface definition of a Shiny web application.
 # You can find out more about building applications with Shiny here:
 #
@@ -11,55 +12,74 @@
 
 library(shiny)
 library(shinydashboard)
-minYear <- min(breaches$Breach.Year)
-maxYear <- max(breaches$Breach.Year)
-midYear <- minYear + round((maxYear - minYear) / 2)
-dashboardPage(
-        dashboardHeader(title = "U.S. PHI Breaches"),
-        dashboardSidebar(
-        headerPanel("U.S. Department of ")  ,   
-        sidebarMenu(
-                menuItem("Dashboard", tabName = "dashboard")
-                        , icon = icon("dashboard")
-                ),
-                menuItem("Breaches by Year", tabName = "breachByYear")
-                , icon = icon("th"),
-         menuItem("Breach Geography", tabName = "breachByGeo"), icon = icon("th"),
+library(DT)
+require(rCharts)
+options(RCHART_LIB = 'polycharts')
+
+
+sidebar <-         dashboardSidebar(
+        headerPanel("Breach Dashboard ")  ,
         sliderInput(
-                              inputId = "years",
-                                 label = "Years:",
-                                 min = minYear,
-                                 max = maxYear,
-                                 value = c(minYear, maxYear),
-                                 step = 1
-                         ),
-        checkboxGroupInput("covertedEntityType", label = h5("Covered Entity Type"), 
-                           choices = list("Business Associate", "Health Plan", "Healthcare Clearing House","Healthcare Provider"),
-                           selected = list("Business Associate", "Health Plan", "Healthcare Clearing House","Healthcare Provider"))
+                inputId = "years",
+                label = "Years:",
+                min = minYear,
+                max = maxYear,
+                value = c(minYear, maxYear),
+                step = 1
         ),
-        dashboardBody(tabItems(
-                               tabItem(tabName = "breachByYear",
-                                         fluidRow(
-                                                 box(title="Breach Count",plotOutput("breachPlotByYear")),
-                                                 box(title="Breach Impact",plotOutput("breachImpactPlotByYear"))),
-                                       fluidRow(box(title="Breach Types - Count",plotOutput("breachTypePlotByYear")),
-                                                box(title="Breach Types - Impact",plotOutput("breachTypeImpactPlotByYear")))),
-                               tabItem(tabName = "breachByGeo",
-                                       h1("Breach By Geography"),
-                                       fluidRow(
-                                               box()
-                                                )
-                                       )
-        ))
+        sidebarMenu(
+               
+                menuItem(
+                        "Breaches by Year", tabName = "breachByYear",icon = icon("calendar")),
+                menuItem("Breach Geography", tabName = "breachByGeo", icon = icon("map")),
+                menuItem("Breach Data", tabName = "breachData", icon = icon("table")),
+                menuItem("Help", tabName = "help", icon = icon("question-circle")
+                         )),
        
-        )
-        #                ,
         
-        # Show a plot of the generated distribution
-#         dashboardBody(tabItems(
-#                 tabItem(tabName = "breachByYear",
-#                         fluidRow(plotOutput("breachPlotByYear")))
-#         ))
-#        )
+       
+        checkboxGroupInput(
+                "covertedEntityType", label = h5("Covered Entity Type"),
+                choices = list(
+                        "Business Associate", "Health Plan", "Healthcare Clearing House","Healthcare Provider"
+                ),
+                selected = list(
+                        "Business Associate", "Health Plan", "Healthcare Clearing House","Healthcare Provider"
+                )
+        )
+)
+body <-  dashboardBody(tabItems(
+        tabItem(tabName = "breachByYear",
+                fluidRow(
+                        box(title = "Breach Count",plotOutput("breachPlotByYear")),
+                        box(title = "Breach Impact",plotOutput("breachImpactPlotByYear"))
+                ),
+                fluidRow(
+                        box(title = "Breach Types - Count",plotOutput("breachTypePlotByYear")),
+                        # box(title="Breach Types - Impact",showOutput("breachTypeImpactPlotByYear","polycharts"))
+                        box(title = "Breach Types - Impact",plotOutput("breachTypeImpactPlotByYear"))
+                        
+                )),
+        tabItem(tabName = "breachByGeo",
+                h1("Breach By Geography"),
+                fluidRow( 
+                        
+                                title = "breachesByGeo",
+                                htmlOutput("breachesByGeo")
+                        )),
+        tabItem(tabName = "breachData",
+                h1("Breach Data"),
+                        
+                                title = "Breach Data",        
+                                DT::dataTableOutput("breachData")
+                       ),
+        tabItem(tabName = "help",
+                h1("Breach Dashboard Help"),
+                fluidRow(title = "Help"))
+))
 
-
+dashboardPage(dashboardHeader(title = "U.S. PHI Breaches"),
+              
+              sidebar,
+              body)
+ 
