@@ -10,8 +10,15 @@ library(shiny)
 library(ggplot2)
 library(googleVis)
 library(rCharts)
-#library(rMaps)
+library(leaflet)
+library(RColorBrewer)
+library(maps)
+library(mapproj)
+library(rMaps)
 library(DT)
+source("plotStates.R")
+
+
 # if (packageVersion('shiny') > '0.7') {
 #         library(shiny)
 #         runGitHub("shiny-examples", "rstudio", subdir = "012-datatables")
@@ -22,6 +29,7 @@ library(DT)
 #install_github('ramnathv/rMaps')
 #devtools::install_github('rstudio/shinyapps')
 #devtools::install_github('rstudio/DT')
+#install.packages("leaflet")
 
 function(input, output) {
         breach.filtered <- reactive({
@@ -149,18 +157,17 @@ function(input, output) {
                 }
                 
         })
-        output$breachesByGeo <- renderGvis ({
-                breachesRange <- breach.filtered()
-                breachesByState <-
-                        breachesRange %>% group_by(State) %>% summarize(Individuals.Affected =
-                                                                                sum(Individuals.Affected))
-                return(
-                        gvisGeoMap(
-                                breaches,locationvar = "State","Individuals.Affected",
-                                options = list(region = "US",dataMode = "regions")
-                        )
-                )
-        })
+        output$breachesByGeo <- renderChart2({
+                message("plot breaches")
+                
+                stateBreaches <- breach.filtered()%>%filter(!is.na(Individuals.Affected)&!is.na(State))%>%
+                        group_by(State)%>%
+                        summarize(Individuals.Affected=sum(Individuals.Affected))        
+                return( choropleth(cut(log10(Individuals.Affected),9,labels = FALSE) ~ State, data = stateBreaches ,pal="Greens"))
+
+                        
+                })
+        
         output$breachData <- DT::renderDataTable({
                 bdata <- breach.filtered()[,1:10]
                 datatable(bdata,class = 'cell-border stripe'

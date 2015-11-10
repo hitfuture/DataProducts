@@ -14,7 +14,7 @@ library(shiny)
 library(shinydashboard)
 library(DT)
 require(rCharts)
-options(RCHART_LIB = 'polycharts')
+#options(RCHART_LIB = 'polycharts')
 
 
 sidebar <-         dashboardSidebar(
@@ -62,16 +62,12 @@ body <-  dashboardBody(tabItems(
                 )),
         tabItem(tabName = "breachByGeo",
                 h1("Breach By Geography"),
-                fluidRow( 
-                        
-                                title = "breachesByGeo",
-                                htmlOutput("breachesByGeo")
-                        )),
+                   showOutput("breachesByGeo","datamaps")),
         tabItem(tabName = "breachData",
                 h1("Breach Data"),
                         
                                 title = "Breach Data",        
-                                DT::dataTableOutput("breachData")
+                                DT::dataTableOutput("breachData",width="100%",height="100%")
                        ),
         tabItem(tabName = "help",
                 h1("Breach Dashboard Help"),

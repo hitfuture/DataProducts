@@ -4,6 +4,8 @@ library(data.table)
 library(lubridate)
 library(dplyr)
 library(tidyr)
+library(leaflet)
+
 
 breaches <- read.csv("./data/onc_breach_report.csv" ,na.strings = c("","\\N"), encoding = "UTF-8")
 breaches$Breach.Submission.Date <- mdy(breaches$Breach.Submission.Date)
@@ -37,4 +39,5 @@ breach.types <- breach.types%>%select(-Breach.X)
 minYear <- min(breaches$Breach.Year)
 maxYear <- max(breaches$Breach.Year)
 midYear <- minYear + round((maxYear - minYear) / 2)
- 
+#This is just for testing
+counties <- readRDS("./data/counties.rds")
