@@ -8,13 +8,12 @@
 
 library(shiny)
 library(ggplot2)
-library(googleVis)
+library(rMaps)
 library(rCharts)
-library(leaflet)
+#library(leaflet)
 library(RColorBrewer)
 library(maps)
 library(mapproj)
-library(rMaps)
 library(DT)
 source("plotStates.R")
 
@@ -158,26 +157,25 @@ function(input, output) {
                 
         })
         output$breachesByGeo <- renderChart2({
-                message("plot breaches")
+               # message("plot breaches")
                 
                 stateBreaches <- breach.filtered()%>%filter(!is.na(Individuals.Affected)&!is.na(State))%>%
                         group_by(State)%>%
                         summarize(Individuals.Affected=sum(Individuals.Affected))%>%
                        mutate(  
                                 popup = sprintf("<strong>State:</strong> %s <br/><strong>Impacted:</strong> %s", 
-                                                State, Individuals.Affected ) 
+                                                State, prettyNum(Individuals.Affected,big.mark=",") ) 
                         )
-                str(stateBreaches)
-                cp <-choropleth(cut(log10(Individuals.Affected),9,labels = FALSE) ~ State, data = stateBreaches ,pal="Greens",legend=TRUE
-                                )
-                cp$addParams(height=600)
-                cp$set(geographyConfig = list(
-                       
-                        popupTemplate = "#! function(geography, data){
-                        return '<div class=hoverinfo>' + data.popup + '</div>';} !#" 
-                ))
-                 
-                return(cp )
+               # str(stateBreaches)
+                ichoropleth(
+                        cut(log10(Individuals.Affected),9,labels = FALSE) ~ State,
+                        data = stateBreaches,
+                        legend = TRUE,
+                        geographyConfig = list(
+                                popupTemplate = "#! function(geography, data){
+        Shiny.onInputChange('State', geography.properties.name)
+        return '<div class=hoverinfo><strong>' + data.popup + '</strong></div>';
+      } !#"))
 
                         
                 })
