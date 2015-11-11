@@ -62,7 +62,7 @@ body <-  dashboardBody(tabItems(
                 )),
         tabItem(tabName = "breachByGeo",
                 h1("Breach By Geography"),
-                   showOutput("breachesByGeo","datamaps")),
+                   showOutput("breachesByGeo","datamaps" )),
         tabItem(tabName = "breachData",
                 h1("Breach Data"),
                         

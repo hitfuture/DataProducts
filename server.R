@@ -162,20 +162,36 @@ function(input, output) {
                 
                 stateBreaches <- breach.filtered()%>%filter(!is.na(Individuals.Affected)&!is.na(State))%>%
                         group_by(State)%>%
-                        summarize(Individuals.Affected=sum(Individuals.Affected))        
-                return( choropleth(cut(log10(Individuals.Affected),9,labels = FALSE) ~ State, data = stateBreaches ,pal="Greens"))
+                        summarize(Individuals.Affected=sum(Individuals.Affected))%>%
+                       mutate(  
+                                popup = sprintf("<strong>State:</strong> %s <br/><strong>Impacted:</strong> %s", 
+                                                State, Individuals.Affected ) 
+                        )
+                str(stateBreaches)
+                cp <-choropleth(cut(log10(Individuals.Affected),9,labels = FALSE) ~ State, data = stateBreaches ,pal="Greens",legend=TRUE
+                                )
+                cp$addParams(height=600)
+                cp$set(geographyConfig = list(
+                       
+                        popupTemplate = "#! function(geography, data){
+                        return '<div class=hoverinfo>' + data.popup + '</div>';} !#" 
+                ))
+                 
+                return(cp )
 
                         
                 })
         
         output$breachData <- DT::renderDataTable({
                 bdata <- breach.filtered()[,1:10]
-                datatable(bdata,class = 'cell-border stripe'
-                ) %>% formatStyle(
-                        'Web.Description',
-                        backgroundColor = styleInterval(3.4, c('gray', 'cyan'))
+               
+                datatable(bdata , extensions = c("ColReorder",'ColVis'), options = list(dom = 'RC<"clear">lfrtip',pageLength=5, autoWidth = TRUE)
+                ) 
+#                 %>% formatStyle(
+#                         'Web.Description',
+#                         backgroundColor = styleInterval(3.4, c('gray', 'cyan'))
 
-                                                   )
+#                                                   )
                 })
 }
 
