@@ -183,7 +183,7 @@ function(input, output) {
         output$breachData <- DT::renderDataTable({
                 bdata <- breach.filtered()[,1:10]
                
-                datatable(bdata , extensions = c("ColReorder",'ColVis'), options = list(dom = 'RC<"clear">lfrtip',pageLength=5, autoWidth = TRUE)
+                datatable(bdata , extensions = c("ColReorder",'ColVis' ), options = list(dom = 'RC<"clear">lfrtip',pageLength=20, autoWidth = TRUE)
                 ) 
 #                 %>% formatStyle(
 #                         'Web.Description',
