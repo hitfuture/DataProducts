@@ -168,9 +168,11 @@ function(input, output) {
                         )
                # str(stateBreaches)
                 ichoropleth(
-                        cut(log10(Individuals.Affected),9,labels = FALSE) ~ State,
+                        log10(Individuals.Affected) ~ State,
                         data = stateBreaches,
-                        legend = TRUE,
+                        ncuts = 9,
+                        legend = TRUE, pal = "YlOrRd",
+#                        animate='Breach.Year',
                         geographyConfig = list(
                                 popupTemplate = "#! function(geography, data){
         Shiny.onInputChange('State', geography.properties.name)
