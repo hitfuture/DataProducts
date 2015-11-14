@@ -84,6 +84,7 @@ function(input, output) {
         })
         output$breachImpactPlotByYear <- renderPlot({
                 breachesInRange <- breach.filtered()
+                if (nrow(breachesInRange) == 0) return()
                 
                 breachesRange <-
                         breachesInRange %>% filter(!is.na(Covered.Entity.Type) &
@@ -109,6 +110,8 @@ function(input, output) {
         
         output$breachTypePlotByYear <- renderPlot({
                 breachesRange <- breachTypesReactive()
+                if (nrow(breachesRange) == 0) return()
+                
                 breachesRange <-
                         breachesRange %>% filter(!is.na(Covered.Entity.Type) &
                                                          !is.na(Individuals.Affected))
@@ -129,10 +132,13 @@ function(input, output) {
         })
         output$breachTypeImpactPlotByYear <- renderPlot({
                 breachesRange <- breachTypesReactive()
+                if (nrow(breachesRange) == 0) return()
+                
                 breachesRange <-
                         breachesRange %>% filter(!is.na(Covered.Entity.Type) &
                                                          !is.na(Individuals.Affected)) %>% group_by(Breach.Year,Breach.Type) %>% summarize(Individuals.Affected =
                                                                                                                                                    sum(Individuals.Affected))
+                
                 breachesRange[which(is.na(breachesRange$Individuals.Affected)),"Individuals.Affected"] <-
                         0
                 #           p4 <- rPlot(Individuals.Affected~Breach.Year,color = "Breach.Type",type = "line",data=breachesRange)
@@ -140,7 +146,9 @@ function(input, output) {
                 #           p4$guides(y = list(title = ""))
                 #           p4$addParams(height = 300, dom = 'breachTypeImpactPlotByYear')
                 #           return(p4)
-                if (nrow(breachesRange) > 0) {
+                
+                 
+               
                         ggplot(
                                 breachesRange, aes(
                                         x = as.factor(Breach.Year),y = Individuals.Affected ,fill = Breach.Type
@@ -151,9 +159,7 @@ function(input, output) {
                                 ylab("Number of Individuals Impacted") +
                                 theme_bw() +
                                 theme(axis.text.x = element_text(angle = 45,vjust = .5))
-                } else {
-                        "Failed"
-                }
+         
                 
         })
         output$breachesByGeo <- renderChart2({
@@ -166,12 +172,14 @@ function(input, output) {
                                 popup = sprintf("<strong>State:</strong> %s <br/><strong>Impacted:</strong> %s", 
                                                 State, prettyNum(Individuals.Affected,big.mark=",") ) 
                         )
+                if(nrow(stateBreaches) == 0)stop("No Data Available")
+                
                # str(stateBreaches)
                 ichoropleth(
-                        log10(Individuals.Affected) ~ State,
+                        (Individuals.Affected) ~ State,
                         data = stateBreaches,
                         ncuts = 9,
-                        legend = TRUE, pal = "YlOrRd",
+                         legend = TRUE, pal = "YlOrRd",
 #                        animate='Breach.Year',
                         geographyConfig = list(
                                 popupTemplate = "#! function(geography, data){
@@ -184,9 +192,11 @@ function(input, output) {
         
         output$breachData <- DT::renderDataTable({
                 bdata <- breach.filtered()[,1:10]
+                if(nrow(bdata) == 0)return(datatable(bdata))
                
-                datatable(bdata , extensions = c("ColReorder",'ColVis' ), options = list(dom = 'RC<"clear">lfrtip',pageLength=20, autoWidth = TRUE)
-                ) 
+                datatable(bdata , extensions = c("ColReorder",'ColVis' ), options = list(dom = 'RC<"clear">lfrtip',pageLength=20, autoWidth = TRUE,
+                                                                                         colVis = list(exclude = c(0, 1), activate = 'mouseover')
+                ) )
 #                 %>% formatStyle(
 #                         'Web.Description',
 #                         backgroundColor = styleInterval(3.4, c('gray', 'cyan'))
