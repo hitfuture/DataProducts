@@ -8,6 +8,7 @@ library(leaflet)
 
 
 breaches <- read.csv("./data/onc_breach_report.csv" ,na.strings = c("","\\N"), encoding = "UTF-8")
+#Clean Data
 breaches$Breach.Submission.Date <- mdy(breaches$Breach.Submission.Date)
 breaches$Breach.Year <- year(breaches$Breach.Submission.Date)
 breaches$Web.Description <- as.character(breaches$Web.Description)
@@ -40,4 +41,4 @@ minYear <- min(breaches$Breach.Year)
 maxYear <- max(breaches$Breach.Year)
 midYear <- minYear + round((maxYear - minYear) / 2)
 #This is just for testing
-counties <- readRDS("./data/counties.rds")
+#counties <- readRDS("./data/counties.rds")

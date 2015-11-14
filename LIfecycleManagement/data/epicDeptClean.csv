@@ -1,0 +1,1629 @@
+"","FacilityID","DeptID","Department.Name","Record.Status","Abbreviation","Synonyms","Center","External.Name","Inpatient.Dept","Specialty","Confidential.","Addr","Suite","City","State","Zip.Code","Zip.Add.On","County","Country","MPI.ID.Type","MPI.ID","Appt.Phone","ADT.Parent","Patient.Class","ADT.Unit.Type","EpicCare.Department","Logo.Filename","fullAddress","lon","lat"
+"1",10103,"132","ACST GYN ONC CLINIC","","ACST GYN ONC","GYN ONC
+MSTI GYN ONC
+ANDERSON CENTER
+ACST","ACST","MSTI GYN Oncology - Boise","","Gynecologic Oncology","","100 E. IDAHO ST.",NA,"BOISE","IDAHO","83712","6267","ADA","United States of America","110","10103132","",10103,"Clinic Outpatient
+Specimen","","Yes","","100 E. IDAHO ST., BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"2",10103,"171","ACST SL CHILDRENS CARE COORDINATORS","","ACST CCOOR","CSC CARE COORDINATORS
+CARE COORDINATORS
+CHILDRENS","ACST CSC","St. Luke's Children's Care Coordinator","","Pediatrics","","100 E IDAHO ST. "," 200","BOISE","IDAHO","83712","6270","","","110","10103171","",10103,"Clinic Outpatient
+Specimen","","Yes","","100 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"3",10103,"161","ACST SL CHILDRENS DIETITIAN CLINIC","","ACST DIET","DIETITIAN PEDS
+CSC
+CSC DIETICIAN
+PEDS
+PEDSDIET
+CHILD","ACST CSC","St. Luke's Children's - Dietitian - Boise","","Pediatric Dietitian","","100 E IDAHO ST. "," 200","BOISE","IDAHO","83712","6270","ADA","United States of America","110","10103161","",10103,"Clinic Outpatient
+Specimen","","Yes","SLHS_Childrens_4c_Med.JPG","100 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"4",10103,"183","ACST SL CHILDRENS EATING DISORDER CLINIC","","ACST EAT DIS","ACST EAT DIS","ACST","St. Luke's Children's - Eating Disorder - Boise","","Pediatric Eating Disorder","","100 E IDAHO ST. "," 200","BOISE","IDAHO","83712","6270","ADA","United States of America","110","10103183","",10103,"Clinic Outpatient
+Specimen","","Yes","","100 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"5",10103,"102","ACST SL CHILDRENS GASTROENTEROLOGY","","ACST PED GAS","PEDS GASTRO
+PEDIATRIC GASTRO
+ANDERSON CENTER
+PEDS
+GAS
+PEDSGASTRO
+PEDGASTRO
+GASTRO PEDS
+PEDS GAS","ACST CSC","St. Luke's Clinic- Childrens Gastroenterology - Boise","","Pediatric Gastroenterology","","100 E IDAHO ST. "," 316","BOISE","IDAHO","83712","6269","","United States of America","110","10103102","",10103,"Clinic Outpatient","","Yes","SLHS_Childrens_4c_Med.JPG","100 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"6",10103,"107","ACST SL CHILDRENS GENETICS","","ACST PED GEN","PEDS GENETICS
+GENETICS PEDS
+ANDERSON CENTER","ACST CSC","St. Luke's Clinic Childrens Genetics - Boise","","Pediatric Genetics","","100 E IDAHO ST. "," 200","BOISE","IDAHO","83712","6270","ADA","United States of America","110","10103107","",10103,"Clinic Outpatient
+Specimen","","Yes","SLHS_Childrens_4c_Med.JPG","100 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"7",10103,"160","ACST SL CHILDRENS GI - INTESTINAL REHABILITATION","","ACST CIR","ACST
+CHILD
+INTEST
+PEDSINT
+PEDS
+REHAH
+IRC PEDS
+PEDSURO
+PEDSGASTRO
+PEDS GAS
+PEDIATRIC GASTRO","ACST CSC","St. Luke's Childrens- Intestinal Rehabilitation - Boise","","Pediatric Intestinal Rehab","","100 E IDAHO ST. ","100","BOISE","IDAHO","83712",NA,"","United States of America","110","10103160","",NA,"Clinic Outpatient","","Yes","SLHS_Childrens_4c_Med.JPG","100 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"8",10103,"108","ACST SL CHILDRENS INFECTIONS AND IMMUNE DEFICIENCY","","ACST IIDC","ANDERSON CENTER
+PEDS INFECTIOUS
+INFECTIOUS DISEASE PEDS
+PEDS
+CSC
+INFECT PEDS
+CHILD
+DISEASE
+ID
+PEDSINFE
+CSCINF
+PEDIATRIC INFECTIONS AND IMMUNE DISEASE
+CHILDRENS IMMUNOLOGY","ACST CSC","St. Luke's Children's -Infections and Immune Deficiency","","Pediatric Infectious Disease","","100 E IDAHO ST. "," 200","BOISE","IDAHO","83712","6270","","United States of America","110","10103108","",10103,"Clinic Outpatient
+Specimen","","Yes","SLHS_Childrens_4c_Med.JPG","100 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"9",10103,"165","ACST SL CHILDRENS MENTAL HEALTH","","ACST CMH","","ACST","St. Lukes Childrens Neurobehavioral Medicine-Boise","","Pediatric Mental Health","","100 E IDAHO "," 200","BOISE","IDAHO","83712",NA,"ADA","United States of America","110","10103165","",10103,"Clinic Outpatient
+Specimen","","Yes","","100 E IDAHO , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"10",10103,"109","ACST SL CHILDRENS METABOLIC","","ACST PED MET","PEDS METABOLIC
+METABOLIC PEDS
+ANDERSON CENTER
+PED MET
+PEDIATRIC METABOLIC","ACST CSC","St. Luke's Clinic Childrens Metabolic - Boise","","Pediatric Metabolics","","100 E IDAHO ST. "," 200","BOISE","IDAHO","83712","6270","ADA","United States of America","110","10103109","",10103,"Clinic Outpatient
+Specimen","","Yes","SLHS_Childrens_4c_Med.JPG","100 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"11",10103,"110","ACST SL CHILDRENS NEPHROLOGY","","ACST PED NEP","PEDS NEPHROLOGY
+ANDERSON CENTER
+NEPHROLOGY PEDS
+NEP
+ACST
+CSC
+CHILD
+PEDS
+PEDSNEP
+CSCNEP
+PED REN
+REN
+RENAL
+PEDIATRIC NEPHROLOGY","ACST CSC","St. Luke's Clinic Childrens Nephrology - Boise","","Pediatric Nephrology","","100 E IDAHO ST. "," 304","BOISE","IDAHO","83712","6270","","United States of America","110","10103110","",10103,"Clinic Outpatient
+Specimen","","Yes","SLHS_Childrens_4c_Med.JPG","100 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"12",10103,"111","ACST SL CHILDRENS NEUROLOGY","","ACST PED NEU","PEDS NEUROLOGY
+NEURO PEDS
+ANDERSON CENTER
+CSC
+NEUROLOGY PEDS
+ACST","ACST CSC","St. Luke's Clinic Childrens Neurology - Boise","","Pediatric Neurology","","100 E IDAHO ST. "," 200","BOISE","IDAHO","83712","6270","ADA","United States of America","110","10103111","",10103,"Clinic Outpatient
+Specimen","","Yes","SLHS_Childrens_4c_Med.JPG","100 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"13",10103,"112","ACST SL CHILDRENS NEUROPSYCHOLOGY","","ACST PED NPY","ANDERSON CENTER
+PEDS NEUROPSYCHOLOGY
+NEUROPSYCHOLOGY PEDS
+CSC
+NEUROPSYCH PEDS
+ACST
+PEDS NEURO
+PEDIATRIC NEUROPSYCHOLOGY","ACST CSC","St. Luke's Clinic Childrens Neuropsychology - Boise","","Pediatric Neuropsychology","","100 E IDAHO ST. "," 200","BOISE","IDAHO","83712","6270","ADA","United States of America","110","10103112","",10103,"Clinic Outpatient
+Specimen","","Yes","SLHS_Childrens_4c_Med.JPG","100 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"14",10103,"113","ACST SL CHILDRENS NEUROSURGERY","","ACST PED NSU","ANDERSON CENTER
+PEDS NEUOSURGERY
+NEUROSURGERY PEDS
+NEURO PEDS
+CSC
+ACST
+NEUROSURG PEDS
+PEDIATRIC NEUROSURGERY","ACST CSC","St. Luke's Clinic Childrens Neurosurgery - Boise","","Pediatric Neurosurgery","","100 E IDAHO ST. "," 200","BOISE","IDAHO","83712","6270","ADA","United States of America","110","10103113","",10103,"Clinic Outpatient
+Specimen","","Yes","SLHS_Childrens_4c_Med.JPG","100 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"15",10103,"176","ACST SL CHILDRENS NICU FOLLOW UP CLINIC - BOISE","","ACST NICUFU","ANDERSON CENTER
+PEDS NICU
+PEDS FOLLOW UP","ACST CSC","St. Luke's Clinic - NICU Follow up - Boise","","Neonatology","","100 E IDAHO ST. "," 200","BOISE","IDAHO","83712","6270","","","110","10103176","",10103,"","","Yes","","100 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"16",10103,"162","ACST SL CHILDRENS OTOLARYNGOLOGY","","ACST COT","ENT PEDS
+EAR, NOSE, AND THROAT
+PEDIATRIC OTOLARYNGOLOGY
+PEDIATRIC ENT","ACST CSC","St. Luke's Children's - Otolaryngology - Boise","","Pediatric Otolaryngology","","100 E IDAHO ST.",NA,"BOISE","IDAHO","83712",NA,"ADA","United States of America","110","10103162","",10103,"Clinic Outpatient
+Specimen","","Yes","SLHS_Childrens_4c_Med.JPG","100 E IDAHO ST., BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"17",10103,"163","ACST SL CHILDRENS PHYSICAL MEDICINE AND REHAB","","ACST PHYS","PHYSIATRY
+PEDIATRIC PHYSICAL MEDICINE AND REHAB
+PEDS PHYSICAL MEDICINE AND REHAB
+PEDIATRIC PHYSIATRY
+PEDS PHYSIATRY","ACST CSC","St. Luke's Pediatric Physical Medicine & Rehab-Boise","","Pediatric Physical Medicine and Rehabilitation","","100 E IDAHO ST.",NA,"BOISE","IDAHO","83712",NA,"ADA","United States of America","110","10103163","",10103,"Clinic Outpatient
+Specimen","","Yes","SLHS_Childrens_4c_Med.JPG","100 E IDAHO ST., BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"18",10103,"114","ACST SL CHILDRENS PULMONOLOGY","","ACST PED PUL","PEDS PULMONOLOGY
+ANDERSON CENTER
+PULMONOLOGY PEDS
+ACST
+PEDS
+PUL
+CSC
+CHILD
+PEDSPUL
+CSCPUL","ACST CSC","St. Luke's Clinic Childrens Pulmonology - Boise","","Pediatric Pulmonology","","100 E IDAHO ST. "," 200","BOISE","IDAHO","83712","6270","","United States of America","110","10103114","",10103,"Clinic Outpatient
+Specimen","","Yes","SLHS_Childrens_4c_Med.JPG","100 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"19",10103,"115","ACST SL CHILDRENS SURGERY","","ACST PED SUR","SURGERY PEDS
+ANDERSON CENTER
+PEDS SURGERY
+ACS
+SURG
+PEDS
+CSC
+PEDSSURG","ACST CSC","St. Luke's Clinic Childrens Surgery - Boise","","Pediatric Surgery","","100 E IDAHO ST. "," 300","BOISE","IDAHO","83712","6269","","United States of America","110","10103115","",10103,"Clinic Outpatient
+Specimen","","Yes","SLHS_Childrens_4c_Med.JPG","100 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"20",10103,"184","ACST SL CHILDRENS YEAH","","ACST YEAH","ACST YEAH
+YEAH","ACST","St. Luke's Children's - YEAH - Boise","","Physical Fitness","","100 E IDAHO ST. "," 200","BOISE","IDAHO","83712","6270","ADA","United States of America","110","10103184","",10103,"Clinic Outpatient
+Specimen","","Yes","","100 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"21",10103,"158","ACST SL IDAHO PULMONARY ASSOCIATES","","ACST IPA","ACST IPA
+PULMONARY
+CSC","ACST","ACST SL IDAHO PULMONARY ASSOCIATES - Boise","","Pulmonology","","100 E IDAHO ST. "," 200","BOISE","IDAHO","83712",NA,"","United States of America","110","10103158","",NA,"Clinic Outpatient
+Specimen","","Yes","","100 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"22",10103,"164","ACST SLC ANAL RECTAL MONOMETRY","","ACST ARM","COLORECTAL
+ARM
+ACST","ACST","St. Luke's Clinic - Anal Rectal Manometry - Boise","","Colon and Rectal Surgery","","100 E IDAHO ST. "," 316","BOISE","IDAHO","83712",NA,"ADA","United States of America","110","10103164","",10103,"","","Yes","","100 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"23",10103,"118","ACST SLC CENTER FOR PANCREATIC DISEASE","","ACST CFPD","CENTER FOR PANCREATIC
+PANCREATIC DISEASE
+CFPD
+CPLD
+LIVER
+PANC","ACST","St. Luke's Clinic Center for Pancreatic Disease - Boise","","Pancreatico-Hepatobiliary","","100 E IDAHO ST. "," 301","BOISE","IDAHO","83712","6269","ADA","United States of America","110","10103118","",10103,"Clinic Outpatient
+Specimen","","Yes","","100 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"24",10103,"105","ACST SLC CHILDRENS CARDIOLOGY","","ACST PED CRD","PEDS CARD
+CARDIOLOGY PEDS
+ANDERSON CENTER
+ACST","ACST CSC","St. Luke's Clinic Childrens Cardiology - Boise","","Pediatric Cardiology","","100 E IDAHO ST. "," 304","BOISE","IDAHO","83712","6270","ADA","United States of America","110","10103105","",10103,"Clinic Outpatient
+Specimen","","Yes","","100 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"25",10103,"148","ACST SLC CYSTIC FIBROSIS CLINIC    ","","ACST CFPEDS","CYSTIC FIBROSIS PEDS
+CF
+CYSTIC FIB PEDS
+ANDERSON CENTER
+FIB
+PEDS
+CHILD
+CSC
+PED
+PEDSCYST","ACST CSC","St. Luke's Clinic Cystic Fibrosis Clinic - Boise","","Pediatric Cystic Fibrosis","","100 E IDAHO ST. "," 200","BOISE","IDAHO","83712","6270","ADA","United States of America","110","10103148","",10103,"Clinic Outpatient
+Specimen","","Yes","SLHS_Childrens_4c_Med.JPG","100 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"26",10103,"103","ACST SLC MOUNTAIN STATES UROLOGY PEDIATRICS","","ACST MSU PED","MSU PEDS
+PEDS MSU
+ANDERSON CENTER","","St. Luke's Clinic Mountain States Urology Pediatrics","","Pediatric Urology","","100 E IDAHO ST. "," 200","BOISE","IDAHO","83712","6270","","United States of America","110","10103103","",10103,"Clinic Outpatient","","Yes","","100 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"27",10103,"104","ACST SLC OBSTETRICS AND GYNECOLOGY","","ACST OBGYN","OBGYN
+BOISE OBGYN
+OB GYN
+OB/GYN
+ANDERSON CENTER","ACST","St. Luke's Clinic Obstetrics and Gynecology - Boise","","Obstetrics and Gynecology","","100 E IDAHO ST. "," 302","BOISE","IDAHO","83712","6269","","United States of America","110","10103104","",10103,"Clinic Outpatient
+Specimen","","Yes","","100 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"28",10103,"116","ACST SLC SPINA BIFIDA CLINIC","","ACST SBC","SPINA BIFIDA
+ANDERSON CENTER
+ACST
+MYELO
+SB
+CSC
+PEDSSPIN
+CSCSPIN","ACST CSC","St. Luke's Clinic Spina Bifida Clinic - Boise","","Spina Bifida","","100 E IDAHO ST. "," 200","BOISE","IDAHO","83712","6270","","United States of America","110","10103116","208-381-7000",10103,"Clinic Outpatient
+Specimen","","Yes","SLHS_Childrens_4c_Med.JPG","100 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"29",10103,"117","ACST SLC THE WOMAN'S CLINIC","","ACST TWC","WOMAN'S CLINIC
+THE WOMAN'S CLINIC
+THE WOMANS CLINIC
+WOMANS
+OB","ACST","St. Luke's Clinic The Woman's Clinic - Boise","","Obstetrics and Gynecology","","100 E IDAHO ST. "," 400","BOISE","IDAHO","83712","6267","","United States of America","110","10103117","",10103,"Clinic Outpatient
+Specimen","","Yes","","100 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"30",10103,"100","ACST SLC TREASURE VALLEY PEDIATRICS","","ACST TVPEDS","TREASURE VALLEY PEDS
+TVPEDS
+BTVP
+ANDERSON CENTER","SLC TREASURE VALLEY PED CLINICS","St. Luke's Children's Treasure Valley Pediatrics-Boise","","Pediatrics","","100 E IDAHO "," 401","BOISE","IDAHO","83712","6267","ADA","United States of America","110","10103100","",10103,"Clinic Outpatient
+Specimen","","Yes","SLHS_Childrens_4c_Med.JPG","100 E IDAHO , BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"31",10103,"159","ACST SLC UROLOGY ONCOLOGY","","ACST URONC","UROLOGY ONCOLOGY
+ONC
+URO
+UROONC
+BOISE
+ACST
+ANDERSON
+URONC","ACST","St. Luke's Clinic - Urology Oncology - Boise","","Urologic Oncology","","100 E IDAHO ST.",NA,"BOISE","IDAHO","83712","6267","ADA","United States of America","110","10103159","",10103,"Clinic Outpatient
+Specimen","","Yes","","100 E IDAHO ST., BOISE, IDAHO, 83712",-116.1935105,43.6120865
+"32",10126,"102","AMER SL OCCUPATIONAL HEALTH AND SPINE WELLNESS","","AMER OHSW","OCC HEALTH
+CENTER FOR SPINE WELLN
+AMERICANA
+CSW
+SPINE
+SPINE WELLNESS","AMER","St. Luke's Occupational Health & Spine Wellness - Ameri","","Occupational Medicine","","703 S AMERICANA BLVD",NA,"BOISE","IDAHO","83702","5099","ADA","United States of America","110","10126102","",10126,"","","Yes","","703 S AMERICANA BLVD, BOISE, IDAHO, 83702",-116.2193782,43.61752
+"33",10126,"101","AMER SLC ORTHO AMERICANA","","AMER ORTHO","AMERICANA
+ORTHO
+BOISE ORTHO
+BOC
+ORTHOPEDICS","AMER","St. Luke's Clinic - Orthopaedic - Americana","","Orthopedic Surgery","","703 S AMERICANA BLVD "," 120","BOISE","IDAHO","83702","5099","ADA","United States of America","110","10126101","",10126,"Clinic Outpatient
+Specimen","","Yes","","703 S AMERICANA BLVD , BOISE, IDAHO, 83702",-116.2193782,43.61752
+"34",10126,"111","AMER SLC PSYCHIATRIC WELLNESS","","AMER PSYCH","AMER
+PSYCH
+WELLNESS","AMER","St. Luke's Clinic - Psychiatric Wellness - Boise","","Psychiatry","","703 S AMERICANA BLVD "," 150","BOISE","IDAHO","83702","5099","ADA","United States of America","110","10126111","",10126,"Clinic Outpatient","","Yes","","703 S AMERICANA BLVD , BOISE, IDAHO, 83702",-116.2193782,43.61752
+"35",10141,"101","ANTICOAGULATION CLINIC -  SLICA NAMPA","","NICA IC ACC","ANTICOAGULATION
+ACC
+NAMPA
+SLICA
+COUMADIN
+WARFARIN","NICA","ANTICOAGULATION CLINIC -  SLICA NAMPA","","Anticoagulation","","215 E HAWAII AVE.",NA,"NAMPA","IDAHO","83686","6011","CANYON","United States of America","110","10141101","",10141,"Therapies Series","","Yes","","215 E HAWAII AVE., NAMPA, IDAHO, 83686",-116.5706234,43.554591
+"36",10509,"110","ANTICOAGULATION CLINIC - BAKER CITY","","BCSSC ACC","ANTICOAG BAKER CITY
+ACC
+COUMADIN
+BAKER CITY","BCRC","Anticoagulation Clinic - Baker City","","Anticoagulation","","3445 POCAHONTAS ROAD",NA,"BAKER CITY","OREGON","97814","3599","BAKER","United States of America","110","10509110","",10509,"Therapies Series","","Yes","","3445 POCAHONTAS ROAD, BAKER CITY, OREGON, 97814",-117.8499581,44.7961423
+"37",10115,"101","ANTICOAGULATION CLINIC - BHC","","BHC ACC","ANTICOAG
+BHC
+BOISE
+BOISE HEART CLINIC
+ACC
+COUMADIN
+WARFARIN","BHC","ANTICOAGULATION CLINIC - BHC","","Anticoagulation","","287 W JEFFERSON ST.",NA,"BOISE","IDAHO","83702","6045","ADA","United States of America","110","10115101","",10115,"Therapies Series","","Yes","","287 W JEFFERSON ST., BOISE, IDAHO, 83702",-116.195293,43.614568
+"38",10101,"185","ANTICOAGULATION CLINIC - EAGLE","","EMC ACC","EMC
+ANTICOAG
+EAGLE
+INR
+ACC
+COUMADIN
+WARFARIN","EMC","ANTICOAGULATION CLINIC - EAGLE","","Anticoagulation","","3101 E. STATE ST. "," 2120","EAGLE","IDAHO","83616","6232","ADA","United States of America","110","10101185","",10101,"Therapies Series","","Yes","","3101 E. STATE ST. , EAGLE, IDAHO, 83616",-116.3163704,43.6818299
+"39",10303,"112","ANTICOAGULATION CLINIC - MCCALL","","PLMC ACC","ACC
+ANTICOAG
+ACC MCCALL","PLMC","St. Luke's Anticoagulation Clinic - McCall","","Anticoagulation","","211 FOREST ST.",NA,"MCCALL","IDAHO","83638","5256","VALLEY","United States of America","110","10303112","",10303,"Therapies Series","","Yes","","211 FOREST ST., MCCALL, IDAHO, 83638",-116.1116918,44.9092053
+"40",10140,"120","ANTICOAGULATION CLINIC - SLICA FRUITLAND","","FLMC IC ACC","ANTICOAG
+SLICA FRUITLAND
+FRUITLAND
+ACC
+FLMC","FLMC","Anticoagulation Clinic - SLICA Fruitland","","Anticoagulation","","1210 NW 16TH ST.",NA,"FRUITLAND","IDAHO","83619",NA,"PAYETTE","United States of America","110","10140120","",10140,"Therapies Series","","Yes","","1210 NW 16TH ST., FRUITLAND, IDAHO, 83619",-116.9290768,44.0248559
+"41",10155,"104","ANTICOAGULATION CLINIC - SLICA FRUITLAND","Inactive","FMC IC ACC","ANTICOAG
+SLICA FRUITLAND
+FRUITLAND
+ACC","","Anticoagulation Clinic - SLICA Fruitland","","","","1107 NW 11TH ST.",NA,"FRUITLAND","IDAHO","83619","2255","PAYETTE","United States of America","110","10155104","",10155,"Therapies Series","","Yes","","1107 NW 11TH ST., FRUITLAND, IDAHO, 83619",-116.9253292,44.0218203
+"42",10132,"103","ANTICOAGULATION CLINIC - SLICA MERIDIAN","","MML IC ACC","ANTICOAG
+IDAHO CARDIOLOGY MERIDIAN
+MERIDIAN
+ACC
+COAG
+COUMADIN
+WARFARIN
+PROTIME
+INR","MML","ANTICOAGULATION CLINIC - SLICA MERIDIAN","","Anticoagulation","","3525 E LOUISE DR. "," 400","MERIDIAN","IDAHO","83642","6303","ADA","United States of America","110","10132103","",10132,"Therapies Series","","Yes","","3525 E LOUISE DR. , MERIDIAN, IDAHO, 83642",-116.3499193,43.6017684
+"43",10133,"121","ANTICOAGULATION CLINIC- MERIDIAN","Inactive","MMOP ACC","ACC
+COUMADIN
+MERIDIAN MEDICAL OFFICE PLAZA","","Anticoagulation Clinic - MERIDIAN","","Anticoagulation","","520 S. EAGLE ROAD "," 2104","MERIDIAN","IDAHO","83642","6363","","United States of America","110","10133121","",10133,"Therapies Series","","Yes","","520 S. EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"44",10125,"106","ANTICOAGULATION CLINIC- PARKCENTER","","PKC ACC","ANTICOAG PARKCENTER
+PARKCENTER
+ANTICOAG
+ACC
+COUMADIN
+WARFARIN
+PKC","PKC","ANTICOAGULATION CLINIC- PARKCENTER","","Anticoagulation","","701 E PARKCENTER BLVD",NA,"BOISE","IDAHO","83706","6528","ADA","United States of America","110","10125106","",10125,"Therapies Series","","Yes","","701 E PARKCENTER BLVD, BOISE, IDAHO, 83706",-116.1753718,43.5894268
+"45",10136,"101","ANTICOAGULATION CLINIC- SLICA CALDWELL","","CIC IC ACC","ANTICOAGULATION
+COUMADIN
+ANTI COAG
+CALDWELL ANTICOAG
+CALDWELL ANTI COAG
+ACC
+WARFARIN","CIC","Anticoagulation Clinic- SLICA Caldwell","","Anticoagulation","","315 E. ELM "," 350","CALDWELL","IDAHO","83605","4881","","United States of America","110","10136101","",10136,"Therapies Series","","Yes","","315 E. ELM , CALDWELL, IDAHO, 83605",-116.694786,43.653882
+"46",10116,"102","ANTICOAGULATION CLINIC- SLICA JEFFERSON","","JMOP IC ACC","SLICA JEFFERSON
+ANTICOAG
+ACC
+WARFARIN
+COUMADIN
+JMOP","JMOP","ANTICOAGULATION CLINIC- SLICA JEFFERSON - Boise","","Anticoagulation","","300 E JEFFERSON ST. "," 101","BOISE","IDAHO","83712","6221","","United States of America","110","10116102","",10116,"Therapies Series","","Yes","","300 E JEFFERSON ST. , BOISE, IDAHO, 83712",-116.1902849,43.6127171
+"47",10133,"120","ANTICOAGULATION CLINIC- SLICA MERIDIAN","Inactive","MMOP IC ACC","MERIDIAN MEDICAL OFFICE PLAZA
+ANTICOAG
+SLICA MERIDIAN
+MERIDIAN SLICA","","Anticoagulation Clinic- SLICA Meridian","","Anticoagulation","","520 S EAGLE ROAD
+"," 3104","MERIDIAN","IDAHO","83642",NA,"","United States of America","110","10133120","",10133,"Therapies Series
+Clinic Outpatient","","Yes","","520 S EAGLE ROAD
+, MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"48",10113,"111","APMB SL CHILDRENS BOWEL AND BLADDER CLINIC","","APMB CBBC","BOWEL AND BLADDER PEDS
+BBCT WORKFLOW
+PEDS
+BLADDER
+BOWEL
+BBC
+CHILD
+CSC
+PEDIATRIC BOWEL AND BL","APMB","St. Luke's Children's Bowel and Bladder Clinic-Boise","","Bowel and Bladder","","222 N 2ND ST. "," 315","BOISE","IDAHO","83702",NA,"","","110","10113111","",10113,"Clinic Outpatient
+Specimen","","Yes","","222 N 2ND ST. , BOISE, IDAHO, 83702",-116.1949348,43.6131093
+"49",10113,"108","APMB SL CHILDRENS ENDOCRINOLOGY","","APMB PED END","PEDS ENDO
+ENDO PEDS
+ANDERSON PLAZA","APMB CSC","St. Luke's Children's - Endocrinology - Boise","","Pediatric Endocrinology","","222 N 2ND ST. "," 215","BOISE","IDAHO","83702","6130","ADA","United States of America","110","10113108","",10113,"Clinic Outpatient
+Specimen","","Yes","SLHS_Childrens_4c_Med.JPG","222 N 2ND ST. , BOISE, IDAHO, 83702",-116.1949348,43.6131093
+"50",10113,"113","APMB SL CHILDRENS NEPHROLOGY","","APMB CSC NEP","PEDS NEPHROLOGY
+APMB NEPHROLOGY
+PED REN
+REN
+RENAL
+PEDIATRIC NEPHROLOGY
+CSCNEP
+PEDSNEP
+PEDS
+CHILD
+CSC
+NEP
+NEPHROLOGY PEDS","APMB","St. Luke's Clinic Childrens Nephrology - Boise","","Pediatric Nephrology","","222 N 2ND ST. "," 215","BOISE","IDAHO","83702","6130","","","110","10113113","",10113,"Clinic Outpatient
+Specimen","","Yes","","222 N 2ND ST. , BOISE, IDAHO, 83702",-116.1949348,43.6131093
+"51",10113,"101","APMB SL CHILDRENS OPHTHALMOLOGY","","APMB OPHTH","ANDERSON PLAZA MEDICAL BUILDING
+OPHTHALMOLOGY
+PED OPTH
+OPHTH PEDS","APMB CSC","St. Luke's Childrens - Ophthalmology - Boise","","Pediatric Ophthalmology","","222 N 2ND ST. "," 215","BOISE","IDAHO","83702","6130","","United States of America","110","10113101","",10113,"Clinic Outpatient
+Specimen","","Yes","SLHS_Childrens_4c_Med.JPG","222 N 2ND ST. , BOISE, IDAHO, 83702",-116.1949348,43.6131093
+"52",10113,"110","APMB SL CHILDRENS UROLOGY","","APMB CSC URO","CHILDRENS UROLOGY
+PEDS UROLOGY
+UROLOGY PEDS
+CSC
+URO
+PEDS
+PEDURO","APMB CSC","St. Luke's Children's Urology - Boise","","Pediatric Urology","","222 N 2ND ST. "," 315","BOISE","IDAHO","83702",NA,"","","110","10113110","",10113,"Clinic Outpatient
+Specimen","","Yes","SLHS_Childrens_4c_Med.JPG","222 N 2ND ST. , BOISE, IDAHO, 83702",-116.1949348,43.6131093
+"53",10113,"107","APMB SLC GENERAL SURGERY - KEMP","","APMB GEN SUR","KEMP
+2ND FLOOR
+SURGERY
+GENERAL SURGERY
+FORGUT
+ADVANCED LAPAROSCOPY","APMB","St. Luke's Clinic - General Surgery - Boise","","General Surgery","","222 N 2ND ST. "," 201","BOISE","IDAHO","83702","6130","ADA","United States of America","110","10113107","",10113,"Clinic Outpatient
+Specimen","","Yes","","222 N 2ND ST. , BOISE, IDAHO, 83702",-116.1949348,43.6131093
+"54",10113,"105","APMB SLC GENERAL SURGERY - SZENTES","","APMB GEN SUR","SZENTES
+3RD FLOOR
+GENERAL SURGERY
+SUITE 311","APMB","St. Luke's Clinic - General Surgery - Boise","","General Surgery","","222 N 2ND ST. "," 311","BOISE","IDAHO","83712","6131","ADA","United States of America","110","10113105","",10113,"Clinic Outpatient
+Specimen","","Yes","","222 N 2ND ST. , BOISE, IDAHO, 83712",-116.1949348,43.6131093
+"55",10113,"104","APMB SLC IDAHO NEUROSURGERY - FRIZZELL","","APMB NEU SUR","NEUROSURGERY
+NEURO
+SURG
+FRIZZELL","APMB","St. Luke's Clinic Idaho Neurosurgery - Frizzell - Boise","","Neurosurgery","","222 N 2ND ST. "," 307","BOISE","IDAHO","83702","6131","ADA","United States of America","110","10113104","",10113,"Clinic Outpatient
+Specimen","","Yes","","222 N 2ND ST. , BOISE, IDAHO, 83702",-116.1949348,43.6131093
+"56",10113,"109","APMB SLC NEUROSURGERY - JUTZY","","APMB NEU SUR","NEUROSURGERY
+JUTZY","APMB","St. Luke's Clinic Neurosurgery - Jutzy - Boise","","Neurosurgery","","222 N 2ND ST. "," 307","BOISE","IDAHO","83702","6131","","","110","10113109","",NA,"","","Yes","","222 N 2ND ST. , BOISE, IDAHO, 83702",-116.1949348,43.6131093
+"57",10509,"109","BCSSC CALDWELL UROLOGY - BAKER CITY","","BSCCS URO","REGIONAL
+BAKER CITY
+CALDWELL UROLOGY
+UROLOGY
+CALDWELL
+BAKER
+CITY
+CU
+CU REGIONAL
+CU BAKER CITY
+CALDWELL URO
+CMU
+CMSU","BCSSC","St. Luke's Clinic - Caldwell Urology - Baker City","","Urology","","3445 POCAHONTUS ROAD "," A","BAKER CITY","OREGON","97814","3599","BAKER","United States of America","110","10509109","",10509,"","","Yes","","3445 POCAHONTUS ROAD , BAKER CITY, OREGON, 97814",-117.8499581,44.7961423
+"58",10509,"101","BCSSC HUMPHREYS DIABETES CENTER","","BCSSC HDC","HUMPHREY'S
+DIABETES
+BAKER
+BCSSC
+HDC","BCSSC","Humphreys Diabetes Center - Baker City","","Diabetes Services","","3445 POCAHONTAS ROAD "," A","BAKER CITY","OREGON","97814","3599","BAKER","United States of America","110","10509101","",10509,"","","Yes","","3445 POCAHONTAS ROAD , BAKER CITY, OREGON, 97814",-117.8499581,44.7961423
+"59",10509,"102","BCSSC SL IDAHO CARDIOLOGY ASSOCIATES","","BCSSC SLICA","SLICA","BCSSC","St. Luke's Idaho Cardiology Associates - Eastern Oregon","","Cardiology","","3445 POCAHONTAS ROAD "," A","BAKER CITY","OREGON","97814","3599","BAKER","United States of America","110","10509102","",NA,"","","Yes","","3445 POCAHONTAS ROAD , BAKER CITY, OREGON, 97814",-117.8499581,44.7961423
+"60",10509,"103","BCSSC SL IDAHO PULMONARY ASSOCIATES","","BCSSC IPA","BCSSC IPA
+IPA BCSSC","BCSSC","St. Luke's Idaho Pulmonary Associates - Baker City","","Pulmonology","","3445 POCAHONTAS ROAD "," A","BAKER CITY","OREGON","97814","3599","BAKER","United States of America","110","10509103","",NA,"","","Yes","","3445 POCAHONTAS ROAD , BAKER CITY, OREGON, 97814",-117.8499581,44.7961423
+"61",10509,"111","BCSSC SLC NEPHROLOGY - BAKER CITY","","BCSSC NEPH","","BCSSC","St. Luke's Clinic - Nephrology - Baker City","","Nephrology","","3445 POCAHONTAS ROAD",NA,"BAKER CITY","OREGON","97814","3599","BAKER","United States of America","110","10509111","",10509,"","","Yes","","3445 POCAHONTAS ROAD, BAKER CITY, OREGON, 97814",-117.8499581,44.7961423
+"62",10115,"102","BHC SL IDAHO CARDIOLOGY - ELECTROPHYSIOLOGY","","BHC SLICA EP","EP
+SLICA","BHC","St. Luke's Clinic - Electrophysiology - Boise","","Cardiology","","287 W JEFFERSON ST.",NA,"BOISE","IDAHO","83712",NA,"ADA","United States of America","110","10115102","",10115,"Clinic Outpatient
+Specimen","","Yes","","287 W JEFFERSON ST., BOISE, IDAHO, 83712",-116.190933,43.6126485
+"63",10115,"100","BHC SLC BOISE HEART","","BHC BOI HRT","BOISE HEART","BHC","St. Luke's Clinic Boise Heart - Boise","","Cardiology","","287 W JEFFERSON ST.",NA,"BOISE","IDAHO","83702","6045","","United States of America","110","10115100","",10115,"Clinic Outpatient
+Specimen","","Yes","","287 W JEFFERSON ST., BOISE, IDAHO, 83702",-116.195293,43.614568
+"64",10107,"102","BHDC FOOT CARE CLINIC","","BHDC FCC","FOOT CARE
+HUMPHREY'S
+BHDC
+FOOT CLINIC
+FCC
+HDC","BHDC","HUMPHREYS FOOT CARE CLINIC - Boise","","Diabetes Services","","1226 W. RIVER ST.",NA,"BOISE","IDAHO","83702","7049","ADA","United States of America","110","10107102","",10107,"Clinic Outpatient
+Specimen","","Yes","","1226 W. RIVER ST., BOISE, IDAHO, 83702",-116.2139743,43.6144581
+"65",10107,"103","BHDC HUMPHREYS DIABETES CENTER","","BHDC DIAB","BHDC DIAB","BHDC","St. Luke's Clinic - Humphreys Diabetes Center - Boise","","Diabetes Services","","1226 W. RIVER ST.",NA,"BOISE","IDAHO","83702","7049","ADA","United States of America","110","10107103","",10107,"","","Yes","","1226 W. RIVER ST., BOISE, IDAHO, 83702",-116.2139743,43.6144581
+"66",10107,"100","BHDC HUMPHREYS DIABETES CENTER DNU","","BHDC HDC","HDC
+HUMPHREY'S
+BOISE HUMPHREYS DIABETES CENTER","BHDC","Humphreys Diabetes Center - Boise","","Diabetes Services","","1226 W. RIVER ST.",NA,"BOISE","IDAHO","83702","7049","ADA","United States of America","110","10107100","",10107,"Clinic Outpatient
+Specimen","","Yes","","1226 W. RIVER ST., BOISE, IDAHO, 83702",-116.2139743,43.6144581
+"67",10107,"101","BHDC SL IDAHO ENDOCRINOLOGY","","BHDC ENDO","ENDOCRINOLOGY
+HUMPHREY'S
+BHDC
+IDAHO
+IEC
+HDC","BHDC","BOISE IDAHO ENDOCRINOLOGY - Boise","","Endocrinology","","1226 W. RIVER ST.",NA,"BOISE","IDAHO","83702","7049","ADA","United States of America","110","10107101","",10107,"Clinic Outpatient","","Yes","","1226 W. RIVER ST., BOISE, IDAHO, 83702",-116.2139743,43.6144581
+"68",10104,"100","BIC SL SURGICALISTS","","BIC SURG","SURGICALISTS
+BIC
+BI COPPLE","BIC","St. Luke's Surgicalists - Boise","","General Surgery","","100 E WARM SPRINGS AVE. "," B","BOISE","IDAHO","83712","6243","ADA","United States of America","110","10104100","",10104,"Clinic Outpatient
+Specimen","","Yes","","100 E WARM SPRINGS AVE. , BOISE, IDAHO, 83712",-116.1944876,43.6118643
+"69",10104,"101","BIC SLC COLON AND RECTAL SURGERY","","BIC CRS","COLO-RECTAL
+BIC","BIC","St. Luke's Clinic - Colon and Rectal Surgery - Boise","","Colon and Rectal Surgery","","100 E WARM SPRINGS AVE. "," B","BOISE","IDAHO","83712","6243","ADA","United States of America","110","10104101","",10104,"Clinic Outpatient
+Specimen","","Yes","","100 E WARM SPRINGS AVE. , BOISE, IDAHO, 83712",-116.1944876,43.6118643
+"70",10100,"104","BMC ANTICOAGULATION CLINIC","","BMC ACC","ACC
+COUMADIN CLINIC","","BMC Anticoagulation Clinic","","Anticoagulation","","190 E. BANNOCK ST.",NA,"BOISE","IDAHO","83712",NA,"","United States of America","110","10100104","",10100,"","","Yes","","190 E. BANNOCK ST., BOISE, IDAHO, 83712",-116.1924344,43.6125798
+"71",10100,"220","BMC SL IDAHO CARDIOLOGY ASSOCIATES","","BMC SLICA","SLICA
+SLICA BOISE
+BOISE HOSPITAL","BMC","St. Luke's Clinic - Idaho Cardiology Associates - Boise","","Cardiology","","190 E BANNOCK",NA,"BOISE","IDAHO","83712","6241","ADA","United States of America","110","10100220","",10100,"Clinic Outpatient
+Specimen","","Yes","","190 E BANNOCK, BOISE, IDAHO, 83712",-116.1924344,43.6125798
+"72",10100,"221","BMC SLC CARDIOTHORACIC ASSOCIATES","","BMC CTS","CVA
+CARDIOTHORACIC
+BOISE HOSPITAL
+CT","BMC","St. Luke's Clinic - Cardiothoracic Associates - Boise","","Cardiothoracic Surgery","","190 E BANNOCK",NA,"BOISE","IDAHO","83712","6241","ADA","United States of America","110","10100221","",10100,"Clinic Outpatient
+Specimen","","Yes","","190 E BANNOCK, BOISE, IDAHO, 83712",-116.1924344,43.6125798
+"73",10100,"223","BMC SLC NEUROINTERVENTION","","BMC SLCNI","NEURO
+INTER
+NEUROIN
+RADIOLOGY","BMC","St. Luke's Clinic - Neurointervention - Boise","","Radiology","","190 E BANNOCK",NA,"BOISE","IDAHO","83712","6241","","","110","10100223","",10100,"Clinic Outpatient
+Specimen","","Yes","","190 E BANNOCK, BOISE, IDAHO, 83712",-116.1924344,43.6125798
+"74",10100,"218","BMC SLC NORTHWEST NEUROSURGERY ASSOCIATES","","BMC SLNNA","NORTHWEST NEUROSURGERY
+NEURO
+NEUROSCIENCE","BMC"," St. Luke's Northwest Neurosurgery Associates-Boise","","Neurosurgery","","190 E BANNOCK",NA,"BOISE","IDAHO","83712","6241","ADA","United States of America","110","10100218","",10100,"Clinic Outpatient
+Specimen","","Yes","","190 E BANNOCK, BOISE, IDAHO, 83712",-116.1924344,43.6125798
+"75",10100,"222","BMC SLC VASCULAR ASSOCIATES","","BMC VASC","CVA
+VASCULAR
+BOISE HOSPITAL","BMC","St. Luke's Clinic - Vascular Associates - Boise","","Vascular Surgery","","190 E BANNOCK",NA,"BOISE","IDAHO","83712","6241","ADA","United States of America","110","10100222","",10100,"Clinic Outpatient
+Specimen","","Yes","","190 E BANNOCK, BOISE, IDAHO, 83712",-116.1924344,43.6125798
+"76",10120,"107","BMOP SL CHILDRENS NEUROSURGERY","","BMOP NSU","BMOP NSU","BMOP","St. Luke's Children's - Neurosurgery - Boise","","Pediatric Neurosurgery","","333 N 1ST ST. "," 150","BOISE","IDAHO","83702",NA,"","","110","10120107","",10120,"Clinic Outpatient","","Yes","","333 N 1ST ST. , BOISE, IDAHO, 83702",-116.193883,43.613541
+"77",10120,"105","BMOP SLC CARDIOTHORACIC ASSOCIATES","","BMOP CTS","CTS
+CARDIOTHORACIC
+CVA","BMOP","St. Luke's Cardiothoracic and Vascular Associates-Boise","","Cardiothoracic Surgery","","333 N 1ST ST. "," 280","BOISE","IDAHO","83702","6132","ADA","United States of America","110","10120105","",10120,"Clinic Outpatient
+Specimen","","Yes","","333 N 1ST ST. , BOISE, IDAHO, 83702",-116.193883,43.613541
+"78",10120,"104","BMOP SLC NEPHROLOGY","","BMOP NEPH","RENAL
+KIDNEY
+BOISE MEDICAL OFFICE PLAZA
+NEPHROLOGY","BMOP","St. Luke's Clinic Nephrology - Boise","","Nephrology","","333 N 1ST ST. "," 140","BOISE","IDAHO","83702","6134","ADA","United States of America","110","10120104","",10120,"Clinic Outpatient
+Specimen","","Yes","","333 N 1ST ST. , BOISE, IDAHO, 83702",-116.193883,43.613541
+"79",10120,"106","BMOP SLC VASCULAR ASSOCIATES","","BMOP VASC","VAS
+CVA","BMOP","St. Luke's Cardiothoracic and Vascular Associates-Boise","","Vascular Surgery","","333 N 1ST ST. "," 280","BOISE","IDAHO","83702","6132","ADA","United States of America","110","10120106","",10120,"Clinic Outpatient
+Specimen","","Yes","","333 N 1ST ST. , BOISE, IDAHO, 83702",-116.193883,43.613541
+"80",10606,"100","BSC SLC FOOT CARE","","BSC FCC","BSC FCC
+FOOT CARE
+HUMPHREY'S
+FOOT CLINIC","BSC","St. Luke's Clinic - Foot Care - Boise","","Diabetes Services","","690 E ROBBINS ROAD",NA,"BOISE","IDAHO","83702",NA,"","","110","10606100","",10606,"","","Yes","","690 E ROBBINS ROAD, BOISE, IDAHO, 83702",-116.1906785,43.6166843
+"81",10605,"108","CBC SL CHILDRENS MENTAL HEALTH","","CBC CMH","CBC
+CHILDREN MENTAL
+MENTAL
+CALDWELL","","St. Luke's Children's Mental Health - Caldwell","","Pediatric Mental Health","","2615 E CLEVELAND BLVD",NA,"CALDWELL","IDAHO","83605","4440","CANYON","United States of America","110","10605108","",10605,"Clinic Outpatient","","Yes","","2615 E CLEVELAND BLVD, CALDWELL, IDAHO, 83605",-116.6698714,43.6513584
+"82",10169,"100","CBP SLC IDAHO PULMONARY ASSOCIATES","","CBP IPA","SLIPA
+SUMMERSWEET IPA
+PUL
+SUMM
+CBPPU
+IPA","CBP","St. Luke's Idaho Pulmonary Association-Summerswt-Boise","","Pulmonology","","2051 E SUMMERSWEET DR.",NA,"BOISE","IDAHO","83716","6695","ADA","United States of America","110","10169100","",10169,"Clinic Outpatient
+Specimen","","Yes","","2051 E SUMMERSWEET DR., BOISE, IDAHO, 83716",-116.157828,43.546763
+"83",21100,"100","CC BOISE KIDNEY AND HYPERTENSION (BOISE)","","CC BKHB","BKH
+BOISE KIDNEY
+HTN
+BKHB
+BKB","BKHB","BOISE KIDNEY AND HYPERTENSION (BOISE)","","Nephrology","","1109 W MYRTLE ST.
+"," 100","BOISE","IDAHO","83702",NA,"ADA","United States of America","110","21100100","",NA,"","","Yes","","1109 W MYRTLE ST.
+, BOISE, IDAHO, 83702",-116.210752,43.615187
+"84",21101,"100","CC BOISE KIDNEY AND HYPERTENSION (CALDWELL)","","CC BKHC","BKH
+BOISE KIDNEY
+HTN
+BKHC
+BKC","BKHC","BOISE KIDNEY AND HYPERTENSION (CALDWELL)","","Nephrology","","4620 ENTERPRISE WAY",NA,"CALDWELL","IDAHO","83605",NA,"CANYON","United States of America","110","21101100","",NA,"","","Yes","","4620 ENTERPRISE WAY, CALDWELL, IDAHO, 83605",-116.640893,43.660996
+"85",21102,"100","CC BOISE KIDNEY AND HYPERTENSION (MERIDIAN SUITE 100)","","CC BKHM 100","BKH
+BOISE KIDNEY
+HTN
+BKM
+BKHM
+BKHM100
+BKHM 100","BKHM 100","BOISE KIDNEY AND HYPERTENSION (MERIDIAN SUITE 100)","","Nephrology","","3525 E LOUISE DR.
+"," 100","MERIDIAN","IDAHO","83642",NA,"ADA","United States of America","110","21102100","",NA,"","","Yes","","3525 E LOUISE DR.
+, MERIDIAN, IDAHO, 83642",-116.3499193,43.6017684
+"86",21102,"101","CC BOISE KIDNEY AND HYPERTENSION (MERIDIAN SUITE 195)","","CC BKHM 195","BKH
+BOISE KIDNEY
+HTN
+BKM
+BKHM
+BKHM195
+BKHM 195","BKHM 195","BOISE KIDNEY AND HYPERTENSION (MERIDIAN SUITE 195)","","Nephrology","","3525 E LOUISE DR.
+"," 195","MERIDIAN","IDAHO","83642",NA,"ADA","United States of America","110","21102101","",NA,"","","Yes","","3525 E LOUISE DR.
+, MERIDIAN, IDAHO, 83642",-116.3499193,43.6017684
+"87",10111,"100","CCFM SLC CAPITAL CITY FAMILY MEDICINE","","CCFM CCFM","CCFM
+SLFM","CCFM","St. Luke's Clinic Capital City Family Medicine - Boise","","Family Medicine","","1520 W STATE ST. "," 100","BOISE","IDAHO","83702","4084","ADA","United States of America","110","10111100","",10111,"Clinic Outpatient
+Specimen","","Yes","","1520 W STATE ST. , BOISE, IDAHO, 83702",-116.2091363,43.6233778
+"88",10136,"102","CIC SL CHILDRENS CARDIOLOGY - CALDWELL","","CIC PED CRD","REGIONAL
+CSC CARDIOLOGY
+CALDWELL","CIC","St. Luke's Children's - Cardiology - Caldwell","","Pediatric Cardiology","","315 E ELM ST. "," 100","CALDWELL","IDAHO","83605","4881","CANYON","United States of America","110","10136102","",10136,"Clinic Outpatient
+Specimen","","Yes","","315 E ELM ST. , CALDWELL, IDAHO, 83605",-116.694786,43.653882
+"89",10136,"100","CIC SL IDAHO CARDIOLOGY ASSOCIATES","","CIC SLICA","SLICA
+SLICA CALDWELL
+CALDWELL ICA","CIC","St. Luke's Idaho Cardiology Associates - Caldwell","","Cardiology","","315 E. ELM "," 350","CALDWELL","IDAHO","83605","4881","","United States of America","110","10136100","",10136,"Clinic Outpatient
+Specimen","","Yes","","315 E. ELM , CALDWELL, IDAHO, 83605",-116.694786,43.653882
+"90",10122,"101","CLOV OCC HEALTH TRAVEL MEDICINE","","CLOV OHTM","CLOVERDALE TRAVEL MED
+REGIONAL
+OCC HEALTH TRAVEL MED
+TRAVEL","CLOC","St. Luke's Occupational Health - Travel Medicine","","Travel Medicine","","4840 N CLOVERDALE ROAD",NA,"BOISE","IDAHO","83713","2423","ADA","United States of America","110","10122101","",NA,"","","Yes","","4840 N CLOVERDALE ROAD, BOISE, IDAHO, 83713",-116.3344439,43.6489697
+"91",10122,"100","CLOV SLC INTERNAL MEDICINE","","CLOV SLIM","SLIM CLOVERDALE
+SLIM CL","CLOV INTERNAL MEDICINE","St. Luke's Clinic Internal Medicine - Cloverdale","","Internal Medicine","","4840 N CLOVERDALE ROAD",NA,"BOISE","IDAHO","83713","2423","","United States of America","110","10122100","",10122,"Clinic Outpatient
+Specimen","","Yes","","4840 N CLOVERDALE ROAD, BOISE, IDAHO, 83713",-116.3344439,43.6489697
+"92",10154,"102","COBB SL CHILDRENS MENTAL HEALTH - EAGLE","","COBB CMH","COBB CMH","COBB","St. Luke's Children's - Mental Health - Eagle","","Pediatric Mental Health","","450 W STATE ST. "," 100","EAGLE","IDAHO","83616","7055","","","110","10154102","",10154,"Clinic Outpatient
+Specimen","","Yes","","450 W STATE ST. , EAGLE, IDAHO, 83616",-116.3593727,43.6955335
+"93",10154,"100","COBB SLC TREASURE VALLEY PEDIATRICS- EAGLE","","COBB TVPEDS","TREASURE VALLEY PEDS
+TVPEDS
+ETVP","SLC TREASURE VALLEY PED CLINICS","St. Luke's Children's Treasure Valley Pediatrics - Eagle","","Pediatrics","","450 W STATE ST. "," 100","EAGLE","IDAHO","83616","7055","ADA","United States of America","110","10154100","",10128,"Clinic Outpatient
+Specimen","","Yes","SLHS_Childrens_4c_Med.JPG","450 W STATE ST. , EAGLE, IDAHO, 83616",-116.3593727,43.6955335
+"94",10154,"101","COBB SLC YEAH PROGRAM","","COBB YEAH","YEAH","COBB","St. Luke's Clinic - YEAH Program - Eagle","","Physical Fitness","","450 W STATE ST. "," 100","EAGLE","IDAHO","83616",NA,"ADA","United States of America","110","10154101","",10154,"","","Yes","SLHS_Childrens_4c_Med.JPG","450 W STATE ST. , EAGLE, IDAHO, 83616",-116.3593727,43.6955335
+"95",10307,"000","DL SLC BEHAVIORAL HEALTH - MCCALL","","DL BH HLTH","DL BH HLTH
+BEHAVIORAL HEALTH","DL","St. Luke's Clinic - Behavioral Health - McCall","","Psychiatry","","301 DEINHARD LANE",NA,"MCCALL","IDAHO","83638","4703","","","110","10307000","",10307,"","","Yes","","301 DEINHARD LANE, MCCALL, IDAHO, 83638",-116.0994983,44.897929
+"96",10162,"102","DMD HUMPHREYS DIABETES CENTER","","DMD DIAB","DMD DIAB
+HUMPHREY'S
+DIAMOND
+HDC 
+DIABETES","DMD","St. Luke's Clinic - Humphreys Diabetes Center - Nampa","","Diabetes Services","","824 S DIAMOND ST.",NA,"NAMPA","IDAHO","83686","5960","CANYON","United States of America","110","10162102","",10162,"","","Yes","","824 S DIAMOND ST., NAMPA, IDAHO, 83686",-116.5588364,43.5606367
+"97",10162,"101","DMD HUMPHREYS DIABETES CENTER DNU","","DMD HDC","HUMPHREY'S
+DIAMOND
+HDC
+DMD
+DIABETES","DMD","Humphreys Classroom - Nampa","","Diabetes Services","","824 S DIAMOND ST.",NA,"NAMPA","IDAHO","83686","5960","CANYON","United States of America","110","10162101","",10162,"Clinic Outpatient
+Specimen","","Yes","","824 S DIAMOND ST., NAMPA, IDAHO, 83686",-116.5588364,43.5606367
+"98",10162,"100","DMD SLC FAMILY MEDICINE","","DMD SLFM","SLFM
+NAMPA
+DIAMOND","DMD","St. Luke's Clinic Family Medicine - Nampa Diamond","","Family Medicine","","824 S DIAMOND ST.",NA,"NAMPA","IDAHO","83686","5960","CANYON","United States of America","110","10162100","",10162,"Clinic Outpatient
+Specimen","","Yes","","824 S DIAMOND ST., NAMPA, IDAHO, 83686",-116.5588364,43.5606367
+"99",10112,"100","EFH SLC ST. LUKE'S FAMILY HEALTH","","EFH SLFH","SLFH HOSPITALITY
+SLFH
+SLFH EAST
+EAST FAMILY HEALTH
+SLFHE
+HOSPITALITY","EFH","St. Luke's Family Health - Boise","","Family Medicine","","2083 E HOSPITALITY LANE",NA,"BOISE","IDAHO","83716","6603","","United States of America","110","10112100","",10112,"Clinic Outpatient
+Specimen","","Yes","","2083 E HOSPITALITY LANE, BOISE, IDAHO, 83716",-116.157426,43.5405721
+"100",10137,"100","EHDC HUMPHREYS DIABETES CENTER","","EHDC DC","HDC
+HUMPHREY'S
+EMMETT HDC
+HUMPHREYS","EHDC","Humphreys Diabetes Center - Emmett","","Diabetes Services","","202 E LOCUST ST.",NA,"EMMETT","IDAHO","83617","9998","GEM","United States of America","110","10137100","",10137,"","","Yes","","202 E LOCUST ST., EMMETT, IDAHO, 83617",-116.466792,43.879118
+"101",10101,"183","EMC SL IDAHO CARDIOLOGY ASSOCIATES","","EMC SLICA","SLICA
+EAGLE SLICA","EMC","St. Luke's Idaho Cardiology Associates - Eagle","","Cardiology","","3101 E STATE ST. "," 2120","EAGLE","IDAHO","83616","6232","ADA","United States of America","110","10101183","",10101,"Clinic Outpatient
+Specimen","","Yes","","3101 E STATE ST. , EAGLE, IDAHO, 83616",-116.3163704,43.6818299
+"102",10101,"100","EMC SLC FAMILY MEDICINE - EAGLE","","EMC SLFM","EAGLE FAMILY MEDICINE
+SLFM EAGLE
+SLFM
+EAGLE","","St. Luke's Family Medicine - Eagle","","Family Medicine","","3101 E STATE ST. "," 2120","EAGLE","IDAHO","83616","6232","","United States of America","110","10101100","",10101,"Clinic Outpatient","Emergency Dept","Yes","","3101 E STATE ST. , EAGLE, IDAHO, 83616",-116.3163704,43.6818299
+"103",10101,"186","EMC SLC FAMILY MEDICINE - EAGLE","","EMC SLFM","EAGLE FAMILY MEDICINE
+SLFM EAGLE
+SLFM
+EAGLE","EMC","St. Lukes Clinic - Family Medicine - Eagle","","Family Medicine","","3101 E STATE ST. "," 1100","EAGLE","IDAHO","83616","6232","ADA","United States of America","110","10101186","",10101,"Clinic Outpatient
+Specimen","","Yes","","3101 E STATE ST. , EAGLE, IDAHO, 83616",-116.3163704,43.6818299
+"104",10101,"101","EMC SLC INTERNAL MEDICINE - EAGLE","","EMC SLIM","SLIM EAGLE
+SLIM
+EAGLE","EMC INTERNAL MEDICINE","St. Luke's Clinic Internal Medicine - Eagle","","Internal Medicine","","3101 E. STATE ST. "," 2120","EAGLE","IDAHO","83616","6232","","United States of America","110","10101101","",10101,"Clinic Outpatient
+Specimen","","Yes","","3101 E. STATE ST. , EAGLE, IDAHO, 83616",-116.3163704,43.6818299
+"105",10101,"102","EMC SLC MOUNTAIN STATES UROLOGY CENTER - EAGLE","","EMC MSU","MSU EAGLE
+MSU
+EAGLE MSU
+EAGLE
+UROLOGY
+URO
+EMC
+MSUEMC
+EMCMSU
+UROMSU
+MSUURO
+EMCURO
+MOUNTAIN STATES
+REGIONAL","EMC","St. Luke's Clinic Mountain States Urology - Eagle","","Urology","","3101 E STATE ST. "," 2107","EAGLE","IDAHO","83616","6232","","United States of America","110","10101102","",10101,"Clinic Outpatient
+Specimen","","Yes","","3101 E STATE ST. , EAGLE, IDAHO, 83616",-116.3163704,43.6818299
+"106",10101,"188","EMC SLC RHEUMATOLOGY EAGLE","","EMC RHEUM","EMC
+RHEUMATOLOGY
+EAGLE
+EMC RHU
+RHU","EMC","St. Luke's Clinic Rheumatology - Eagle","","Rheumatology","","3101 E. STATE ST.  "," 2107","EAGLE","IDAHO","83616",NA,"","","110","10101188","",10101,"Clinic Outpatient
+Specimen","","Yes","","3101 E. STATE ST.  , EAGLE, IDAHO, 83616",-116.3163704,43.6818299
+"107",10500,"100","EOMA EASTERN OREGON MEDICAL ASSOCIATES","","EOMA EOMA","EOMA
+EASTERN
+EASTERN OREGON MEDICAL","EOMA","Eastern Oregon Medical Associates - Baker City","","Family Medicine","","3950 17TH ST. "," A","BAKER CITY","OREGON","97814","1300","BAKER","United States of America","110","10500100","",10500,"Clinic Outpatient
+Specimen","","Yes","","3950 17TH ST. , BAKER CITY, OREGON, 97814",-117.848931,44.795116
+"108",10500,"101","EOMA HUMPHREYS DIABETES CENTER SUPPORT SITE","","EOMA HDC","HDC
+HUMPHREY'S
+EOMA HDC
+HUMPHREYS
+EASTERN OREGON MEDICAL","EOMA","Humphreys Diabetes Center - Eastern Oregon","","Diabetes Services","","3950 17TH ST. "," A","BAKER CITY","OREGON","97814","1300","","United States of America","110","10500101","",10500,"","","Yes","","3950 17TH ST. , BAKER CITY, OREGON, 97814",-117.848931,44.795116
+"109",10500,"110","EOMA SL DIETITIAN CLINIC","","EOMA DIET","","EOMA","St. Luke's Clinic - Dietitian Clinic - Baker City","","Nutrition","","3950 17TH ST. "," A","BAKER CITY","OREGON","97814","1300","BAKER","United States of America","110","10500110","",NA,"","","Yes","","3950 17TH ST. , BAKER CITY, OREGON, 97814",-117.848931,44.795116
+"110",10500,"102","EOMA SL IDAHO CARDIOLOGY ASSOCIATES","Inactive","EOMA SLICA","EOMA ICA
+ICA EOMA
+EASTERN OREGON MEDICAL","","St. Luke's Idaho Cardiology Associates - Eastern Oregon","","","","3950 17TH ST.",NA,"BAKER CITY","OREGON","97814","1300","","United States of America","110","10500102","",10500,"Clinic Outpatient
+Specimen","","Yes","","3950 17TH ST., BAKER CITY, OREGON, 97814",-117.848931,44.795116
+"111",10500,"109","EOMA SL IDAHO PULMONARY ASSOCIATES","","EOMA IPA","EOMA IPA
+IPA EOMA
+EASTERN OREGON MEDICAL
+PULMONARY
+BAKER","EOMA","St. Luke's Idaho Pulmonary Associates - Baker City","","Pulmonology","","3950 17TH ST. "," A","BAKER CITY","OREGON","97814","1300","BAKER","United States of America","110","10500109","",NA,"","","Yes","","3950 17TH ST. , BAKER CITY, OREGON, 97814",-117.848931,44.795116
+"112",10500,"111","EOMA SL MENTAL HEALTH CLINIC","","EOMA MHC","","EOMA","St. Luke's Clinic - Mental Health - Baker City","","Psychiatry","","3950 17TH ST. "," A","BAKER CITY","OREGON","97814","1300","BAKER","United States of America","110","10500111","",NA,"","","Yes","","3950 17TH ST. , BAKER CITY, OREGON, 97814",-117.848931,44.795116
+"113",10123,"100","EPB SLC MOUNTAIN STATES UROLOGY","","EPB MSU","MSU
+ELKS PROFESSIONAL BUILDING
+MOUNT
+UROLOGY
+BOISE
+EPB
+URO
+MSUURO
+UROMSU
+EPBMSU
+MSUEPB
+EPBURO
+MOUNTAIN STATES","EPB","St. Luke's Clinic Mountain States Urology - Boise","","Urology","","510 N 2ND ST. "," 103","BOISE","IDAHO","83702","6081","","United States of America","110","10123100","",10123,"Clinic Outpatient
+Specimen","","Yes","","510 N 2ND ST. , BOISE, IDAHO, 83702",-116.1927531,43.6150599
+"114",10123,"101","EPB SLC UROLOGY ONCOLOGY","","EPB URONC","UROLOGY ONCOLOGY
+URO
+ONC
+UROONC
+BOISE
+REGIONAL
+ELKS
+URONC","EPB","St. Luke's Clinic - Urology Oncology - Boise","","Urologic Oncology","","510 N 2ND ST. "," 103","BOISE","IDAHO","83702","6081","ADA","United States of America","110","10123101","",10123,"Clinic Outpatient
+Specimen","","Yes","","510 N 2ND ST. , BOISE, IDAHO, 83702",-116.1927531,43.6150599
+"115",10152,"102","ERC HUMPHREYS DIABETES CENTER","","ERC HDC","HDC
+HUMPHREY'S
+DIABETES
+ERC
+MOUNTAIN HOME
+REGIONAL","ERC","Humphrey's Diabetes Center - Mountain Home","","Diabetes Services","","890 N 6TH EAST",NA,"MOUNTAIN HOME","IDAHO","83647","2206","","United States of America","110","10152102","",NA,"","","Yes","","890 N 6TH EAST, MOUNTAIN HOME, IDAHO, 83647",-115.6924959,43.1391695
+"116",10152,"104","ERC SL CHILDRENS CARDIOLOGY - MOUNTAIN HOME","","ERC PED CRD","REGIONAL
+CSC CARDIOLOGY
+MOUNTAIN HOME
+CARDIOLOGY PEDS
+CHILDREN'S
+PEDIATRIC
+ERC
+EMMETT","ERC","St. Luke's Children's - Cardiology - Mountain Home","","Pediatric Cardiology","","890 N 6TH EAST",NA,"MOUNTAIN HOME","IDAHO","83647","2206","ELMORE","United States of America","110","10152104","",10152,"","","Yes","","890 N 6TH EAST, MOUNTAIN HOME, IDAHO, 83647",-115.6924959,43.1391695
+"117",10152,"100","ERC SL IDAHO CARDIOLOGY ASSOCIATES","","ERC SLICA","ELMORE REGIONAL CLINIC
+ICA ELMORE
+ELMORE ICA
+MTN HOME ICA
+IDAHO
+CARDIOLOGY
+SLICA
+ERC","ERC","St. Luke's Idaho Cardiology Associates - Elmore","","Cardiology","","890 N 6TH EAST",NA,"MOUNTAIN HOME","IDAHO","83647","2206","ELMORE","United States of America","110","10152100","",10152,"","","Yes","","890 N 6TH EAST, MOUNTAIN HOME, IDAHO, 83647",-115.6924959,43.1391695
+"118",10152,"101","ERC SL IDAHO PULMONARY ASSOCIATES","","ERC IPA","ELMORE REGIONAL CLINIC
+IPA ELMORE
+ELMORE IPA
+MTN HOME IPA
+PULMONARY
+MOUNTAIN HOME","ERC","St. Luke's Idaho Pulmonary Associates - Mountain Home","","Pulmonology","","890 N 6TH EAST",NA,"MOUNTAIN HOME","IDAHO","83647","2206","ELMORE","United States of America","110","10152101","",NA,"","","Yes","","890 N 6TH EAST, MOUNTAIN HOME, IDAHO, 83647",-115.6924959,43.1391695
+"119",10152,"105","ERC SL MOUNTAIN STATES UROLOGY - MOUNTAIN HOME","","ERC MSU","REGIONAL
+MSU
+ELMORE
+UROLOGY
+MSU REGIONAL
+MSU MOUNTAIN HOME
+MOUNTAIN STATES","ERC","St. Luke's Clinic - Mountain States Urology - Elmore","","Urology","","890 N 6TH EAST",NA,"MOUNTAIN HOME","IDAHO","83647","2206","","United States of America","110","10152105","",10152,"","","Yes","","890 N 6TH EAST, MOUNTAIN HOME, IDAHO, 83647",-115.6924959,43.1391695
+"120",10152,"103","ERC SLC ORTHO MOUNTAIN HOME","","ERC ORTHO","ELMORE
+REGIONAL
+BOC
+ORTHOPEDICS
+BOISE
+ERC
+MTN HOME
+MOUNTAIN HOME","ERC","St. Luke's Clinic - Orthopaedic - Mtn Home","","Orthopedic Surgery","","890 N 6TH EAST",NA,"MOUNTAIN HOME","IDAHO","83647","2206","ELMORE","United States of America","110","10152103","",10152,"","","Yes","","890 N 6TH EAST, MOUNTAIN HOME, IDAHO, 83647",-115.6924959,43.1391695
+"121",10607,"100","ESCC SLC FOOT CARE","","ESCC FCC","ESCC FCC","ESCC","St. Luke's Clinic - Foot Care - Eagle","","Diabetes Services","","312 E STATE ST.",NA,"EAGLE","IDAHO","83616",NA,"","","110","10607100","",10607,"","","Yes","","312 E STATE ST., EAGLE, IDAHO, 83616",-116.3507616,43.6951911
+"122",10186,"100","ESSC SLC OBGYN EMMETT","","ESSC OBGYNE","OBGYN
+EMMETT
+OB/GYN","ESSC","St. Luke's Clinic - OBGYN - Emmett","","Obstetrics and Gynecology","","1024 E LOCUST ST.",NA,"EMMETT","IDAHO","83617","2776","GEM","United States of America","110","10186100","",10186,"","","Yes","","1024 E LOCUST ST., EMMETT, IDAHO, 83617",-116.4871426,43.8790731
+"123",10128,"100","ETVP TREASURE VALLEY PEDIATRICS - EAGLE","","ETVP TVPEDS","","","St. Luke's Clinic Treasure Valley Pediatrics","","Pediatrics","","450 W. STATE ST., "," 100","EAGLE","IDAHO","83616",NA,"","United States of America","110","10128100","",10128,"","","Yes","","450 W. STATE ST., , EAGLE, IDAHO, 83616",-116.3593727,43.6955335
+"124",10151,"100","FACES CARES","","FACES CARES","FACES
+CARES PEDS
+PEDS
+CHILD
+FACE
+FC
+PEDSCARE
+CSCCARE","ADA","St. Luke's FACES CARES - Boise","","Pediatric Forensics","Yes","417 S 6TH ST.",NA,"BOISE","IDAHO","83702","7632","","United States of America","110","10151100","",10151,"Clinic Outpatient
+Specimen","","Yes","","417 S 6TH ST., BOISE, IDAHO, 83702",-116.204004,43.611929
+"125",10151,"101","FACES SLC FACES PROGRAM","","FACES FACES","FACES","FACES","St. Luke's Clinic - FACES Program - Boise","","Forensics","Yes","417 S 6TH ST.",NA,"BOISE","IDAHO","83702",NA,"ADA","United States of America","110","10151101","",10151,"","","Yes","","417 S 6TH ST., BOISE, IDAHO, 83702",-116.204004,43.611929
+"126",10140,"134","FLMC HUMPHREYS DIABETES CENTER","","FLMC DIAB","FLMC DIAB
+HUMPHREYS
+FRUITLAND","FLMC","St. Luke's Clinic - Humphreys Diabetes Center - Fruitla","","Diabetes Services","","1210 NORTHWEST 16TH ST.",NA,"FRUITLAND","IDAHO","83619","2202","PAYETTE","United States of America","110","10140134","",10140,"","","Yes","","1210 NORTHWEST 16TH ST., FRUITLAND, IDAHO, 83619",-116.9290768,44.0248559
+"127",10140,"130","FLMC HUMPHREYS DIABETES CENTER DNU","","FLMC HDC","HDC
+HUMPHREYS
+FRUITLAND
+FHDC","FLMC","Humphreys Diabetes Center - Fruitland","","Diabetes Services","","1210 NW 16TH ST.",NA,"FRUITLAND","IDAHO","83619",NA,"PAYETTE","United States of America","110","10140130","",10140,"Clinic Outpatient
+Specimen","","Yes","","1210 NW 16TH ST., FRUITLAND, IDAHO, 83619",-116.9290768,44.0248559
+"128",10140,"110","FLMC OCCUPATIONAL HEALTH","","FLMC OCCHLTH","OCC HEALTH
+FRUITLAND OCC HEALTH","FLMC","St. Luke's Occuptional Health - Fruitland","","Occupational Medicine","","1210 NW 16TH ST.",NA,"FRUITLAND","IDAHO","83619","2202","PAYETTE","United States of America","110","10140110","",NA,"","","Yes","","1210 NW 16TH ST., FRUITLAND, IDAHO, 83619",-116.9290768,44.0248559
+"129",10140,"112","FLMC SL CALDWELL UROLOGY - FRUITLAND","","FLMC URO","REGIONAL
+CALDWELL UROLOGY
+FRUITLAND
+CU
+UROLOGY
+CALDWELL
+CU REGIONAL
+CU FRUITLAND
+CMU
+CMSU","FLMC","St. Luke's Clinic - Caldwell Urology - Fruitland","","Urology","","1210 NW 16TH ST.",NA,"FRUITLAND","IDAHO","83619","2202","","United States of America","110","10140112","",10140,"Clinic Outpatient
+Specimen","","Yes","","1210 NW 16TH ST., FRUITLAND, IDAHO, 83619",-116.9290768,44.0248559
+"130",10140,"111","FLMC SL CHILDRENS CARDIOLOGY - FRUITLAND","","FLMC PED CRD","REGIONAL
+CSC CARDIOLOGY
+FRUITLAND
+FLC
+CHILDREN'S
+PEDIATRIC
+CARDIOLOGY PEDS
+CHILDREN'S CARDIOLOGY","FLMC","St. Luke's Childrens - Cardiology - Fruitland","","Pediatric Cardiology","","1210 NW 16TH ST.",NA,"FRUITLAND","IDAHO","83619","2202","PAYETTE","United States of America","110","10140111","",10140,"Clinic Outpatient
+Specimen","","Yes","","1210 NW 16TH ST., FRUITLAND, IDAHO, 83619",-116.9290768,44.0248559
+"131",10140,"129","FLMC SL CHILDRENS PULMONOLOGY","","FLMC CSC PUL","CSC PULMONOLOGY
+FRUITLAND","FLMC","St. Luke's Childrens - Pulmonology - Fruitland","","Pediatric Pulmonology","","1210 NW 16TH ST.",NA,"FRUITLAND","IDAHO","83619","2202","PAYETTE","United States of America","110","10140129","",10140,"Clinic Outpatient
+Specimen","","Yes","","1210 NW 16TH ST., FRUITLAND, IDAHO, 83619",-116.9290768,44.0248559
+"132",10140,"132","FLMC SL CHILDRENS UROLOGY - FRUITLAND","","FLMC CURO","FLMC CURO","FLMC","St. Luke's Children's - Urology - Fruitland","","Urology","","1210 NW 16TH ST.",NA,"FRUITLAND","IDAHO","83619","2202","","","110","10140132","",10140,"Clinic Outpatient
+Specimen","","Yes","","1210 NW 16TH ST., FRUITLAND, IDAHO, 83619",-116.9290768,44.0248559
+"133",10140,"104","FLMC SL IDAHO CARDIOLOGY ASSOCIATES","","FLMC SLICA","FRUITLAND SLICA
+SLICA FRUITLAND","FLMC","St. Luke's Idaho Cardiology Associates - Fruitland","","Cardiology","","1210 NW 16TH ST.",NA,"FRUITLAND","IDAHO","83619","2202","PAYETTE","United States of America","110","10140104","",10140,"Clinic Outpatient","","Yes","","1210 NW 16TH ST., FRUITLAND, IDAHO, 83619",-116.9290768,44.0248559
+"134",10140,"127","FLMC SL OBGYN - FRUITLAND","","FLMC OBGYN","OBGYN
+FLMC OBGYN","FLMC","St. Luke's Clinic - OBGYN - Fruitland","","Obstetrics and Gynecology","","1210 NW 16TH ST.",NA,"FRUITLAND","IDAHO","83619",NA,"PAYETTE","United States of America","110","10140127","",10140,"Clinic Outpatient
+Specimen","","Yes","","1210 NW 16TH ST., FRUITLAND, IDAHO, 83619",-116.9290768,44.0248559
+"135",10140,"125","FLMC SLC FAMILY MEDICINE","","FLMC SLFM","SLFM
+FAMILY MEDICINE
+FRUITLAND","FLMC","St. Luke's Clinic - Family Medicine - Fruitland","","Family Medicine","","1210 NW 16TH ST.",NA,"FRUITLAND","IDAHO","83619","2202","PAYETTE","United States of America","110","10140125","",10140,"Clinic Outpatient
+Specimen","","Yes","","1210 NW 16TH ST., FRUITLAND, IDAHO, 83619",-116.9290768,44.0248559
+"136",10140,"100","FLMC SLC FRUITLAND","","FLMC FLC","FRUITLAND CLINIC
+CLINIC FRUITLAND","FLMC","St. Luke's Clinic Fruitland","","Family Medicine","","1210 NW 16TH ST.",NA,"FRUITLAND","IDAHO","83619","2202","PAYETTE","United States of America","110","10140100","",10140,"Clinic Outpatient
+Specimen","","Yes","","1210 NW 16TH ST., FRUITLAND, IDAHO, 83619",-116.9290768,44.0248559
+"137",10140,"101","FLMC SLC FRUITLAND GENERAL SURGERY","","FLMC FGS","FRUITLAND GENERAL SURGERY
+GENERAL SURGERY FRUITLAND","FLMC","St. Luke's Clinic Fruitland General Surgery - Fruitland","","General Surgery","","1210 NW 16TH ST.",NA,"FRUITLAND","IDAHO","83619","2202","PAYETTE","United States of America","110","10140101","",10140,"Clinic Outpatient
+Specimen","","Yes","","1210 NW 16TH ST., FRUITLAND, IDAHO, 83619",-116.9290768,44.0248559
+"138",10140,"128","FLMC SLC IDAHO PULMONARY ASSOCIATES","","FLMC SLIPA","SLIPA
+FRUITLAND","FLMC","St. Luke's Clinic - Idaho Pulmonary Associates-Fruitland","","Pulmonology","","1210 NW 16TH ST.",NA,"FRUITLAND","IDAHO","83619",NA,"PAYETTE","United States of America","110","10140128","",10140,"Clinic Outpatient
+Specimen","","Yes","","1210 NW 16TH ST., FRUITLAND, IDAHO, 83619",-116.9290768,44.0248559
+"139",10140,"121","FLMC SLC INTERNAL MEDICINE","","FLMC SLIM","SLIM FRUITLAND
+FLMC
+SLIM FLMC","FLMC","St. Luke's Clinic - Internal Medicine - Fruitland","","Internal Medicine","","1210 NW 16TH ST.",NA,"FRUITLAND","IDAHO","83619",NA,"PAYETTE","United States of America","110","10140121","",10140,"Clinic Outpatient
+Specimen","","Yes","","1210 NW 16TH ST., FRUITLAND, IDAHO, 83619",-116.9290768,44.0248559
+"140",10140,"108","FLMC SLC NEPHROLOGY FRUITLAND","","FLMC NEPH","FRUITLAND REGIONAL
+FRUITLAND NEPHROLOGY
+NEPHROLOGY
+RENAL
+KIDNEY","FLMC","St. Luke's Clinic Nephrology - Fruitland","","Nephrology","","1210 NW 16TH ST.",NA,"FRUITLAND","IDAHO","83619",NA,"","United States of America","110","10140108","",10140,"Clinic Outpatient
+Specimen","","Yes","","1210 NW 16TH ST., FRUITLAND, IDAHO, 83619",-116.9290768,44.0248559
+"141",10155,"103","FMC SL IDAHO CARDIOLOGY ASSOCIATES","Inactive","FMC SLICA","FRUITLAND SLICA
+SLICA FRUITLAND","","St. Luke's Clinic-Idaho Cardiology Associates-Fruitland","","","","1107 NW 11TH ST.",NA,"FRUITLAND","IDAHO","83619","2255","PAYETTE","United States of America","110","10155103","",NA,"Clinic Outpatient
+Specimen","","Yes","","1107 NW 11TH ST., FRUITLAND, IDAHO, 83619",-116.9253292,44.0218203
+"142",10510,"100","FMCO SLC NEPHROLOGY LAGRANDE","","FMCO NEPH","REGIONAL
+NEPHROLOGY
+LA GRANDE","","St. Luke's Clinic - Nephrology - La Grande","","","","10601 WALTON ROAD",NA,"ISLAND CITY","OREGON","97850","8488","","","110","10510100","",10510,"","","Yes","","10601 WALTON ROAD, ISLAND CITY, OREGON, 97850",-118.0571408,45.3347105
+"143",10139,"100","FMF HUMPHREYS DIABETES CENTER","","FMF HDC","HDC
+HUMPHREY'S
+FRUITLAND HDC
+FHDC
+DIABETES
+FMF","FHDC","Humphreys Diabetes Center - Fruitland","","Diabetes Services","","1118 NW 16TH ST. ","D","FRUITLAND","IDAHO","83619","2272","PAYETTE","United States of America","110","10139100","",10139,"Clinic Outpatient
+Specimen","","Yes","","1118 NW 16TH ST. , FRUITLAND, IDAHO, 83619",-116.9282628,44.0249742
+"144",10160,"100","FSOC EMPLOYEE HEALTH","","FSOC EMPHLTH","EMPLOYEE HEALTH
+EHW","FSOC","Boise Employee Health","","Family Medicine","","414 N 1ST ST.",NA,"BOISE","IDAHO","83702","6105","ADA","United States of America","110","10160100","",NA,"","","Yes","","414 N 1ST ST., BOISE, IDAHO, 83702",-116.1923138,43.6141497
+"145",10129,"100","GALA SLC IDAHO PULMONARY ASSOCIATES","","GALA IPA","IDAHO PULMONARY ASSOCIATES
+IPA
+PULMONARY
+SLIPA
+PULMONOLOGY","GALA","St. Luke's Clinic Idaho Pulmonary Associates - Meridian","","Pulmonology","","2347 E. GALA ST.",NA,"MERIDIAN","IDAHO","83642","4881","","United States of America","110","10129100","",10129,"Clinic Outpatient
+Specimen","","Yes","","2347 E. GALA ST., MERIDIAN, IDAHO, 83642",-116.3656259,43.5883223
+"146",10129,"101","GALA SLC SYRINGA FAMILY MEDICINE","","GALA SFM","SYRINGA
+SLFM","GALA","St. Luke's Syringa Family Medicine - Meridian","","Family Medicine","","2347 E GALA ST. "," 150","MERIDIAN","IDAHO","83642","4881","ADA","United States of America","110","10129101","",10129,"Clinic Outpatient
+Specimen","","Yes","","2347 E GALA ST. , MERIDIAN, IDAHO, 83642",-116.3656259,43.5883223
+"147",10163,"101","GNHT HUMPHREYS DIABETES CENTER","","GNHT HDC","HUMPHREY'S
+GREENHURST
+HDC
+GNHT
+DIABETES","GNHT","Humphreys Greenhurst - Nampa","","Diabetes Services","","3165 GREENHURST ROAD",NA,"NAMPA","IDAHO","83686","8655","CANYON","United States of America","110","10163101","",10163,"Clinic Outpatient
+Specimen","","Yes","","3165 GREENHURST ROAD, NAMPA, IDAHO, 83686",-116.5315474,43.5464248
+"148",10163,"100","GNHT SLC FAMILY MEDICINE","","GNHT SLFM","GREENHURST
+SLFM","GNHT","St. Luke's Clinic Family Medicine - Nampa Greenhurst","","Family Medicine","","3165 GREENHURST ROAD",NA,"NAMPA","IDAHO","83686","8655","CANYON","United States of America","110","10163100","",10163,"Clinic Outpatient
+Specimen","","Yes","","3165 GREENHURST ROAD, NAMPA, IDAHO, 83686",-116.5315474,43.5464248
+"149",10184,"100","HSMP SL CHILDRENS MENTAL HEALTH","","HSMP CMH","","HSMP","St. Lukes Childrens Neurobehavioral Medicine-Boise","","Pediatric Mental Health","","608 W HAYES ST.",NA,"BOISE","IDAHO","83702",NA,"ADA","United States of America","110","10184100","",10184,"Clinic Outpatient
+Specimen","","Yes","SLHS_Childrens_4c_Med.JPG","608 W HAYES ST., BOISE, IDAHO, 83702",-116.1961173,43.6202409
+"150",10184,"101","HSMP SL CHILDRENS NEUROPSYCHOLOGY","","HSMP CSC NPY","CHILDREN NEUROPSYCH
+BOISE","HSMP","St. Luke's Children's - Neuropsychology","","Pediatric Neuropsychology","","608 W HAYS ST.",NA,"BOISE","IDAHO","83702",NA,"ADA","United States of America","110","10184101","",10184,"Clinic Outpatient","","Yes","","608 W HAYS ST., BOISE, IDAHO, 83702",-116.1961173,43.6202409
+"151",10124,"101","HSOP SL CHILDRENS DEVELOPMENTAL PEDIATRICS","","HSOP DEV PED","DEVELOPMENTAL PEDS
+BOISE DEVELOP
+DEV PEDS","HSOP","St. Luke's Children's - Developmental Pediatrics-Boise","","Developmental and Behavioral Pediatrics","","610 W HAYS ST.",NA,"BOISE","IDAHO","83702","5511","ADA","United States of America","110","10124101","",10124,"Clinic Outpatient
+Specimen","","Yes","SLHS_Childrens_4c_Med.JPG","610 W HAYS ST., BOISE, IDAHO, 83702",-116.1961562,43.6201945
+"152",10124,"102","HSOP SL CHILDRENS MENTAL HEALTH","","HSOP CMH","CHILDRENS MNTL HEALTH
+PSYCHOLOGY
+HAYS STREET
+CSC
+PEDS MENTAL HEALTH
+PEDIATRIC MENTAL HEALTH","HSOP","St. Lukes Childrens Neurobehavioral Medicine-Boise","","Pediatric Mental Health","","610 W HAYS ST.",NA,"BOISE","IDAHO","83702","5511","ADA","United States of America","110","10124102","",10124,"Clinic Outpatient
+Specimen","","Yes","","610 W HAYS ST., BOISE, IDAHO, 83702",-116.1961562,43.6201945
+"153",10124,"103","HSOP SL CHILDRENS NEUROPSYCHOLOGY","","HSOP CSC NPY","BOISE
+CHILDREN NEUROPSYCH","HSOP","St. Luke's Children's - Neuropsychology","","Pediatric Neuropsychology","","610 W HAYS ST.",NA,"BOISE","IDAHO","83702",NA,"ADA","United States of America","110","10124103","",10124,"Clinic Outpatient","","Yes","","610 W HAYS ST., BOISE, IDAHO, 83702",-116.1961562,43.6201945
+"154",10121,"100","IEC SLC IDAHO ENDOCRINOLOGY","","IEC ID ENDO","ENDOCRINOLOGY
+IDAHO ENDO
+BOISE ENDO","IEC","St. Luke's Clinic Idaho Endocrinology - Boise","","Endocrinology","","403 S 11TH ST. "," 100","BOISE","IDAHO","83702","6968","ADA","United States of America","110","10121100","",10121,"Clinic Outpatient
+Specimen","","Yes","","403 S 11TH ST. , BOISE, IDAHO, 83702",-116.2100176,43.6147066
+"155",10150,"105","IERH SLC INTERNAL MEDICINE","","IERH SLIM","IERH SLIM
+INTERNAL MED
+BOISE","IERH","St. Luke's Clinic - Internal Medicine - Boise","","Internal Medicine","","600 N ROBBINS ROAD "," 301","BOISE","IDAHO","83702","4565","ADA","United States of America","110","10150105","",10150,"Clinic Outpatient","","Yes","","600 N ROBBINS ROAD , BOISE, IDAHO, 83702",-116.1931489,43.616272
+"156",10150,"112","IERH SLC NEUROPSYCHOLOGY - BOISE","","IERH NEURO","IERH NEURO
+NEUROPSYCH
+BOISE","IERH Neuro Psych","St. Luke's Clinic - Neuropsychology","","Neuropsychology","","600 N ROBBINS ROAD",NA,"BOISE","IDAHO","83702","4565","ADA","United States of America","110","10150112","",10150,"Clinic Outpatient","","Yes","","600 N ROBBINS ROAD, BOISE, IDAHO, 83702",-116.1931489,43.616272
+"157",10150,"102","IERH SLC ORTHO ROBBINS","","IERH ORTH","ORTHO
+INTERMOUNTAIN
+IERH
+IOC
+ORTHOPEDICS","IERH","St. Luke's Clinic -  Orthopaedics - IERH-Boise","","Orthopedic Surgery","","600 W ROBBINS ROAD "," 100","BOISE","IDAHO","83702","4564","ADA","United States of America","110","10150102","",10150,"Clinic Outpatient
+Specimen","","Yes","","600 W ROBBINS ROAD , BOISE, IDAHO, 83702",-116.1931489,43.616272
+"158",10150,"130","IERH SLC REHAB OCCUPATIONAL HEALTH PSYCHOLOGY","","IERH ROHP","IERH ROHP","IERH","St. Luke's Clinic - Rehab Occupational Health Psychology","","Neuropsychology","","600 ROBBINS ROAD "," 101","BOISE","IDAHO","83702","4567","","","110","10150130","",10150,"Therapies Series
+Outpatient","","Yes","","600 ROBBINS ROAD , BOISE, IDAHO, 83702",-116.1915283,43.6156981
+"159",10150,"129","IERH SLC RHEUMATOLOGY","","IERH RHEUM","RHEUMATOLOGY
+IERH RHU","IERH","St. Luke's Clinic - Rheumatology - Boise","","Rheumatology","","600 N ROBBINS ROAD "," 302","BOISE","IDAHO","83702","4565","","","110","10150129","",10150,"Clinic Outpatient
+Specimen","","Yes","","600 N ROBBINS ROAD , BOISE, IDAHO, 83702",-116.1931489,43.616272
+"160",10150,"101","IERH SLC RHEUMATOLOGY BOISE","","IERH RHEUM","RHEUMATOLOGY
+IDAHO ELKS REHABILITATION HOSPITAL
+RH ELKS
+ELKS RHEUMATOLOGY
+IERH RHU
+IERH RHEUMATOLOGY","IERH","St. Luke's Clinic Rheumatology - Elk's Boise","","Rheumatology","","600 N ROBBINS ROAD ","","BOISE","IDAHO","83702","4565","ADA","United States of America","110","10150101","",10150,"Clinic Outpatient
+Specimen","","Yes","","600 N ROBBINS ROAD , BOISE, IDAHO, 83702",-116.1931489,43.616272
+"161",10109,"100","IFP SLC IDAHO FAMILY PHYSICIANS","","IFP IFP","IFP
+SLFM
+FAMILY MEDICINE","IFP","St. Luke's Clinic Idaho Family Physicians - Boise","","Family Medicine","","130 E. BOISE AVE.",NA,"BOISE","IDAHO","83706","4302","ADA","United States of America","110","10109100","",10109,"Clinic Outpatient
+Specimen","","Yes","","130 E. BOISE AVE., BOISE, IDAHO, 83706",-116.182265,43.585785
+"162",10413,"100","IFPC SLC ORTHO IDAHO FALLS","","IFPC ORTH","ORTHO
+INTERMOUNTAIN
+IDAHO FALLS
+IOC
+ORTHOPEDICS
+IFPC","IFPC","St. Luke's Clinic - Orthopedics - Idaho Falls","","Orthopedic Surgery","","3430 WASHINGTON PARKWAY",NA,"IDAHO FALLS","IDAHO","83404","7579","BONNEVILLE","United States of America","110","10413100","",10413,"","","Yes","","3430 WASHINGTON PARKWAY, IDAHO FALLS, IDAHO, 83404",-111.993699,43.466794
+"163",10108,"108","IPB SL CHILDRENS ENDOCRINOLOGY","","IPB PED END","PEDS ENDO
+ENDO PEDS
+IPB","IPB","St. Luke's Clinic Childrens - Endocrinology - Boise","","Pediatric Endocrinology","","125 E IDAHO "," 200","BOISE","IDAHO","83712","6255","","","110","10108108","",10108,"Clinic Outpatient
+Specimen","","Yes","","125 E IDAHO , BOISE, IDAHO, 83712",-116.1939748,43.6114773
+"164",10108,"100","IPB SLC BARIATRIC AND GENERAL SURGERY","","IPB GEN SUR","GEN SURG
+IDAHO PROFESSIONAL BUILDING
+GENERAL","IPB","St. Luke's Clinic General Surgery Clinic - Boise","","General Surgery","","125 E IDAHO ST. "," 202","BOISE","IDAHO","83712","6255","ADA","United States of America","110","10108100","",10108,"Clinic Outpatient
+Specimen","","Yes","","125 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1939748,43.6114773
+"165",10108,"107","IPB SLC COLON RECTAL SURGERY","","IPB CRS","IPB CRS","IPB","St. Luke's Clinic - Colon and Rectal Surgery - Boise","","Colon and Rectal Surgery","","125 E IDAHO ST. "," 303","BOISE","IDAHO","83712",NA,"","","110","10108107","",10108,"Clinic Outpatient","","Yes","","125 E IDAHO ST. , BOISE, IDAHO, 83712",-116.1939748,43.6114773
+"166",10108,"105","IPB SLC IDAHO PULMONARY ASSOCIATES","","IPB IPA","IDAHO PROFESSIONAL BUILDING
+IDAHO PULMONARY
+PULMONARY ASSOC
+IPA
+PULMONARY
+PUL
+CHILD","SLHS","St. Luke's Clinic Idaho Pulmonary Associates - Boise","","Pulmonology","","125 E IDAHO "," 300","BOISE","IDAHO","83712","6212","ADA","United States of America","110","10108105","",10108,"Clinic Outpatient
+Specimen","","Yes","","125 E IDAHO , BOISE, IDAHO, 83712",-116.1939748,43.6114773
+"167",10108,"101","IPB SLC NEUROLOGY CLINIC","","IPB NEU CLN","IDAHO PROFESSIONAL BUILDING
+NEUROLOGY CLINIC
+NEURO CLINIC","IPB","St. Luke's Clinic Neurology Clinic - Boise","","Neurology","","125 E IDAHO ST. "," 300","BOISE","IDAHO","83702","6212","ADA","United States of America","110","10108101","",10108,"Clinic Outpatient
+Specimen","","Yes","","125 E IDAHO ST. , BOISE, IDAHO, 83702",-116.1951715,43.6125176
+"168",10108,"102","IPB SLC NEUROSURGERY","","IPB NEU SUR","IDAHO PROFESSIONAL BUILDING
+NEUROSURGERY
+NEURO
+SURG","IPB","St. Luke's Clinic Neurosurgery - Boise","","Neurosurgery","","125 E IDAHO ST. "," 102","BOISE","IDAHO","83702","6254","ADA","United States of America","110","10108102","",10108,"Clinic Outpatient
+Specimen","","Yes","","125 E IDAHO ST. , BOISE, IDAHO, 83702",-116.1951715,43.6125176
+"169",10116,"101","JMOP SL IDAHO CARDIOLOGY ASSOCIATES","","JMOP SLICA","JMOP
+SLICA","JMOP","St. Luke's Idaho Cardiology Associates - Boise","","Cardiology","","300 E JEFFERSON ST. "," 101","BOISE","IDAHO","83712","6221","","United States of America","110","10116101","",10116,"Clinic Outpatient
+Outpatient Diagnostic Series
+Specimen","","Yes","","300 E JEFFERSON ST. , BOISE, IDAHO, 83712",-116.1902849,43.6127171
+"170",10116,"100","JMOP SLC INTERNAL MEDICINE","","JMOP SLIM","SLIM JEFFERSON
+JMOP
+SLIM JMOP","JMOP","St. Luke's Clinic Internal Medicine - Boise","","Internal Medicine","","300 E JEFFERSON ST.",NA,"BOISE","IDAHO","83712","6246","","United States of America","110","10116100","",10116,"Clinic Outpatient
+Specimen","","Yes","","300 E JEFFERSON ST., BOISE, IDAHO, 83712",-116.1902849,43.6127171
+"171",10116,"103","JMOP SLC TREASURE VALLEY PEDIATRICS","","JMOP TVP","JMOP TVP","JMOP","St. Luke's Children's - Treasure Valley Pediatrics - Boise","","Pediatrics","","300 E JEFFERSON ST. "," 200","BOISE","IDAHO","83712","6261","","","110","10116103","",10116,"Clinic Outpatient","","Yes","","300 E JEFFERSON ST. , BOISE, IDAHO, 83712",-116.1902849,43.6127171
+"172",10166,"100","JSOP SL BARIATRIC NUTRITION SERVICES","","JSOP BNS","BARIATRIC DIETITIAN
+JEFFERSON
+DIETITIAN","JSOP","St. Luke's Bariatric Nutrition Services - Boise","","Nutrition","","305 E JEFFERSON ST. "," 102","BOISE","IDAHO","83712","6274","ADA","United States of America","110","10166100","",10166,"Clinic Outpatient
+Specimen","","Yes","","305 E JEFFERSON ST. , BOISE, IDAHO, 83712",-116.190675,43.612226
+"173",10193,"100","KPC SLC NEUROPSYCHOLOGY - NAMPA","","KPC NEURO","KPC NEURO
+NEUROPSYCH","KPC","St. Luke's Clinic - Neuropsychology","","Neuropsychology","","1709 NAMPA CALDWELL BLVD",NA,"NAMPA","IDAHO","83651",NA,"","United States of America","110","10193100","",10193,"Clinic Outpatient","","Yes","","1709 NAMPA CALDWELL BLVD, NAMPA, IDAHO, 83651",-116.6019623,43.6045942
+"174",10507,"100","LRC SL IDAHO CARDIOLOGY ASSOCIATES","","LRC SLICA","LAGRANDE REGIONAL CLINIC
+ICA LAGRANDE
+ICA OREGON
+OREGON ICA
+LAGRANDE ICA
+SLICA","LRC","St. Luke's Idaho Cardiology Associates - LaGrande","","Cardiology","","506 4TH ST.",NA,"LA GRANDE","OREGON","97850","1906","UNION","United States of America","110","10507100","",10507,"","","Yes","","506 4TH ST., LA GRANDE, OREGON, 97850",-118.0971161,45.3166125
+"175",10306,"100","MANC SL IDAHO PULMONARY ASSOCIATES","","MCRC IPA","MANC IPA
+IPA MCRC
+MCCALL REGIONAL CLINIC
+PULMONARY
+MCALL","MANC","St. Luke's Idaho Pulmonary Associates - McCall","","Pulmonology","","200 FORREST ST.",NA,"MCCALL","IDAHO","83638","9998","","United States of America","110","10306100","",10306,"","","Yes","","200 FORREST ST., MCCALL, IDAHO, 83638",-116.1107086,44.9084654
+"176",10306,"101","MANC SLC MCCALL ORTHOPAEDICS","","MANC ORTHO","ORTHO
+MCCALL ORTHO
+ORTHOPEDICS","MANC","St. Luke's Clinic - Orthopaedics - McCall","","Orthopedic Surgery","","200 FOREST ST.",NA,"MCCALL","IDAHO","83638","9998","VALLEY","United States of America","110","10306101","",10306,"","","Yes","","200 FOREST ST., MCCALL, IDAHO, 83638",-116.1107086,44.9084654
+"177",10302,"100","MCMOP SLC GENERAL SURGERY CLINIC","","MCMOP GN SUR","MCMOP
+MCCALL
+MCCALL SURGERY CLINIC
+GENERAL SURGERY","MCMOP","St. Luke's Clinic-General Surgery - McCall","","General Surgery","","209 FOREST ST.",NA,"MCCALL","IDAHO","83638","5256","","United States of America","110","10302100","",NA,"Clinic Outpatient
+Specimen","","Yes","","209 FOREST ST., MCCALL, IDAHO, 83638",-116.1114177,44.908856
+"178",10302,"105","MCMOP SLC MCCALL CLINICAL NUTRITION SERVICES","","MCMOP MCNS","MCCALL
+MCCALL NUTRITION
+CLINICAL NUTRITION
+NUTRITION SERVICES
+MCMOP MCNSUTRITION SER","MCMOP","St. Luke's McCall Clinical Nutrition Services","","Nutrition","","209 FOREST ST.",NA,"MCCALL","IDAHO","83638",NA,"","","110","10302105","",10302,"","","Yes","","209 FOREST ST., MCCALL, IDAHO, 83638",-116.1114177,44.908856
+"179",10302,"102","MCMOP SLC MCCALL MEDICAL CLINIC","","MCMOP MMC","MCCALL MEDICAL CLINIC
+MCCALL MEDICAL OFFICE PLAZA
+MCMC MEDICAL CLINIC
+MCCALL MED CLINIC
+MCMC MED","MCMOP","St. Luke's Clinic McCall Medical Clinic","","Internal Medicine","","209 FOREST ST.",NA,"MCCALL","IDAHO","83638","5256","","United States of America","110","10302102","",10302,"Clinic Outpatient
+Specimen","","Yes","","209 FOREST ST., MCCALL, IDAHO, 83638",-116.1114177,44.908856
+"180",10130,"100","MFH SLC ST. LUKE'S FAMILY HEALTH - MERIDIAN","","MFH SLFH","SLFH
+SLFH MERIDIAN
+SLFH GENTRY
+MERIDIAN SLFH
+SLFHM","MFH","St. Luke's Family Health - Meridian","","Family Medicine","","3090 E GENTRY WAY "," 200","MERIDIAN","IDAHO","83642","3550","ADA","United States of America","110","10130100","",10130,"Clinic Outpatient
+Specimen","","Yes","","3090 E GENTRY WAY , MERIDIAN, IDAHO, 83642",-116.355648,43.598413
+"181",10301,"100","MIMC SLC INTEGRATIVE MEDICINE CLINIC","","MIMC IMC","MCCALL INTEGRATIVE MEDICINE CLINIC
+MCMC INTEGRATIVE
+MCCALL INTEGRATIVE
+INTEGRATIVE MC
+MIMC IMC","MCI","St. Luke's Clinic Integrative Medicine - McCall","","Integrative Medicine","","203 HEWITT ST.",NA,"MCCALL","IDAHO","83638","9998","","United States of America","110","10301100","",10301,"Clinic Outpatient
+Specimen","","Yes","","203 HEWITT ST., MCCALL, IDAHO, 83638",-116.1102344,44.9096684
+"182",10102,"113","MMC EMPLOYEE HEALTH","","MMC EMPHLTH","MERIDAN EH
+EHW
+EMPLOYEE","MMC","Meridian Employee Health","","Family Medicine","","520 S EAGLE ROAD",NA,"MERIDIAN","IDAHO","83642","6351","","United States of America","110","10102113","",10102,"","","Yes","","520 S EAGLE ROAD, MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"183",10132,"110","MML SL CHILDRENS CARDIOLOGY","Inactive","MML CSC CARD","CHILDRENS CARDIOLOGY
+CARDIOLOGY PEDS
+PEDS CARDIO
+MML
+PEDIATRIC CARDIOLOGY","MML TIMESHARE","St. Luke's Clinic Children's Cardiology - Meridian","","Pediatric Cardiology","","3525 E LOUISE DR. "," 250","MERIDIAN","IDAHO","83642",NA,"ADA","United States of America","110","10132110","",10132,"Clinic Outpatient
+Specimen","","Yes","SLHS_Childrens_4c_Med.JPG","3525 E LOUISE DR. , MERIDIAN, IDAHO, 83642",-116.3499193,43.6017684
+"184",10132,"122","MML SL CHILDRENS DEVELOPMENTAL PEDIATRICS","","MML DEV PED","MML DEV PED","MML","St. Luke's Children's - Developmental Pediatrics - Meridian","","Developmental and Behavioral Pediatrics","","3525 E LOUISE DR. "," 250","MERIDIAN","IDAHO","83642",NA,"","","110","10132122","",10132,"Clinic Outpatient","","Yes","","3525 E LOUISE DR. , MERIDIAN, IDAHO, 83642",-116.3499193,43.6017684
+"185",10132,"111","MML SL CHILDRENS DIETITIAN CLINIC","","MML DIET","DIETITIAN
+CSC
+CSC DIETICIAN
+CHILD
+DIET
+CSCDIET
+PEDSDIET
+PEDS
+PEDIATRIC DIETITIAN","MML","St. Luke's Children's - Dietitian - Meridian","","Pediatric Dietitian","","3525 E LOUISE DR. "," 250","MERIDIAN","IDAHO","83642","6303","ADA","United States of America","110","10132111","",10132,"Clinic Outpatient
+Specimen","","Yes","","3525 E LOUISE DR. , MERIDIAN, IDAHO, 83642",-116.3499193,43.6017684
+"186",10132,"121","MML SL CHILDRENS MENTAL HEALTH","","MML CMH","MML CMH
+CHILDREN MENTAL
+MENTAL
+MERIDIAN","MML","St. Luke's Children's - Mental Health - Meridian","","Pediatric Mental Health","","3525 E LOUISE DR. "," 255","MERIDIAN","IDAHO","83642",NA,"ADA","United States of America","110","10132121","",10132,"Clinic Outpatient","","Yes","","3525 E LOUISE DR. , MERIDIAN, IDAHO, 83642",-116.3499193,43.6017684
+"187",10132,"107","MML SL CHILDRENS NEUROLOGY","","MML PED NEU","PEDS NEUROLOGY
+NEURO PEDS
+MEADOWLAKE
+CSC
+NEUROLOGY PEDS
+MML","MML TIMESHARE","St. Luke's Children's Neurology - Meridian","","Pediatric Neurology","","3525 E LOUISE DR. "," 250","MERIDIAN","IDAHO","83642","6303","ADA","United States of America","110","10132107","",10132,"Clinic Outpatient
+Specimen","","Yes","SLHS_Childrens_4c_Med.JPG","3525 E LOUISE DR. , MERIDIAN, IDAHO, 83642",-116.3499193,43.6017684
+"188",10132,"117","MML SL CHILDRENS NEUROPSYCHOLOGY","","MML CSC NPY","NEUROPSYCHOLOGY
+CHILDRENS","MML","St. Luke's Children's - Neuropsychology","","Pediatric Neuropsychology","","3525 E LOUISE DR. "," 250","MERIDIAN","IDAHO","83642",NA,"ADA","United States of America","110","10132117","",10132,"Clinic Outpatient","","Yes","","3525 E LOUISE DR. , MERIDIAN, IDAHO, 83642",-116.3499193,43.6017684
+"189",10132,"115","MML SL CHILDRENS YEAH","","MML YEAH","YEAH PEDS
+MEADOWLAKE","MML","St. Luke's Clinic - YEAH Program","","Physical Fitness","","3525 E LOUISE DR. "," 250","","","",NA,"","","110","10132115","",10132,"","","Yes","","3525 E LOUISE DR. , , , ",-116.3499193,43.6017684
+"190",10132,"102","MML SL IDAHO CARDIOLOGY ASSOCIATES","","MML SLICA","SLICA
+MEADOWLAKE","MML","St. Luke's Idaho Cardiology Associates - Meridian","","Cardiology","","3525 E LOUISE DR. "," 400","MERIDIAN","IDAHO","83642","6303","ADA","United States of America","110","10132102","",10132,"Clinic Outpatient
+Outpatient Diagnostic Series
+Specimen","","Yes","","3525 E LOUISE DR. , MERIDIAN, IDAHO, 83642",-116.3499193,43.6017684
+"191",10132,"112","MML SLC PREVENTION AND WELLNESS","","MML SLPW","PREVENTION
+WELLNESS
+REHAB CLINIC","MML","St. Lukes Clinic - Prevention and Wellness - Meridian","","Cardiac Rehabilitation","","3525 E LOUISE DR. "," 500","MERIDIAN","IDAHO","83642","6303","ADA","United States of America","110","10132112","",10132,"Clinic Outpatient
+Specimen","","Yes","","3525 E LOUISE DR. , MERIDIAN, IDAHO, 83642",-116.3499193,43.6017684
+"192",10132,"109","MML SLC RHEUMATOLOGY","","MMl RHEUMA","RHEUMATOLOGY
+MEADOLAKE
+RHU","MML","St. Luke's Clinic - Rheumatology - Meridian","","Rheumatology","","3525 E LOUISE DR. "," 250","MERIDIAN","IDAHO","83642","6303","ADA","United States of America","110","10132109","",10132,"Clinic Outpatient
+Specimen","","Yes","","3525 E LOUISE DR. , MERIDIAN, IDAHO, 83642",-116.3499193,43.6017684
+"193",10133,"101","MMOP HUMPHREYS DIABETES CENTER - DNU","","MMOP HDC","HUMPHREY'S
+HDC
+MERIDIAN MEDICAL OFFICE PLAZA","MMOP","Humphreys Diabetes Center - Meridian","","Diabetes Services","","520 S EAGLE ROAD "," 1229","MERIDIAN","IDAHO","83642","6355","ADA","United States of America","110","10133101","",10133,"Clinic Outpatient
+Specimen","","Yes","","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"194",10133,"169","MMOP HUMPHREYS DIABETES CENTER - MERIDIAN","","MMOP DIAB OM","MMOP DIAB
+HUMPHREYS
+HDC
+MERIDIAN MEDICAL OFFICE PLAZA","MMOP","St. Luke's Clinic - Humphreys Diabetes Center - Meridia","","Diabetes Services","","520 S EAGLE ROAD "," 1229","MERIDIAN","IDAHO","83642","6355","ADA","United States of America","110","10133169","",10133,"","","Yes","","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"195",10133,"133","MMOP PERIOPERATIVE CLINIC","","MMOP PERIOP","PERIOP","MMOP","MMOP Perioperative Medicine - Meridian","","Perioperative Medicine","","520 S EAGLE ROAD "," 2104","MERIDIAN","IDAHO","83642",NA,"ADA","United States of America","110","10133133","",10133,"Clinic Outpatient
+Specimen","","Yes","","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"196",10133,"134","MMOP SL CHILDRENS BOWEL AND BLADDER CLINIC","","MMOP CBBC","BOWEL AND BLADDER PEDS
+BBCT WORKFLOW
+PEDS
+BLADDER
+BOWEL
+BBC
+CHILD
+CSC
+PEDIATRIC BOWEL AND BL","MMOP","St. Luke's Children's Bowel and Bladder Clinic-Meridian","","Bowel and Bladder","","520 S EAGLE ROAD "," 2204","MERIDIAN","IDAHO","83642","6351","ADA","United States of America","110","10133134","",10133,"Clinic Outpatient
+Specimen","","Yes","","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"197",10133,"144","MMOP SL CHILDRENS CARDIOLOGY","","MMOP CSC CAR","CHILDRENS CARDIOLOGY
+CARDIOLOGY PEDS
+PEDS CARDIO
+MMOP","MMOP CSC","St. Luke's Children's Cardiology - Meridian","","Pediatric Cardiology","","520 S EAGLE RD "," 2204","MERIDIAN","IDAHO","83642",NA,"","","110","10133144","",10133,"Clinic Outpatient
+Specimen","","Yes","","520 S EAGLE RD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"198",10133,"135","MMOP SL CHILDRENS OPHTHALMOLOGY","","MMOP OPHTH","OPHTHALMOLOGY
+MERIDIAN
+MERIDIAN OPHTH","MMOP CSC","St. Luke's Childrens - Ophthalmology - Meridian","","Pediatric Ophthalmology","","520 S EAGLE ROAD "," 2203","MERIDIAN","IDAHO","83642","6354","ADA","United States of America","110","10133135","",10133,"Clinic Outpatient
+Specimen","","Yes","SLHS_Childrens_4c_Med.JPG","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"199",10133,"129","MMOP SL CHILDRENS UROLOGY","","MMOP CSC URO","CHILDRENS UROLOGY
+PEDS UROLOGY
+UROLOGY PEDS
+CSC
+CHILDURO
+URO
+PEDS
+PEDSURO
+PEDURO
+PEDIATRIC UROLOGY","MMOP","St. Luke's Children's Urology - Meridian","","","","520 S EAGLE ROAD "," 2204","MERIDIAN","IDAHO","83642","6351","ADA","United States of America","110","10133129","",10133,"Clinic Outpatient
+Specimen","","Yes","","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"200",10133,"145","MMOP SL CLINICAL NUTRITION - DNU","","MMOP CLN NUT","","MMOP","St. Luke's Clinic - Nutrition Services - Meridian","","Nutrition","","520 S EAGLE ROAD "," 1245","MERIDIAN","IDAHO","83642",NA,"ADA","United States of America","110","10133145","",NA,"","","Yes","","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"201",10133,"170","MMOP SL CLINICAL NUTRITION - MERIDIAN","","MMOP NUT","MMOP CLI NUT","MMOP","St. Luke's Clinic - Nutrition Services - Meridian","","Nutrition","","520 S EAGLE ROAD "," 1223","MERIDIAN","IDAHO","83642","6355","ADA","United States of America","110","10133170","",10133,"Clinic Outpatient
+Specimen","","Yes","","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"202",10133,"110","MMOP SL IDAHO CARDIOLOGY ASSOCIATES - MERIDIAN","Inactive","MMOP SLICA","SLICA MERIDIAN
+MERIDIAN MEDICAL OFFICE PLAZA","","St. Luke's Idaho Cardiology Associates - Meridian","","","","520 S EAGLE ROAD
+"," 3104","MERIDIAN","IDAHO","83642",NA,"","United States of America","110","10133110","",10133,"Clinic Outpatient","","Yes","","520 S EAGLE ROAD
+, MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"203",10133,"130","MMOP SL UROLOGY ONCOLOGY","","MMOP URONC","UROLOGY ONCOLOGY
+ONC
+URO
+UROONC
+MERIDIAN
+REGIONAL
+URONC","MMOP","St. Luke's Clinic - Urology Oncology - Meridian","","Urologic Oncology","","520 S EAGLE ROAD "," 3112","MERIDIAN","IDAHO","83642",NA,"ADA","United States of America","110","10133130","",NA,"","","Yes","","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"204",10133,"100","MMOP SLC ADA MEDICAL ASSOCIATES","","MMOP SLAMA","SLAMA
+MERIDIAN MEDICAL OFFICE PLAZA
+MMOP SLAMA","MMOP","St. Luke's Clinic Ada Medical Associates - Meridian","","Family Medicine","","520 S EAGLE ROAD "," 1241","MERIDIAN","IDAHO","83642","6355","ADA","United States of America","110","10133100","",10133,"Clinic Outpatient
+Specimen","","Yes","","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"205",10133,"161","MMOP SLC FOOT CARE","","MMOP FCC","MMOP FCC","MMOP","St. Luke's Clinic - Foot Care - Meridian","","Diabetes Services","","520 S EAGLE ROAD  "," 1229","MERIDIAN","IDAHO","83642",NA,"","","110","10133161","",10133,"","","Yes","","520 S EAGLE ROAD  , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"206",10133,"125","MMOP SLC IDAHO ENDOCRINOLOGY","","MMOP ID ENDO","MMOP
+ENDOCRINOLOGY
+IDAHO ENDO
+MERIDIAN ENDO","MMOP","St. Lukes Clinic - Idaho Endocrinology - Meridian","","Endocrinology","","520 S EAGLE ROAD "," 1234","MERIDIAN","IDAHO","83642","6355","CANYON","United States of America","110","10133125","",10133,"Clinic Outpatient
+Specimen","","Yes","","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"207",10133,"142","MMOP SLC IDAHO PEDIATRIC GASTROENTEROLOGY","","MMOP PED GI","PEDS GASTRO
+PEDIATRIC GASTRO
+ARM
+PEDS
+CHILDRENS GASTROENTEROLOGY","MMOP CSC","St. Luke's Clinic-Childrens Gastroenterology-Meridian","","Pediatric Gastroenterology","","520 S EAGLE ROAD "," 2204","MERIDIAN","IDAHO","83642","6351","","","110","10133142","",10133,"Clinic Outpatient
+Specimen","","Yes","","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"208",10133,"106","MMOP SLC INTERNAL MEDICINE - MERIDIAN","","MMOP SLIM","MERIDIAN SLIM
+SLIM MERIDIAN","MMOP INTERNAL MEDICINE","St. Luke's Clinic Internal Medicine - Meridian","","Internal Medicine","","520 S EAGLE ROAD "," 3102","MERIDIAN","IDAHO","83642","6352","","United States of America","110","10133106","",10133,"Clinic Outpatient
+Specimen","","Yes","","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"209",10133,"107","MMOP SLC MOUNTAIN STATES UROLOGY CENTER - MERIDIAN","","MMOP MSU","MSU MERIDIAN
+MERIDIAN MEDICAL OFFICE PLAZA
+UROLOGY
+MSU
+URO
+MMOP
+MSUMMOP
+MMOPMSU
+MSUURO
+MOUNTAIN STATES","MMOP","St. Luke's Clinic Mountain States Urology - Meridian","","Urology","","520 S EAGLE ROAD "," 3112","MERIDIAN","IDAHO","83642","6352","","United States of America","110","10133107","",10133,"Clinic Outpatient
+Specimen","","Yes","","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"210",10133,"128","MMOP SLC NEPHROLOGY MERIDIAN","","MMOP NEPH","NEPHROLOGY
+MERIDIAN NEPH
+RENAL
+KIDNEY","MMOP","St. Luke's Clinic Nephrology Meridian","","Nephrology","","520 S EAGLE ROAD "," 1245","MERIDIAN","IDAHO","83642",NA,"ADA","United States of America","110","10133128","",NA,"Clinic Outpatient
+Specimen","","Yes","","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"211",10133,"108","MMOP SLC NEUROLOGY CLINIC - MERIDIAN","","MMOP NEU CLN","MERIDIAN MEDICAL OFFICE PLAZA
+NEUROLOGY MERIDIAN
+MERIDIAN NEURO","MMOP","St. Luke's Clinic Neurology Clinic - Meridian","","Neurology","","520 S EAGLE ROAD "," 2207","MERIDIAN","IDAHO","83642","6354","","United States of America","110","10133108","",10133,"Clinic Outpatient
+Specimen","","Yes","","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"212",10133,"139","MMOP SLC NURSE MIDWIVES","","MMOP NMDWV","MIDWIFE
+MIDWIVES","MMOP","St. Luke's Clinic - Nurse Midwives - Meridian","","Obstetrics and Gynecology","","520 S EAGLE ROAD "," 2110","MERIDIAN","IDAHO","83642",NA,"ADA","United States of America","110","10133139","",10133,"","","Yes","","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"213",10133,"140","MMOP SLC OBGYN CENTER MERIDIAN","","MMOP OBGYNM","OBGYN
+REGIONAL
+OB/GYN
+OB/GYN CENTER MERIDIAN
+OB/GYN CENTER","MMOP","St. Luke's Clinic - OB/GYN - Meridian","","Obstetrics and Gynecology","","520 S EAGLE ROAD "," 3209","MERIDIAN","IDAHO","83642","6355","ADA","United States of America","110","10133140","",10133,"Clinic Outpatient
+Specimen","","Yes","","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"214",10133,"109","MMOP SLC OCCUPATIONAL HEALTH - MERIDIAN","","MMOP OCCHLTH","OCC HEALTH
+MERIDIAN MEDICAL OFFICE PLAZA
+OCC HEALTH MERIDIAN
+CSW
+SPINE
+SPINE WELLNESS","MMOP","St. Luke's Clinic Occupational Health - Meridian","","Occupational Medicine","","520 S EAGLE ROAD "," 2213","MERIDIAN","IDAHO","83642","6354","ADA","United States of America","110","10133109","",10133,"","","Yes","","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"215",10133,"131","MMOP SLC ORTHO SUITE 1201","","MMOP ORT1201","ORTHO
+DR. MOSS
+ORT SURG
+ORTHOPAEDIC SURGERY","MMOP","St. Luke's Clinic - Orthopedic Surgery - Meridian 1201","","Orthopedic Surgery","","520 S EAGLE ROAD "," 1201","MERIDIAN","IDAHO","83642","6355","ADA","United States of America","110","10133131","",10133,"Clinic Outpatient
+Specimen","","Yes","","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"216",10133,"105","MMOP SLC ORTHO SUITE 2209","","MMOP ORT2209","MERIDIAN MEDICAL OFFICE PLAZA
+INTER ORTHO
+INTERMOUNTAIN
+INT ORTHO
+ORTHO
+MMOP
+IOC
+INTERMOUNTAIN ORTHOPEDIC CLINIC","MMOP","St. Luke's Clinic - Orthopaedics - Meridian 2209","","Orthopedic Surgery","","520 S EAGLE ROAD "," 2209","MERIDIAN","IDAHO","83642","6354","ADA","United States of America","110","10133105","",10133,"Clinic Outpatient
+Specimen","","Yes","","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"217",10133,"103","MMOP SLC ORTHO SUITE 3213","","MMOP ORT3213","MMOP E PLAZA
+BOISE ORTHO
+ORTHO
+BOC
+BOISE ORTHOPEDIC CLINIC","MMOP","St. Luke's Clinic Orthopaedic  - Meridian 3213","","Orthopedic Surgery","","520 S EAGLE ROAD "," 3213","MERIDIAN","IDAHO","83642","6356","ADA","United States of America","110","10133103","",10133,"Clinic Outpatient
+Specimen","","Yes","","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"218",10133,"143","MMOP SLC PAIN MANAGEMENT","","MMOP SLPM","ADVANCED PAIN
+PAIN MANAGEMENT
+MMOP
+PAIN
+MMOP SLC","MMOP","St. Luke's Clinic - Pain Management - Meridian","","Pain Medicine","","520 S EAGLE ROAD "," 1222","MERIDIAN","IDAHO","83642","6355","ADA","United States of America","110","10133143","",10133,"Clinic Outpatient
+Specimen","","Yes","","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"219",10133,"137","MMOP SLC PALLIATIVE MEDICINE","","MMOP PALL","PALLIATIVE MED
+MERIDIAN","MMOP","St. Luke's Clinic - Palliative Medicine - Meridian","","Palliative Care","","520 S EAGLE ROAD "," 1241","MERIDIAN","IDAHO","83642","6355","ADA","United States of America","110","10133137","",10133,"","","Yes","","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"220",10133,"138","MMOP SLC PODIATRY","","MMOP BPOD","PODIATRY","MMOP","St. Luke's Clinic - Podiatry - Meridian","","Podiatry","","520 S EAGLE ROAD "," 1243","MERIDIAN","IDAHO","83642",NA,"ADA","United States of America","110","10133138","",10133,"Clinic Outpatient
+Specimen","","Yes","","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"221",10133,"124","MMOP SLC RHEUMATOLOGY ADULT AND CHILDREN MERIDIAN","","MMOP RHEUM","MMOP
+RHEUMATOLOGY
+MERIDIAN
+MMOP RHU
+RHU","MMOP","St. Luke's Clinic - Rheumatology - Meridian","","Rheumatology","","520 S EAGLE ROAD "," 3211","MERIDIAN","IDAHO","83642","6356","ADA","United States of America","110","10133124","",10133,"Clinic Outpatient
+Specimen","","Yes","","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"222",10133,"136","MMOP SLC TRAVEL MEDICINE AND IMMUNIZATIONS","","MMOP TMED","TRAVEL MEDICINE
+MERIDIAN
+IMMUNIZATIONS","MMOP","St. Lukes Travel Medicine and Immunizations-Meridian","","Travel Medicine","","520 S EAGLE ROAD "," 1239","MERIDIAN","IDAHO","83642","6355","ADA","United States of America","110","10133136","",10133,"","","Yes","","520 S EAGLE ROAD , MERIDIAN, IDAHO, 83642",-116.3524898,43.5993675
+"223",10133,"119","MMOP THE WOMAN'S CLINIC","","MMOP TWC","MERIDIAN MEDICAL OFFICE PLAZA
+THE WOMAN'S CLINIC
+THE WOMANS CLINIC
+MERIDIAN WOMANS
+MERIDIAN WOMAN'S","MMOP","The Woman's Clinic - Meridian","","Obstetrics and Gynecology","","520 S EAGLE ROAD "," 3209","BOISE","IDAHO","83712","6356","","United States of America","110","10133119","",10133,"Clinic Outpatient
+Specimen","","Yes","","520 S EAGLE ROAD , BOISE, IDAHO, 83712",-116.1652979,43.5973254
+"224",10608,"100","MPSC SLC FOOT CARE","Inactive","MPSC FCC","MPSC FCC","MPSC","St. Luke's Clinic - Foot Care - Boise","","Diabetes Services","","508 E 50TH ST.",NA,"BOISE","IDAHO","83714",NA,"","","110","10608100","",10608,"","","Yes","","508 E 50TH ST., BOISE, IDAHO, 83714",-116.2630933,43.6468064
+"225",10206,"100","MSOP FAMILY PRACTICE ASSOCIATES","","MSOP FPA","MAPLE STREET OFFICE PLAZA
+MSOP FM
+MHCP
+WOOD
+FAM PRAC
+PRAC
+HAILEY
+MSOP
+WRFPA
+HAFPA
+FRA
+FPA
+SVFP","MSOP","Family Practice Associates - Hailey","","Family Medicine","","21 E. MAPLE ST. "," A","HAILEY","IDAHO","83333","4900","","United States of America","110","10206100","",10206,"Clinic Outpatient
+Specimen","","Yes","","21 E. MAPLE ST. , HAILEY, IDAHO, 83333",-114.3100751,43.514293
+"226",10604,"104","MSOPB SL CHILDRENS MENTAL HEALTH","","MSOPB CMH","MSOPB CMH
+CHILDREN MENTAL
+MENTAL
+BOISE","MSOPB","St. Luke's Children's - Mental Health - Boise","","Pediatric Mental Health","","405 W MYRTLE ST.",NA,"BOISE","IDAHO","83702",NA,"ADA","United States of America","110","10604104","",10604,"Clinic Outpatient","","Yes","","405 W MYRTLE ST., BOISE, IDAHO, 83702",-116.20212,43.610042
+"227",10181,"101","MSPB SL BARIATRIC NUTRITION SERVICES","","MSPB BNS","BARIATRIC DIETITIAN
+DIETITIAN
+MAIN STREET PRO BLD","MSPB","St. Luke's Bariatric Nutrition Services - Boise","","Nutrition","","115 MAIN ST. "," 203","BOISE","IDAHO","83702","7303","ADA","United States of America","110","10181101","",10181,"Clinic Outpatient
+Specimen","","Yes","","115 MAIN ST. , BOISE, IDAHO, 83702",-116.1954401,43.6115259
+"228",10181,"100","MSPB SLC BARIATRICS AND GENERAL SURGERY","","MSPB BGS","BARIATRICS AND GEN SUR
+MAIN STREET PRO BLD","MSPB","St. Luke's Clinic-Bariatrics and General Surgery-Boise","","Bariatrics","","115 MAIN ST. "," 101","BOISE","IDAHO","83702","7304","ADA","United States of America","110","10181100","",10181,"Clinic Outpatient
+Specimen","","Yes","","115 MAIN ST. , BOISE, IDAHO, 83702",-116.1954401,43.6115259
+"229",10119,"100","MTNV SLC MOUNTAIN VIEW MEDICAL CENTER","","MTNV MVMC","MTNV","MTNV","St. Luke's Clinic Mountain View Medical Center - Boise","","Family Medicine","","3301 N SAWGRASS WAY",NA,"BOISE","IDAHO","83704","4493","ADA","United States of America","110","10119100","",10119,"Clinic Outpatient
+Specimen","","Yes","","3301 N SAWGRASS WAY, BOISE, IDAHO, 83704",-116.2815024,43.6347892
+"230",10128,"101","MTVP SLC TREASURE VALLEY PEDIATRICS - MERIDIAN","","MTVP TVPEDS","TREASURE VALLEY PEDS
+TVPEDS
+MTVP","SLC TREASURE VALLEY PED CLINICS","St. Luke's Treasure Valley Pediatrics - Meridian","","Pediatrics","","1620 S CELEBRATION AVE.",NA,"MERIDIAN","IDAHO","83642","2779","","United States of America","110","10128101","",10128,"Clinic Outpatient
+Specimen","","Yes","SLHS_Childrens_4c_Med.JPG","1620 S CELEBRATION AVE., MERIDIAN, IDAHO, 83642",-116.3653809,43.5898447
+"231",10415,"101","MVAS SL CHILDRENS ENDOCRINOLOGY - TWIN FALLS","","MVAS CENDO","REGIONAL
+CHILDRENS ENDO
+TWIN FALLS
+ENDO
+ENDOCRINOLOGY
+PED ENDO","MVAS CSC","St. Luke's Children's - Endocrinology - Twin Falls","","Pediatric Endocrinology","","2550 ADDISON AVE. E. "," A","TWIN FALLS","IDAHO","83301","6749","TWIN FALLS","United States of America","110","10415101","",10415,"","","Yes","","2550 ADDISON AVE. E. , TWIN FALLS, IDAHO, 83301",-114.4317044,42.5623221
+"232",10415,"100","MVAS SL CHILDRENS NEUROLOGY - TWIN FALLS","","MVAS CNEURO","REGIONAL
+CHILDRENS NEURO
+TWIN FALLS
+MVAS
+CHILDREN'S
+NEUROLOGY PEDS
+PEDIATRIC","MVAS CSC","St. Luke's Children's - Neurology - Twin Falls","","Pediatric Neurology","","2550 ADDISON AVE. E. "," A","TWIN FALLS","IDAHO","83301","6749","TWIN FALLS","United States of America","110","10415100","",10415,"","","Yes","","2550 ADDISON AVE. E. , TWIN FALLS, IDAHO, 83301",-114.4317044,42.5623221
+"233",10305,"102","MVC SLC INTEGRATIVE MEDICINE","","MVC IMC","MEADOWS VALLEY
+INTEGRATIVE MEDICINE
+IMC
+MCCALL
+REGIONAL","MVC","St. Luke's Clinic - Integrative Medicine - New Meadows","","Family Medicine","","320 VIRGINIA AVE.",NA,"NEW MEADOWS","IDAHO","83654","9998","ADAMS","United States of America","110","10305102","",NA,"Clinic Outpatient
+Specimen","","Yes","","320 VIRGINIA AVE., NEW MEADOWS, IDAHO, 83654",-116.282942,44.9711222
+"234",10305,"100","MVC SLC MEADOW VALLEY","","MVC SLCMV","MEADOW VALLEY
+MEADOW
+PLMC FAMILY HEALTH
+REGIONAL
+PAYETTE LAKE","MVC","St. Luke's Clinic Meadow Valley","","Family Medicine","","320 VIRGINIA AVE.",NA,"NEW MEADOWS","IDAHO","83654","9998","ADAMS","United States of America","110","10305100","",10305,"Clinic Outpatient
+Specimen","","Yes","","320 VIRGINIA AVE., NEW MEADOWS, IDAHO, 83654",-116.282942,44.9711222
+"235",10609,"100","MVCH SLC FOOT CARE","","MVCH FCC","MVCH FCC","MVCH","St. Luke's Clinic - Foot Care - Boise","","Diabetes Services","","2823 N COLE ROAD",NA,"BOISE","IDAHO","83704",NA,"","","110","10609100","",10609,"","","Yes","","2823 N COLE ROAD, BOISE, IDAHO, 83704",-116.2744284,43.6308661
+"236",10409,"102","MVMP SL CHILDRENS CARDIOLOGY","","MVMP PED CRD","PEDS CARD
+CARDIOLOGY PEDS
+MVMP
+TWIN FALLS","MVMP","St. Luke's Clinic Childrens Cardiology - Twin Falls","","Pediatric Cardiology","","775 POLE LINE ROAD W.  "," 111","TWIN FALLS","IDAHO","83301",NA,"","","110","10409102","",10409,"","","Yes","","775 POLE LINE ROAD W.  , TWIN FALLS, IDAHO, 83301",-114.4956624,42.591584
+"237",10409,"110","MVMP SL CHILDRENS NEUROSURGERY TWIN FALLS","","MVMP CHD NEU","MVMP CHD NEU","MVMP","St. Luke's Children's - Neurosurgery - Twin Falls","","Pediatric Neurosurgery","","775 POLE LINE ROAD W. "," 111","TWIN FALLS","IDAHO","83301","5819","TWIN FALLS","United States of America","110","10409110","",10409,"","","Yes","","775 POLE LINE ROAD W. , TWIN FALLS, IDAHO, 83301",-114.4956624,42.591584
+"238",10409,"101","MVMP SL CHILDRENS PULMONOLOGY - TWIN FALLS","","MVMP CPULM","PULMONOLOGY PEDS
+REGIONAL
+CHILDRENS PULMONOLOGY
+MVMPPUL
+PEDSPUL
+CHILD
+PUL
+PULPEDS
+PED
+CSC PUL
+PUL REGIONAL","MVMP","St. Luke's Children's - Pulmonology- Twin Falls","","Pediatric Pulmonology","","775 POLE LINE ROAD W. "," 315","TWIN FALLS","IDAHO","83301","5823","TWIN FALLS","United States of America","110","10409101","",10409,"","","Yes","","775 POLE LINE ROAD W. , TWIN FALLS, IDAHO, 83301",-114.4956624,42.591584
+"239",10409,"100","MVMP SL CHILDRENS UROLOGY","","MVMP MSU MV","PEDS URO
+REGIONAL
+TWIN
+UROLOGY
+TF
+PEDS
+CSC
+PEDSURO
+PEDURO","MVMP","St. Lukes Clinic - Childrens Urology - Twin Falls","","Pediatric Urology","","775 POLE LINE ROAD W. "," 111","TWIN FALLS","IDAHO","83301","5819","TWIN FALLS","United States of America","110","10409100","",NA,"Clinic Outpatient
+Specimen","","Yes","","775 POLE LINE ROAD W. , TWIN FALLS, IDAHO, 83301",-114.4956624,42.591584
+"240",10416,"100","NCMG SL MOUNTAIN STATES UROLOGY - GOODING","Inactive","NCMG MSU","REGIONAL
+GOODING
+MSU
+UROLOG
+MSU REGIONAL
+MSU GOODING
+MOUNTAIN STATES","","St. Luke's Clinic - Mountain States Urology - Gooding","","","","267 N CANYON DR.",NA,"GOODING","IDAHO","83330","5500","","United States of America","110","10416100","",10416,"Clinic Outpatient
+Specimen","","Yes","","267 N CANYON DR., GOODING, IDAHO, 83330",-114.7109877,42.9234862
+"241",10161,"100","NFJC CARES","","NFJC CARES","CARES
+NFJC
+NAMPA CARES","SLHS","St. Luke's CARES - Nampa","","Pediatric Forensics","Yes","1305 3RD ST. S.",NA,"NAMPA","IDAHO","83651","3903","CANYON","United States of America","110","10161100","",10161,"Clinic Outpatient
+Specimen","","Yes","","1305 3RD ST. S., NAMPA, IDAHO, 83651",-116.5607514,43.5761196
+"242",10172,"100","NGC SL CHILDRENS CARDIOLOGY - NAMPA","Inactive","NGC PED CRD","REGIONAL
+CSC CARDIOLOGY
+NAMPA
+CHILDREN'S
+CARDIOLOGY PEDS
+PEDIATRIC
+NGC","NGC","St. Luke's Children's - Cardiology - Nampa","","Pediatric Cardiology","","1200 GARRITY BOULEVARD",NA,"NAMPA","IDAHO","83687","3402","CANYON","United States of America","110","10172100","",10172,"Clinic Outpatient
+Specimen","","Yes","","1200 GARRITY BOULEVARD, NAMPA, IDAHO, 83687",-116.5494272,43.5869728
+"243",10600,"105","NGMB SLC NEUROPSYCHOLOGY - NAMPA","","NGMB NPSY","NEUROPSYCH
+NGMB NEURO","NGMB","St. Luke's Clinic - Neuropsychology - Nampa","","Neuropsychology","","290 W GEORGIA AVE.",NA,"NAMPA","IDAHO","83686",NA,"","","110","10600105","",10600,"Clinic Outpatient","","Yes","","290 W GEORGIA AVE., NAMPA, IDAHO, 83686",-116.575118,43.556398
+"244",10143,"100","NHDC HUMPHREYS DIABETES CENTER","","NHDC HDC","HUMPHREY'S
+HDC
+NAMPA HDC
+HUMPHREYS","NHDC","Humphreys Diabetes Center - Nampa","","Diabetes Services","","4400 E. FLAMINGO AVE.",NA,"NAMPA","IDAHO","83687","9998","","United States of America","110","10143100","",10143,"Clinic Outpatient
+Specimen","","Yes","","4400 E. FLAMINGO AVE., NAMPA, IDAHO, 83687",-116.5172473,43.5975823
+"245",10141,"103","NICA BOISE SURGICAL GROUP - NAMPA HAWAII","","NICA BSG","REGIONAL
+BOISE SURGICAL GROUP
+NAMPA
+HAWAII
+BSG
+GENERAL SURGERY","NICA","St. Luke's Clinic - Boise Surgical Group - Nampa","","General Surgery","","215 E HAWAII AVE.",NA,"NAMPA","IDAHO","83686","6011","","United States of America","110","10141103","",10141,"","","Yes","","215 E HAWAII AVE., NAMPA, IDAHO, 83686",-116.5706234,43.554591
+"246",10141,"105","NICA SL CALDWELL UROLOGY - NAMPA","","NICA URO","REGIONAL
+CALDWELL UROLOGY
+NAMPA
+HAWAII
+CU
+CU REGIONA
+CU NAMPA
+CALDWELL
+CMU
+CMSU","NICA","St. Luke's Clinic - Caldwell Urology - Nampa","","Urology","","215 E HAWAII AVE.",NA,"NAMPA","IDAHO","83686","6011","","United States of America","110","10141105","",10141,"Clinic Outpatient
+Specimen","","Yes","","215 E HAWAII AVE., NAMPA, IDAHO, 83686",-116.5706234,43.554591
+"247",10141,"108","NICA SL CHILDRENS CARDIOLOGY - NAMPA","","NICA PED CRD","NICA
+REGIONAL
+CSC CARDIOLOGY
+NAMPA
+CHILDREN'S
+CARDIOLOGY PEDS
+PEDIATRIC
+NGC
+CARDIOLOGY
+CHILDRENS","NICA","St. Luke's Children's - Cardiology - Nampa","","Pediatric Cardiology","","215 E HAWAII AVE.",NA,"NAMPA","IDAHO","83686","6011","CANYON","United States of America","110","10141108","",10141,"Clinic Outpatient
+Specimen","","Yes","","215 E HAWAII AVE., NAMPA, IDAHO, 83686",-116.5706234,43.554591
+"248",10141,"100","NICA SL IDAHO CARDIOLOGY ASSOCIATES","","NICA SLICA","NAMPA IDAHO CARDIOLOGY ASSOCIATES
+SLICA NAMPA
+NAMPA SLICA","NICA","St. Luke's Idaho Cardiology Associates - Nampa","","Cardiology","","215 E HAWAII AVE.",NA,"NAMPA","IDAHO","83686","6011","","United States of America","110","10141100","",10141,"Clinic Outpatient
+Specimen","","Yes","","215 E HAWAII AVE., NAMPA, IDAHO, 83686",-116.5706234,43.554591
+"249",10141,"102","NICA SL INTERMOUNTAIN ORTHOPAEDIC CLINIC","","NICA IOC","REGIONAL
+NAMPA
+HAWAII IO
+INTERMOUNTAIN
+ORTHOPEDICS
+IOC
+NICA
+INTERMOUNTAIN ORTHOPEDIC CLINIC","NICA","St. Luke's Clinic - Intermountain Orthopaedics - Nampa","","Orthopedic Surgery","","215 E HAWAII AVE.",NA,"NAMPA","IDAHO","83686","6011","CANYON","United States of America","110","10141102","",10141,"","","Yes","","215 E HAWAII AVE., NAMPA, IDAHO, 83686",-116.5706234,43.554591
+"250",10141,"104","NICA SLC ORTHO NAMPA HAWAII","","NICA ORTH","REGIONAL
+BOC
+NAMPA
+HAWAII
+BOISE ORTHOPEDIC CLINIC","NICA","St. Luke's Clinic - Orthpaedic  - Nampa Hawaii","","Orthopedic Surgery","","215 E HAWAII AVE.",NA,"NAMPA","IDAHO","83686","6011","","United States of America","110","10141104","",10141,"","","Yes","","215 E HAWAII AVE., NAMPA, IDAHO, 83686",-116.5706234,43.554591
+"251",10165,"119","NMC BOISE SURGICAL GROUP - NAMPA VENTANA","","NMC BSG","REGIONAL
+BOISE SURGICAL GROUP
+NAMPA
+VENTANA BSG","NMC","St. Luke's Clinic - Boise Surgical Group- Nampa","","General Surgery","","9850 W ST LUKES DR.",NA,"NAMPA","IDAHO","83687","7912","","United States of America","110","10165119","",10165,"","","Yes","","9850 W ST LUKES DR., NAMPA, IDAHO, 83687",-116.5634624,43.5407172
+"252",10165,"116","NMC OCCUPATIONAL HEALTH","","NMC OCCHLTH","OCC HEALTH
+NAMPA
+NMC","NMC","St. Luke's Occupational Health - Nampa","","Occupational Medicine","","9850 W ST LUKES DR.",NA,"NAMPA","IDAHO","83687",NA,"CANYON","United States of America","110","10165116","",NA,"","","Yes","","9850 W ST LUKES DR., NAMPA, IDAHO, 83687",-116.5634624,43.5407172
+"253",10165,"128","NMC SLC ORTHOPEDICS - NAMPA VENTANA","","NMC ORTHO","NMC ORTHO","NMC","St. Luke's Clinic - Orthopedics - Nampa Ventana","","Orthopedic Surgery","","9850 W ST LUKES DR.",NA,"NAMPA","IDAHO","83687","7912","CANYON","United States of America","110","10165128","",10165,"Clinic Outpatient","","Yes","","9850 W ST LUKES DR., NAMPA, IDAHO, 83687",-116.5634624,43.5407172
+"254",10501,"100","OBFM SLC ONTARIO BRAUER FAMILY MEDICINE","","OBFM OBFM","","","BRAUER FAMILY MEDICINE","","Family Medicine","","1059 S.WEST 3RD AVE.",NA,"ONTARIO","OREGON","97914",NA,"MALHEUR","United States of America","110","10501100","",10501,"Minor Procedure","","Yes","","1059 S.WEST 3RD AVE., ONTARIO, OREGON, 97914",-116.976986,44.026126
+"255",10110,"100","OSC ORTHO SURGERY CENTER","","OSC OSC","ORTHO SURG
+ORTHO SURGERY CENTER
+ORTHOPEDIC SURGERY CENTER","OSC","St. Luke's Ortho Surgery Center","","Orthopedic Surgery","","1425 W RIVER ST.",NA,"BOISE","IDAHO","83702","6861","","United States of America","110","10110100","",10100,"Hospital Outpatient Surgery","","Yes","","1425 W RIVER ST., BOISE, IDAHO, 83702",-116.216094,43.6163385
+"256",10182,"100","PCI SLC PODIATRY","","PCI BPOD","PODIATRY","PCI","St. Luke's Clinic - Podiatry - Boise","","Podiatry","","1907 S BROADWAY AVE. "," 205","BOISE","IDAHO","83706",NA,"ADA","United States of America","110","10182100","",10182,"Clinic Outpatient
+Specimen","","Yes","","1907 S BROADWAY AVE. , BOISE, IDAHO, 83706",-116.1941081,43.589638
+"257",10125,"101","PKC SL FAMILY MEDICINE - PARK CENTER","","PKC SLFM","SLFM PARKCENTER
+PARKCENTER
+PKC","PKC","St. Luke's Family Medicine - ParkCenter","","Family Medicine","","701 E PARKCENTER BLVD",NA,"BOISE","IDAHO","83706","6528","","United States of America","110","10125101","",10125,"Clinic Outpatient
+Specimen","","Yes","","701 E PARKCENTER BLVD, BOISE, IDAHO, 83706",-116.1753718,43.5894268
+"258",10125,"102","PKC SL INTERNAL MEDICINE - PARK CENTER","","PKC SLIM","SLIM PARKCENTER
+PARKCENTER
+PKC","PKC INTERNAL MEDICINE","St. Luke's Clinic Internal Medicine - ParkCenter","","Internal Medicine","","701 E PARKCENTER BLVD",NA,"BOISE","IDAHO","83706","6528","","United States of America","110","10125102","",10125,"Clinic Outpatient
+Specimen","","Yes","","701 E PARKCENTER BLVD, BOISE, IDAHO, 83706",-116.1753718,43.5894268
+"259",10125,"103","PKC SL MOUNTAIN STATES UROLOGY PARKCENTER","","PKC MSU","PARKCENTER
+MSU PARKCENTER
+UROLOGY
+PKC
+URO
+MSU
+PKCMSU
+MSUURO
+UROMSU
+MSUPKC
+MOUNTAIN STATES","PKC","St. Luke's Clinic Mountain States Urology - ParkCenter","","Urology","","701 E PARKCENTER BLVD",NA,"BOISE","IDAHO","83706","6528","","United States of America","110","10125103","",10125,"Clinic Outpatient
+Specimen","","Yes","","701 E PARKCENTER BLVD, BOISE, IDAHO, 83706",-116.1753718,43.5894268
+"260",10303,"114","PLMC SL CHILDRENS CARDIOLOGY - MCCALL","","PLMC PED CRD","PAYETTE LAKES MEDICAL CLINIC
+PAYETTE PEDS CARD
+PLMC PED CRD","PLMC","St. Luke's Childrens - Cardiology - McCall","","Pediatric Cardiology","","211 FOREST ST.",NA,"MCCALL","IDAHO","83638","5236","","","110","10303114","",10303,"","","Yes","","211 FOREST ST., MCCALL, IDAHO, 83638",-116.1116918,44.9092053
+"261",10303,"115","PLMC SL CHILDRENS DEVELOPMENTAL PEDIATRICS","","PLMC CHD DEV","PLMC CHD DEV","PLMC","St. Luke's Children's - Developmental Pediatrics - McCall","","Developmental and Behavioral Pediatrics","","211 FOREST ST.",NA,"MCCALL","IDAHO","83638","5256","VALLEY","United States of America","110","10303115","",10303,"","","Yes","","211 FOREST ST., MCCALL, IDAHO, 83638",-116.1116918,44.9092053
+"262",10303,"101","PLMC SL IDAHO CARDIOLOGY ASSOCIATES","","PLMC SLICA","PAYETTE LAKES MEDICAL CLINIC
+SLICA PAYETTE
+PAYETTE SLICA","PLMC","St. Luke's Idaho Cardiology Associates - McCall","","Cardiology","","211 FOREST ST.",NA,"MCCALL","IDAHO","83638","5256","VALLEY","United States of America","110","10303101","",10303,"Clinic Outpatient
+Specimen","","Yes","","211 FOREST ST., MCCALL, IDAHO, 83638",-116.1116918,44.9092053
+"263",10303,"107","PLMC SL MOUNTAIN STATES UROLOGY - MCCALL","","PLMC MSU","MSU
+MCCALL
+REGIONAL
+UROLOGY
+MC
+URO
+PLMC
+PLMMSU
+UROMSU
+PLMCURO
+UROPLMC
+MOUNTAIN STATES","PLMC","St. Luke's Clinic - Mountain States Urology - McCall","","Urology","","211 FOREST ST.",NA,"MCCALL","IDAHO","83638","5256","VALLEY","United States of America","110","10303107","",10303,"Clinic Outpatient
+Specimen","","Yes","","211 FOREST ST., MCCALL, IDAHO, 83638",-116.1116918,44.9092053
+"264",10303,"110","PLMC SLC INTEGRATIVE MEDICINE CLINIC","","PLMC IMC","INTEGRATIVE MEDICINE
+REGIONAL","PLMC","St. Luke's Clinic- Integrative Medicine - McCall","","Family Medicine","","211 FOREST ST.",NA,"MCCALL","IDAHO","83638","5256","VALLEY","United States of America","110","10303110","",NA,"Clinic Outpatient
+Specimen","","Yes","","211 FOREST ST., MCCALL, IDAHO, 83638",-116.1116918,44.9092053
+"265",10303,"109","PLMC SLC MCCALL ORTHOPAEDICS","","PLMC ORTHO","MCCALL
+ORTHO
+MCCALL ORTHOPEDICS","PLMC","St. Luke's Clinic-Payette Lakes Medical Clinic-McCall","","Orthopedic Surgery","","211 FOREST ST.",NA,"MCCALL","IDAHO","83638","5256","","United States of America","110","10303109","",NA,"Clinic Outpatient","","Yes","","211 FOREST ST., MCCALL, IDAHO, 83638",-116.1116918,44.9092053
+"266",10303,"113","PLMC SLC NEPHROLOGY MCCALL","","PLMC NEPH","PLMC NEPH","PLMC","St. Luke's Clinic - Nephrology - McCall","","Nephrology","","211 FOREST ST.",NA,"MCCALL","IDAHO","83638",NA,"","","110","10303113","",10303,"Clinic Outpatient","","Yes","","211 FOREST ST., MCCALL, IDAHO, 83638",-116.1116918,44.9092053
+"267",10303,"111","PLMC SLC OBSTETRICS AND GYNECOLOGY - MCCALL","","PLMC OBGYN","REGIONAL
+OBGYN MCCALL
+PLMC","PLMC","St. Luke's Clinic - OBGYN - McCall","","Obstetrics and Gynecology","","211 FOREST ST.",NA,"MCCALL","IDAHO","83638","5256","VALLEY","United States of America","110","10303111","",10303,"Clinic Outpatient
+Specimen","","Yes","","211 FOREST ST., MCCALL, IDAHO, 83638",-116.1116918,44.9092053
+"268",10303,"100","PLMC SLC PAYETTE LAKES MEDICAL CLINIC","","PLMC PLMC","PAYETTE LAKES CLINIC
+PAYETTE LAKES MEDICAL CLINIC
+PAYETTE
+OB","PLMC","St. Luke's Clinic Payette Lakes Medical Clinic - McCall","","Family Medicine","","211 FOREST ST.",NA,"MCCALL","IDAHO","83638","5256","","United States of America","110","10303100","",10303,"Clinic Outpatient
+Specimen","","Yes","","211 FOREST ST., MCCALL, IDAHO, 83638",-116.1116918,44.9092053
+"269",10106,"100","PNR SLC ORTHO MYRTLE","","PNR ORTH","INTERMOUNTAIN ORTHO
+INT ORTHO
+PIONEER PLAZA
+ORTHO
+INTERMOUNTAIN
+PNR
+INTERMOUNTAIN ORTHOPEDIC CLINIC","PNR","St. Luke's Clinic - Orthopaedics - Myrtle","","Orthopedic Surgery","","1109 W MYRTLE ST. "," 200","BOISE","IDAHO","83702","6975","ADA","United States of America","110","10106100","",10106,"Clinic Outpatient
+Specimen","","Yes","","1109 W MYRTLE ST. , BOISE, IDAHO, 83702",-116.210752,43.615187
+"270",10153,"100","PORTE BOISE SURGICAL GROUP","","PORT BSG","PORTICO
+BSG
+GENERAL SURGERY","PORTW","Boise Surgical Group - Portico - Meridian","","General Surgery","","3399 E LOUISE DR. "," 400","MERIDIAN","IDAHO","83642","5047","ADA","United States of America","110","10153100","",10153,"Clinic Outpatient
+Specimen","","Yes","","3399 E LOUISE DR. , MERIDIAN, IDAHO, 83642",-116.3525247,43.6014835
+"271",10174,"112","PORTW SLC ORTHOPAEDICS","","PORTW ORTHO","PORTW ORTHO","PORTW","St. Luke's Clinic - Orthopaedics - Portico West","","Orthopedic Surgery","","3277 E. LOUISE DR. STE 200",NA,"MERIDIAN","IDAHO","83642",NA,"","","110","10174112","",10174,"Clinic Outpatient","","Yes","","3277 E. LOUISE DR. STE 200, MERIDIAN, IDAHO, 83642",-116.3540106,43.6015226
+"272",10174,"110","PORTW SLC VEIN CARE","","PORTW VCMC","VEIN CARE
+PORTICO WEST
+PORTW
+VASCULAR","PORTW","St. Luke's Clinic - Vein Care - Meridian","","Vein Care","","3277 E LOUISE DR. "," 150","MERIDIAN","IDAHO","83642","9359","ADA","United States of America","110","10174110","",10174,"Clinic Outpatient
+Specimen","","Yes","","3277 E LOUISE DR. , MERIDIAN, IDAHO, 83642",-116.3540106,43.6015226
+"273",10412,"100","POSC SLC ORTHO POCATELLO","","POSC ORTH","ORTHO
+INTERMOUNTAIN
+POCATELLO
+IOC
+POSC
+ORTHOPEDICS
+INTERMOUNTAIN ORTHOPEDIC CLINIC","POSC","St. Luke's Clinic - Orthopedics - Pocatello","","Orthopedic Surgery","","560 MEMORIAL DR.",NA,"POCATELLO","IDAHO","83201","4070","BANNOCK","United States of America","110","10412100","",10412,"","","Yes","","560 MEMORIAL DR., POCATELLO, IDAHO, 83201",-112.4301124,42.8695952
+"274",10511,"100","RPPB SLC PSYCHIATRIC WELLNESS - LA GRANDE","","RPPB PSYCH","LA GRANDE
+PSYCHIATRIC
+PSYCH
+PSYCHIATRIC WELLNESS
+RPPB
+WELLNESS
+REGIONAL","RPPB","St. Luke's Psychiatric Wellness - La Grande","","Psychiatry","","401 ADAMS AVE.",NA,"LA GRANDE","OREGON","97850",NA,"","","110","10511100","",10511,"","","Yes","","401 ADAMS AVE., LA GRANDE, OREGON, 97850",-118.103989,45.3298065
+"275",10183,"100","SHCC SL CHILDRENS MENTAL HEALTH","","SHCC CMH","CHILDRENS MNTL HEALTH
+PSYCHOLOGY
+ALLUMBAUGH
+CSC
+PEDIATRIC MENTAL HEALTH
+PEDS MENTAL HEALTH","SHCC","St. Lukes Childrens Neurobehavioral Medicine-Boise","","Pediatric Mental Health","","413 N ALLUMBAUGH "," 102","BOISE","IDAHO","83704",NA,"ADA","United States of America","110","10183100","",10183,"Clinic Outpatient
+Specimen","","Yes","SLHS_Childrens_4c_Med.JPG","413 N ALLUMBAUGH , BOISE, IDAHO, 83704",-116.267973,43.608556
+"276",11100,"100","SIMCA SIMPLOT WELLNESS CENTER","","SIMCA SWC","SIMPLOT
+JR SIMPLOT
+CALDWELL","SIMCA SWC","Simplot Wellness Center - Caldwell","","Occupational Medicine","","16551 SIMPLOT BLVD GATE ","3","CALDWELL","IDAHO","83605",NA,"CANYON","United States of America","110","11100100","",NA,"","","Yes","","16551 SIMPLOT BLVD GATE , CALDWELL, IDAHO, 83605",-116.6462445,43.6686454
+"277",10998,"140","SL TREASURE VALLEY ORTHOPAEDICS","","SLC ORTHO","TREASURE VALLEY ORTHOPEDICS
+ORTHOPEDICS","","SLC TV ORTHOPAEDICS","","Orthopedic Surgery","","600 W ROBBINS ROAD "," 100","BOISE","IDAHO","83702","4564","ADA","United States of America","110","10998140","",NA,"","","Yes","","600 W ROBBINS ROAD , BOISE, IDAHO, 83702",-116.1931489,43.616272
+"278",10610,"100","SMCH SLC FOOT CARE","","SMCH FCC","SMCH FCC","SMCH","St. Luke's Clinic - Foot Care - Boise","","Diabetes Services","","7500 NORTHVIEW",NA,"BOISE","IDAHO","83704",NA,"","","110","10610100","",10610,"","","Yes","","7500 NORTHVIEW, BOISE, IDAHO, 83704",-116.275617,43.6266647
+"279",10304,"101","SRMC SLC PAYETTE LAKES MEDICAL CLINIC - RIGGINS","","SRMC PLMC","PAYETTE LAKES
+REGIONAL
+RIGGINS
+PLMC","SRMC","Payette Lakes Medical Clinic - Riggins","","Family Medicine","","214 MAIN ST.",NA,"RIGGINS","IDAHO","83549","9998","IDAHO","United States of America","110","10304101","",NA,"Clinic Outpatient
+Specimen","","Yes","","214 MAIN ST., RIGGINS, IDAHO, 83549",-116.3150119,45.4218504
+"280",10304,"100","SRMC SLC SALMON RIVER MEDICAL CLINIC","","SRMC SRMC","SALMON CLINIC MEDICAL CENTER
+SALMON
+RIGGINS
+FAMILY","SRMC","St. Luke's Clinic Salmon River Family Medicine-Riggins","","Family Medicine","","214 MAIN ST.",NA,"RIGGINS","IDAHO","83549","9998","","United States of America","110","10304100","",10304,"Clinic Outpatient
+Specimen","","Yes","","214 MAIN ST., RIGGINS, IDAHO, 83549",-116.3150119,45.4218504
+"281",10188,"100","SSOP SLC SPORTS MEDICINE CONCUSSION CLINIC","","SSOP SLSMCC","SPORTS MEDICINE
+CONCUSSION
+CONCUSSION CLINIC
+SSOP
+STATE","SSOP","St. Luke's Sports Medicine Concussion Clinic - Boise","","Sports Medicine","","111 W. STATE ST.",NA,"BOISE","IDAHO","83702","6127","ADA","United States of America","110","10188100","",NA,"","","Yes","","111 W. STATE ST., BOISE, IDAHO, 83702",-116.192994,43.61454
+"282",10603,"104","SSSN SL CHILDRENS MENTAL HEALTH","","SSSN CMH","SSSN CMH
+CHILDREN MENTAL
+MENTAL
+NAMPA","SSSN","St. Luke's Children's - Mental Health - Nampa","","Pediatric Mental Health","","170 2ND ST. S.",NA,"NAMPA","IDAHO","83686",NA,"CANYON","United States of America","110","10603104","",10603,"Clinic Outpatient","","Yes","","170 2ND ST. S., NAMPA, IDAHO, 83686",-116.5710157,43.5855369
+"283",10202,"100","SVSM SLC SUN VALLEY SPORTS MEDICINE","","SVSM SLC","SUN VALLEY SPORTS MEDICINE
+SVSM SPORTS MED
+SV SPORTS
+SPORTS MED SUN VALLEY
+SUN
+KETCHUM
+ORTHO
+SPORTS
+WOOD
+SVSPORTS
+WRSPORTS","SVSM","St. Luke's Clinic Sun Valley Sports Medicine - Ketchum","","Sports Medicine","","191 5TH ST. W.",NA,"KETCHUM","IDAHO","83340","9998","","United States of America","110","10202100","",10202,"Clinic Outpatient
+Specimen","","Yes","","191 5TH ST. W., KETCHUM, IDAHO, 83340",-114.3674133,43.6805567
+"284",10202,"102","SVSM SLC WOOD RIVER DERMATOLOGY","","SVSM DERM","DERMATOLOGY
+WR DERM
+WOOD
+SUN
+DERM
+DER
+SVDERM
+WRDERM","SVSM","St. Luke's Clinic - Wood River Dermatology - Ketchum","","Dermatology","","191 5TH ST. WEST",NA,"KETCHUM","IDAHO","83340","9998","BLAINE","United States of America","110","10202102","",10202,"Clinic Outpatient
+Specimen","","Yes","","191 5TH ST. WEST, KETCHUM, IDAHO, 83340",-114.3674133,43.6805567
+"285",10124,"100","SYR SLC SYRINGA FAMILY MEDICINE","","SYR SFM","SYRINGA","","Syringa Family Medicine","","Family Medicine","","610 W HAYS ST.",NA,"BOISE","IDAHO","83702","5511","ADA","United States of America","110","10124100","",10124,"Clinic Outpatient","","Yes","","610 W HAYS ST., BOISE, IDAHO, 83702",-116.1961562,43.6201945
+"286",10131,"100","TMFH SLC ST. LUKE'S FAMILY HEALTH - 10 MILE","","TMFH SLFH","SLFH
+10 MILE SLFH
+SLFH TEN MILE
+SLFH MILANO
+FAMILY HEALTH","TMFH","St. Luke's Family Health - Ten Mile","","Family Medicine","","3140 W MILANO DR. "," 150","MERIDIAN","IDAHO","83646","7290","","United States of America","110","10131100","",10131,"Clinic Outpatient
+Specimen","","Yes","","3140 W MILANO DR. , MERIDIAN, IDAHO, 83646",-116.4328915,43.6512177
+"287",10505,"100","UCHC SL IDAHO CARDIOLOGY ASSOCIATES","","UCHC SLICA","UNION COUNTY HEALTH CENTER
+ICA OREGON
+OREGON ICA
+ICA UNION
+SLICA","UCHC","St. Luke's Idaho Cardiology Associates - Oregon","","Cardiology","","142 E DEARBORN ST.",NA,"UNION","OREGON","97883","9998","UNION","United States of America","110","10505100","",10505,"","","Yes","","142 E DEARBORN ST., UNION, OREGON, 97883",-117.865163,45.206866
+"288",10146,"100","WFH SL FAMILY HEALTH","","WFH SLFH","SLFH
+SLFH MCMILLAN
+WEST FAMILY HEALTH
+SLFH WEST
+WEST SLFH
+MCMILLAN","WFH","St Lukes Clinic Family Health - McMillan","","Family Medicine","","12080 W MCMILLAN ROAD",NA,"BOISE","IDAHO","83713","2462","ADA","United States of America","110","10146100","",10146,"Clinic Outpatient
+Specimen","","Yes","","12080 W MCMILLAN ROAD, BOISE, IDAHO, 83713",-116.3475458,43.6484071
+"289",10173,"100","WKMH SLC CALDWELL UROLOGY - EMMETT","","WKMH URO","REGIONAL
+EMMETT
+CALDWELL UROLOGY
+CU
+CU EMMETT
+CU REGIONAL
+CMU
+CMSU","WKMH","St. Luke's Clinic - Caldwell Urology - Emmett","","Urology","","1202 E LOCUST ST.",NA,"EMMETT","IDAHO","83617","2715","GEM","United States of America","110","10173100","",10173,"","","Yes","","1202 E LOCUST ST., EMMETT, IDAHO, 83617",-116.4848652,43.879196
+"290",10149,"100","WRC SL IDAHO CARDIOLOGY ASSOCIATES","","WRC SLICA","WEISER REGIONAL CLINIC
+SLICA WEISER
+WEISER SLICA
+SLICA","WRC","St. Luke's Idaho Cardiology Associates - Weiser","","Cardiology","","645 E 5TH ST.",NA,"WEISER","IDAHO","83672","2202","WASHINGTON","United States of America","110","10149100","",10149,"","","Yes","","645 E 5TH ST., WEISER, IDAHO, 83672",-116.9621748,44.248733
+"291",10149,"102","WRC SLC FRUITLAND GENERAL SURGERY - WEISER","","WRC FGS","REGIONAL
+FRUITLAND GENERAL SURG
+WEISER
+GEN SURG WEISER
+BABIJ
+WRC
+FLC","","St. Luke's Clinic - Fruitland General Surgery - Weiser","","General Surgery","","645 E 5TH ST.",NA,"WEISER","IDAHO","83672","2202","WASHINGTON","United States of America","110","10149102","",10149,"Clinic Outpatient
+Specimen","","Yes","","645 E 5TH ST., WEISER, IDAHO, 83672",-116.9621748,44.248733
+"292",10203,"105","WRFM SL CHILDRENS CARDIOLOGY - WOOD RIVER","","WRFM PED CRD","REGIONAL
+CSC CARDIOLOGY
+SUN VALLEY CSC
+WRFM
+CARDIOLOGY PEDS
+PEDIATRIC
+CHILDREN'S","WRFM","St. Luke's Children's - Cardiology - Ketchum","","Pediatric Cardiology","","1450 AVIATION DR. "," 100","KETCHUM","IDAHO","83340","8889","BLAINE","United States of America","110","10203105","",10203,"Clinic Outpatient
+Specimen","","Yes","","1450 AVIATION DR. , KETCHUM, IDAHO, 83340",-114.3636619,43.6807402
+"293",10203,"102","WRFM SL IDAHO CARDIOLOGY ASSOCIATES","","WRFM SLICA","HAILEY REGIONAL CLINIC
+SLICA HAILEY","WRFM","St. Luke's Idaho Cardiology Associates - Hailey","","Cardiology","","1450 AVIATION DR. "," 100","HAILEY","IDAHO","83340","8889","","United States of America","110","10203102","",NA,"Clinic Outpatient
+Specimen","","Yes","","1450 AVIATION DR. , HAILEY, IDAHO, 83340",-114.3026785,43.5047158
+"294",10203,"106","WRFM SL RHEUMATOLOGY WOOD RIVER","","WRFM RHEUM","REGIONAL
+WOOD RIVER
+WRFM RHEUM
+RHEUMATOLOGY","WRFM","St. Luke's Clinic - Rheumatology - Hailey","","Rheumatology","","1450 AVIATION DR. "," 100","HAILEY","IDAHO","83333","8785","BLAINE","United States of America","110","10203106","",10203,"Clinic Outpatient
+Specimen","","Yes","","1450 AVIATION DR. , HAILEY, IDAHO, 83333",-114.3026785,43.5047158
+"295",10203,"100","WRFM SLC FAMILY MEDICINE","","WRFM SLFM","WOOD RIVER FAMILY MEDICINE
+WRFM
+FAMILY MEDICINE WR
+HAILEY
+FAMILY
+AVIATION
+WOOD
+RIVER
+MEDM
+WRFAM
+FAM","WRFM","St. Luke's Clinic Wood River Family Medicine - Hailey","","Family Medicine","","1450 AVIATION DR. "," 100","HAILEY","IDAHO","83333","8785","","United States of America","110","10203100","",10203,"Clinic Outpatient
+Specimen","","Yes","","1450 AVIATION DR. , HAILEY, IDAHO, 83333",-114.3026785,43.5047158
+"296",10203,"109","WRFM SLC MENTAL HEALTH SERVICES","","WRFM MHS","MENTAL HEALTH
+HAILEY","WRFM","St. Luke's Clinic - Mental Health Services - Hailey","","Psychiatry","","1450 AVIATION DR. "," 202","HAILEY","IDAHO","83333","8785","","","110","10203109","",10203,"Clinic Outpatient
+Specimen","","Yes","","1450 AVIATION DR. , HAILEY, IDAHO, 83333",-114.3026785,43.5047158
+"297",10203,"117","WRFM SLC MV INTERNAL MEDICINE - HAILEY","","WRFM MVIM","WRFM MVIM","WRFM","St. Luke's Clinic - Internal Medicine - Hailey","","Internal Medicine","","1450 AVIATION DR. "," 100","HAILEY","IDAHO","83333","8785","","","110","10203117","",10203,"","","Yes","","1450 AVIATION DR. , HAILEY, IDAHO, 83333",-114.3026785,43.5047158
+"298",10203,"107","WRFM SLC SUN VALLEY SPORTS MEDICINE","","WRFM SVSM","REGIONAL
+SPORTS
+WRSPORTS
+SUN VALLEY
+SUNSPORTS","WRFM","St. Lukes Clinic - Sun Valley Sports Medicine - Hailey","","Sports Medicine","","1450 AVIATION DR.",NA,"HAILEY","IDAHO","83333",NA,"BLAINE","United States of America","110","10203107","",10203,"Clinic Outpatient
+Specimen","","Yes","","1450 AVIATION DR., HAILEY, IDAHO, 83333",-114.3026785,43.5047158
+"299",10203,"110","WRFM SLC WOOD RIVER DERMATOLOGY","","WRFM DERM","DERM
+REGIONAL","WRFM","St. Luke's Clinic - Wood River Dermatology - Hailey","","Dermatology","","1450 AVIATION DR. "," 202","HAILEY","IDAHO","83333","8785","","","110","10203110","",10203,"Clinic Outpatient
+Specimen","","Yes","","1450 AVIATION DR. , HAILEY, IDAHO, 83333",-114.3026785,43.5047158
+"300",10203,"112","WRFM SLC WOOD RIVER GENERAL SURGERY","","WRFM GEN SUR","WOOD RIVER
+GENERAL SURGERY
+WRGEN
+WRSUR
+SUR
+WRFM","WRFM","St. Luke's Clinic - General Surgery - Hailey","","General Surgery","","1450 AVIATION DR. "," 100","HAILEY","IDAHO","83333","8785","","","110","10203112","",10203,"Clinic Outpatient
+Specimen","","Yes","","1450 AVIATION DR. , HAILEY, IDAHO, 83333",-114.3026785,43.5047158
+"301",10203,"103","WRFM SLC WOOD RIVER NEUROLOGY","","WRFM NEURO","WRFM
+NEUROLOGY
+HAILEY
+WRNEU","WRFM","St. Luke's Clinic Wood River - Neurology - Hailey","","Neurology","","1450 AVIATION DR. "," 203","HAILEY","IDAHO","83333","8785","BLAINE","United States of America","110","10203103","",NA,"Clinic Outpatient
+Specimen","","Yes","","1450 AVIATION DR. , HAILEY, IDAHO, 83333",-114.3026785,43.5047158
+"302",10203,"108","WRFM SLC WOOD RIVER OB/GYN","","WRFM WROB","REGIONAAL
+WROB
+WRFMOB
+OB
+GYN","WRFM","St. Luke's Clinic - Wood River OB/GYN - Hailey","","Obstetrics and Gynecology","","1450 AVIATION DR.",NA,"HAILEY","IDAHO","83333",NA,"BLAINE","United States of America","110","10203108","",10203,"Clinic Outpatient
+Specimen","","Yes","","1450 AVIATION DR., HAILEY, IDAHO, 83333",-114.3026785,43.5047158
+"303",10200,"160","WRMC SL CHILDRENS CARDIOLOGY","","WRMC CSC CAR","REGIONAL
+CSC CARDIOLOGY
+SUN VALLEY CSC
+WRMC
+CARDIOLOGY PEDS
+PEDIATRIC
+CHILDREN'S","WRMC CSC ","St. Luke's Children's Cardiology - Ketchum","","Pediatric Cardiology","","100 HOSPITAL DR.",NA,"KETCHUM","IDAHO","83340",NA,"","","110","10200160","",10200,"Clinic Outpatient
+Specimen","","Yes","","100 HOSPITAL DR., KETCHUM, IDAHO, 83340",-114.3495026,43.6485462
+"304",10201,"112","WRPC SL IDAHO CARDIOLOGY ASSOCIATES","","WRPC SLICA","WOOD RIVER REGIONAL
+SLICA SUN VALLEY","WRPC","St. Luke's Idaho Cardiology Associates - Sun Valley","","Cardiology","","100 HOSPITAL DR. POA "," 201","KETCHUM","IDAHO","83340","8889","","United States of America","110","10201112","",NA,"Clinic Outpatient
+Specimen","","Yes","","100 HOSPITAL DR. POA , KETCHUM, IDAHO, 83340",-114.3636619,43.6807402
+"305",10201,"118","WRPC SL MOUNTAIN STATES UROLOGY - KETCHUM","","WRPC MSU","REGIONAL
+KETCHUM
+MSU
+UROLOGY
+MSU REGIONAL
+MSU KETCHUM
+MOUNTAIN STATES","WRPC","St. Luke's Clinic - Mountain States Urology - Ketchum","","Urology","","100 HOSPITAL DR. "," 201","KETCHUM","IDAHO","83340","9998","","United States of America","110","10201118","",10201,"Clinic Outpatient
+Specimen","","Yes","","100 HOSPITAL DR. , KETCHUM, IDAHO, 83340",-114.3495026,43.6485462
+"306",10201,"119","WRPC SLC ALEXANDER ORTHOPAEDICS","","WRPC SLAO","ALEXANDER
+WOOD RIVER
+WRPC
+ORTHO
+ALEXANDER ORTHOPEDICS","WRPC","St. Luke's Clinic - Alexander Orthopaedics - Ketchum","","Orthopedic Surgery","","100 HOSPITAL DR. "," 100","KETCHUM","IDAHO","83340","9998","BLAINE","United States of America","110","10201119","",10201,"Clinic Outpatient
+Specimen","","Yes","","100 HOSPITAL DR. , KETCHUM, IDAHO, 83340",-114.3495026,43.6485462
+"307",10201,"100","WRPC SLC FAMILY MEDICINE","","WRPC SLFM","WOOD RIVER PHYSICIAN CENTER
+WRPC FM
+WRPCFM
+WRFM
+FAMILY MEDICINE WR
+MED
+WOOD
+KETCHUM
+WR
+WRFAM
+WRPC","WRPC","St. Luke's Clinic Wood River Family Medicine - Ketchum","","Family Medicine","","100 HOSPITAL DR. "," 105","KETCHUM","IDAHO","83340","9998","","United States of America","110","10201100","",10201,"Clinic Outpatient
+Specimen","","Yes","","100 HOSPITAL DR. , KETCHUM, IDAHO, 83340",-114.3495026,43.6485462
+"308",10201,"132","WRPC SLC FAMILY MEDICINE - KETCHUM","","WRPC WRFM","WRPC WRFM","WRPC","St. Luke's Clinic - Wood River Family Medicine - Ketchum","","Family Medicine","","100 HOSPITAL DR. "," 109","KETCHUM","IDAHO","83340",NA,"","","110","10201132","",10201,"Clinic Outpatient
+Specimen","","Yes","","100 HOSPITAL DR. , KETCHUM, IDAHO, 83340",-114.3495026,43.6485462
+"309",10201,"128","WRPC SLC GENERAL SURGERY - KETCHUM","","WRPC MVGS","WRPC MVGS","WRPC","St. Luke's Clinic - General Surgery - Ketchum","","General Surgery","","100 HOSPITAL DR. "," 201","KETCHUM","IDAHO","83340","9998","","","110","10201128","",NA,"","","Yes","","100 HOSPITAL DR. , KETCHUM, IDAHO, 83340",-114.3495026,43.6485462
+"310",10201,"125","WRPC SLC MV GASTROENTEROLOGY - KETCHUM","","WRPC MVGI","WRPC MVGI","WRPC","St. Luke's Clinic - Gastroenterology - Ketchum","","Gastroenterology","","100 HOSPITAL DR. "," 201","KETCHUM","IDAHO","83340","9998","","","110","10201125","",10201,"","","Yes","","100 HOSPITAL DR. , KETCHUM, IDAHO, 83340",-114.3495026,43.6485462
+"311",10201,"126","WRPC SLC MV NEPHROLOGY - KETCHUM","","WRPC MVNEP","WRPC MVNEP","WRPC","St. Luke's Clinic - Nephrology - Ketchum","","Nephrology","","100 HOSPITAL DR. "," 201","KETCHUM","IDAHO","83340","9998","","","110","10201126","",10201,"","","Yes","","100 HOSPITAL DR. , KETCHUM, IDAHO, 83340",-114.3495026,43.6485462
+"312",10201,"127","WRPC SLC MV OTOLARYNGOLOGY - KETCHUM","","WRPC MVENT","WRPC MVENT","WRPC","St. Luke's Clinic - Otolaryngology - Ketchum","","Otolaryngology","","100 HOSPITAL DR. "," 201","KETCHUM","IDAHO","83340","9998","","","110","10201127","",10201,"","","Yes","","100 HOSPITAL DR. , KETCHUM, IDAHO, 83340",-114.3495026,43.6485462
+"313",10201,"130","WRPC SLC MV UROLOGY - KETCHUM","","WRPC MVURO","WRPC MVURO","WRPC","St. Luke's Clinic - Urology - Ketchum","","Urology","","100 HOSPITAL DR. "," 201","KETCHUM","IDAHO","83340","9998","","","110","10201130","",10201,"","","Yes","","100 HOSPITAL DR. , KETCHUM, IDAHO, 83340",-114.3495026,43.6485462
+"314",10201,"133","WRPC SLC SUN VALLEY SPORTS MEDICINE","","WRPC SVSM","WRPC SVSM
+SUN VALLEY SPORTS MED
+SVSM SPORTS MED
+KETCHUM
+WRPC SPORTS","WRPC","St. Luke's Clinic - Sun Valley Sports Medicine - Ketchum","","Sports Medicine","","100 HOSPITAL DR. "," 105","KETCHUM","IDAHO","83340",NA,"","","110","10201133","",10201,"Clinic Outpatient
+Specimen","","Yes","","100 HOSPITAL DR. , KETCHUM, IDAHO, 83340",-114.3495026,43.6485462
+"315",10201,"124","WRPC SLC WOOD RIVER ENT","","WRPC ENT","WRPC ENT","WRPC","St. Luke's Clinic - ENT - Wood River","","Otolaryngology","","100 HOSPITAL DR. "," 201","KETCHUM","IDAHO","83340",NA,"","","110","10201124","",10201,"Clinic Outpatient","","Yes","","100 HOSPITAL DR. , KETCHUM, IDAHO, 83340",-114.3495026,43.6485462
+"316",10201,"114","WRPC SLC WOOD RIVER GENERAL SURGERY","","WRPC GEN SUR","WOOD RIVER
+GENERAL SURGERY
+WRGEN
+WRSUR
+SUR
+WOOD
+WRPC
+GENSURG
+WOOD RIVER GENERAL SURGERY
+WR GENERAL SURGERY
+WR GEN SURG
+GEN SURG","WRPC","St. Luke's Clinic- General Surgery - Ketchum","","General Surgery","","100 HOSPITAL DR. ","109","KETCHUM","IDAHO","83340","9998","","United States of America","110","10201114","",NA,"Clinic Outpatient","","Yes","","100 HOSPITAL DR. , KETCHUM, IDAHO, 83340",-114.3495026,43.6485462
+"317",10201,"101","WRPC SLC WOOD RIVER INTERNAL MEDICINE","","WRPC WRIM","WOOD RIVER PHYSICIAN CENTER
+SLIM WR
+WR SLIM
+WRPC
+WOOD
+INTERNAL MED
+WRINTER
+WRMED
+WRIM","WRPC","St. Luke's Clinic Wood River Internal Medicine-Ketchum","","Internal Medicine","","100 HOSPITAL DR. ","201","KETCHUM","IDAHO","83340","9998","","United States of America","110","10201101","",10201,"Clinic Outpatient
+Specimen","","Yes","","100 HOSPITAL DR. , KETCHUM, IDAHO, 83340",-114.3495026,43.6485462
+"318",10201,"115","WRPC SLC WOOD RIVER NEUROLOGY","","WRPC NEURO","WOOD RIVER
+NEUROLOGY
+WRNEUR
+NEURO
+WOOD","WRPC","St Luke's Clinic Neurology - Wood River - Ketchum","","Neurology","","100 HOSPITAL DR. ","109","KETCHUM","IDAHO","83340",NA,"","United States of America","110","10201115","",NA,"Clinic Outpatient","","Yes","","100 HOSPITAL DR. , KETCHUM, IDAHO, 83340",-114.3495026,43.6485462
+"319",10201,"102","WRPC SLC WOOD RIVER OB/GYN","","WRPC WROB","WOOD RIVER PHYSICIAN CENTER
+WROB
+WR OB
+WOOD RIVER OB
+OB
+OBGYN
+KETCHUM
+WRGYN","WRPC","St. Luke's Clinic Wood River OB/GYN - Ketchum","","Obstetrics and Gynecology","","100 HOSPITAL DR. ","200","KETCHUM","IDAHO","83340","9998","","United States of America","110","10201102","",10201,"Clinic Outpatient
+Specimen","","Yes","","100 HOSPITAL DR. , KETCHUM, IDAHO, 83340",-114.3495026,43.6485462
+"320",10201,"113","WRPC SLC WOOD RIVER UROLOGY","Inactive","WRPC URO","WOOD RIVER
+UROLOGY
+WRURO
+WRPC
+RIVER","","St. Luke's Clinic Wood River Urology - Ketchum","","","","100 HOSPITAL DR. ","201","KETCHUM","IDAHO","83340","9998","BLAINE","United States of America","110","10201113","",NA,"Clinic Outpatient","","Yes","","100 HOSPITAL DR. , KETCHUM, IDAHO, 83340",-114.3495026,43.6485462
+"321",10187,"109","WVMCC SL CHILDRENS MENTAL HEALTH","","WVMCC CMH","WVMCC CMH
+CHILDREN MENTAL
+MENTAL
+CALDWELL","WVMCC","St. Luke's Children's - Mental Health - Caldwell","","Pediatric Mental Health","","1906 FAIRVIEW AVE. "," 330","CALDWELL","IDAHO","83605",NA,"CANYON","United States of America","110","10187109","",10187,"Clinic Outpatient","","Yes","","1906 FAIRVIEW AVE. , CALDWELL, IDAHO, 83605",-116.694704,43.653037
+"322",10187,"100","WVMCC SLC CALDWELL UROLOGY","","WVMCC URO","CALDWELL UROLOGY
+URO
+WVMCC
+FAIRVIEW","WVMCC","St. Luke's Clinic - Caldwell Urology","","Urology","","1906 FAIRVIEW AVE. "," 350","CALDWELL","IDAHO","83605","5407","CANYON","United States of America","110","10187100","",10187,"Clinic Outpatient
+Specimen","","Yes","","1906 FAIRVIEW AVE. , CALDWELL, IDAHO, 83605",-116.694704,43.653037
