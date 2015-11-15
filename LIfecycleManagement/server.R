@@ -17,12 +17,22 @@ library(mapproj)
 library(DT)
 
 function(input,output) {
+        facilitiesInBound <- reactive({
+                if (is.null(input$siteMap_bounds))
+                        return(facilities[FALSE,])
+                bounds <- input$siteMap_bounds
+                latRng <- range(bounds$north, bounds$south)
+                lngRng <- range(bounds$east, bounds$west)
+                
+                facilities%>%filter(
+                        lat >= latRng[1] & lat <= latRng[2] &
+                                lon >= lngRng[1] & lon <= lngRng[2])
+                
+        })
         departmentsInBound <- reactive({
-                    message("in departmentsInBounds")
-                        if (is.null(input$siteMap_bounds))
+                         if (is.null(input$siteMap_bounds))
                                 return(departments[FALSE,])
                         bounds <- input$siteMap_bounds
-                        message(bounds)
                         latRng <- range(bounds$north, bounds$south)
                         lngRng <- range(bounds$east, bounds$west)
                         
@@ -38,13 +48,13 @@ function(input,output) {
                  departmentCount <- nrow(selectedDepartments)
                 message(nrow(selectedSite))
                 content <- as.character(tagList(
-                        tags$h5(sprintf("Facility Name: %s", selectedSite$FACILITY.NAME)),
-                        tags$strong(HTML(sprintf("%s ",
-                                                 selectedSite$fullAddress
-                        ))), tags$br(),
+                        tags$strong( selectedSite$FACILITY.NAME),
+                        tags$br(),
                         sprintf("Number of Departments %s",  departmentCount), tags$br(),
                         sprintf("TDR Readiness Status: %s", selectedSite$statusColor), tags$br(),
-                        sprintf("Deployment Status: %s", "In Progress")
+                        sprintf("Deployment Status: %s", "In Progress"), tags$br(),
+                        sprintf("%s ",selectedSite$fullAddress)
+                        
                 ))
                 leafletProxy("siteMap") %>% addPopups(lng, lat, content, layerId = "siteMap")
         }
@@ -74,7 +84,7 @@ function(input,output) {
                                 ~lon,
                                 ~lat,
                                 fillColor = colors,
-                                opacity = 1,
+                                opacity = .8,
                                 radius = 6,
                                 layerId = ~Facility.ID
                         )%>%
@@ -95,6 +105,19 @@ function(input,output) {
                                                                  
                 
        
+        })
+        output$facilityTable <- DT::renderDataTable({
+                
+                selectedFacilities <- facilitiesInBound() 
+                if(nrow(selectedFacilities) == 0)return(datatable(selectedFacilities))
+                selectedFacilities<- selectedFacilities%>%select(Facility.ID,FACILITY.NAME,fullAddress)
+                
+                datatable(selectedFacilities , extensions = c("ColReorder",'ColVis' ), options = list(dom = 'RC<"clear">lfrtip',pageLength=5, autoWidth = TRUE,
+                                                                                         colVis = list(exclude = c(0, 1), activate = 'mouseover')
+                ) )
+                
+                
+                
         })
         
 }
