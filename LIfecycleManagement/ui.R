@@ -47,13 +47,11 @@ sidebar <-         dashboardSidebar(
 
 body <-  dashboardBody( tabItems(   tabItem(tabName = "map",
                                     fluidRow( 
-                                            box(tile="Site Map",leafletOutput("siteMap" )), box(title="Facilities",
-                                                                                                
-                                                                                                DT::dataTableOutput("facilityTable",width="100%",height="100%"))),
+                                            box(tile="Site Map",leafletOutput("siteMap" )),  box(title = "Status") ),
                                     fluidRow( 
-                                            tile="Departments",box(title="Departments",
-                                                                             DT::dataTableOutput("departmentTable",width="100%",height="600")),
-                                                        box(title = "Status") )),
+                                            tile="Departments",
+                                            box(title="Facilities", DT::dataTableOutput("facilityTable",width="100%",height="100%")),
+                                           box(title="Departments",DT::dataTableOutput("departmentTable",width="100%",height="600")))),
                                    tabItem(tabName = "schedule",
                                            h1("Deployment Schedule"),
                                            fluidRow(title = "Schedule",
