@@ -4,8 +4,7 @@
 
 
 
-# This is the user-interface definition of a Shiny web application.
-# You can find out more about building applications with Shiny here:
+# This the Rapid 
 #
 # http://shiny.rstudio.com
 #
@@ -47,11 +46,14 @@ sidebar <-         dashboardSidebar(
 
 body <-  dashboardBody( tabItems(   tabItem(tabName = "map",
                                     fluidRow( 
-                                            box(tile="Site Map",leafletOutput("siteMap" )),  box(title = "Status") ),
+                                            box(tile="Site Map",leafletOutput("siteMap" )),  box(fluidRow(DT::dataTableOutput("techDressRehersalStatusTable" ))  #,
+                                                                                                # fluidRow( DT::dataTableOutput("techDeploymentStatusTable")) #,
+                                                                                                # fluidRow(  DT::dataTableOutput("predeploymentStatusTable"))
+                                                                                                 )),
                                     fluidRow( 
                                             tile="Departments",
                                             box(title="Facilities", DT::dataTableOutput("facilityTable",width="100%",height="100%")),
-                                           box(title="Departments",DT::dataTableOutput("departmentTable",width="100%",height="600")))),
+                                           box(title="Departments",DT::dataTableOutput("departmentTable",width="100%",height="100%")))),
                                    tabItem(tabName = "schedule",
                                            h1("Deployment Schedule"),
                                            fluidRow(title = "Schedule",
