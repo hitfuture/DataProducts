@@ -121,9 +121,10 @@ function(input,output) {
         })
         output$techDressRehersalStatusTable <- DT::renderDataTable({ 
                stat1 <- data.frame(topic=c("TDR Date Status"),info=c(as.Date("2015-01-015")),status=c("Green"))
+               stat1.1 <- data.frame(topic=c("\tTDR Sign-off"),info=c(as.Date("2015-01-015")),status=c("Green"))
                stat2 <- data.frame(topic=c("Deployment Status"),info=c(as.Date("2015-01-015")),status=c("Green"))
                stat3 <- data.frame(topic=c("Pre-deployment Status"),info=c(as.Date("2015-01-015")),status=c("Green"))
-               stat <- rbind(stat1,stat2,stat3)
+               stat <- rbind(stat1,stat1.1,stat2,stat3)
                 datatable(stat ,rownames = FALSE,options = list(
                        searching = FALSE,
                        paging = FALSE,
