@@ -16,6 +16,7 @@ library(maps)
 library(mapproj)
 library(DT)
 
+
 function(input,output) {
         facilitiesInBound <- reactive({
                 if (is.null(input$siteMap_bounds))
@@ -40,6 +41,11 @@ function(input,output) {
                                lat >= latRng[1] & lat <= latRng[2] &
                                        lon >= lngRng[1] & lon <= lngRng[2])
                
+        })
+        
+        deviceProfiles <- reactive({
+                reg <- input$region
+                return(deviceProfiles)
         })
         showSitePopup <- function(siteCode, lat, lng) {
                 message(sprintf("Site Code %s",siteCode))
@@ -114,6 +120,21 @@ function(input,output) {
                 
                 datatable(selectedFacilities , extensions = c("ColReorder",'ColVis' ), options = list(dom = 'RC<"clear">lfrtip',pageLength=5, autoWidth = TRUE,
                                                                                          colVis = list(exclude = c(0, 1), activate = 'mouseover')
+                ) )
+                
+                
+                
+        })
+        
+        output$deviceProfileTable <- DT::renderDataTable({
+                
+                deviceProfileList <- ourDevices
+                message("got the device list")
+               #  if(nrow(deviceProfiles) == 0)return(datatable(deviceProfiles))
+               # message("Display the datatable")
+                
+                datatable(deviceProfileList , extensions = c("ColReorder",'ColVis' ), options = list(dom = 'RC<"clear">lfrtip',pageLength=15, autoWidth = TRUE,
+                                                                                                      colVis = list(exclude = c(0, 1), activate = 'mouseover')
                 ) )
                 
                 

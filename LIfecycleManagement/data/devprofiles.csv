@@ -1,0 +1,5 @@
+"X","DeviceProfileCode","DeviceProfile","IsShared","AutoBoot","DeviceProfile.Description"
+1,"INPTRM01","In Patient Room Workstation",TRUE,FALSE,"Includes All-In-One 22"", with Keyboard, mouse, barcode scanner, camera, and proximity card reader"
+2,"INPTHALL01","IN Patient Hallway Workstation",TRUE,FALSE,"Includes All-In-One 22"", with Keyboard, mouse, barcode scanner, camera, and proximity card reader"
+3,"INPTNUNT01","IN Patient Nursing Station  Workstation",TRUE,FALSE,NA
+4,"INPTREG","In Patient Registration and Scheduling",FALSE,FALSE,NA
