@@ -31,7 +31,7 @@ for(i in 1:ncol(df)) {
         
 }
 breaches<-cbind(breaches,df)
-breaches <- breaches%>%select(-breach.types)
+breaches <- breaches%>%select(-breach.types)%>%distinct()
 breachTypesByYear <- breaches[,c("Breach.Year","Covered.Entity.Type","Individuals.Affected",names(df))]
 
 breach.types <- breachTypesByYear%>%gather(Breach.X,Breach.Type,-Breach.Year,-Covered.Entity.Type,-Individuals.Affected,na.rm=TRUE)
@@ -40,5 +40,4 @@ breach.types <- breach.types%>%select(-Breach.X)
 minYear <- min(breaches$Breach.Year)
 maxYear <- max(breaches$Breach.Year)
 midYear <- minYear + round((maxYear - minYear) / 2)
-#This is just for testing
-#counties <- readRDS("./data/counties.rds")
+ 

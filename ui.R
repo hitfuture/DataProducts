@@ -38,7 +38,7 @@ sidebar <-         dashboardSidebar(
         
        
         checkboxGroupInput(
-                inputId "covertedEntityType", label = h5("Covered Entity Type"),
+                inputId = "coveredEntityType", label = h5("Covered Entity Type"),
                 choices = list(
                         "Business Associate", "Health Plan", "Healthcare Clearing House","Healthcare Provider"
                 ) ,
@@ -55,7 +55,6 @@ body <-  dashboardBody(tabItems(
                 ),
                 fluidRow(
                         box(title = "Breach Types - Count",plotOutput("breachTypePlotByYear")),
-                        # box(title="Breach Types - Impact",showOutput("breachTypeImpactPlotByYear","polycharts"))
                         box(title = "Breach Types - Impact",plotOutput("breachTypeImpactPlotByYear"))
                         
                 )),
@@ -70,7 +69,7 @@ body <-  dashboardBody(tabItems(
                         
                 )),
         tabItem(tabName = "breachByGeo",
-                box(title="Breach By Geography", rCharts::chartOutput('breachesByGeo', 'datamaps'))),
+                box(title="Breach By Geography", rCharts::chartOutput('breachesByGeo', 'datamaps'),width = 12)),
         tabItem(tabName = "breachData",
                 h1("Breach Data"),
                         
@@ -78,8 +77,11 @@ body <-  dashboardBody(tabItems(
                                 DT::dataTableOutput("breachData",width="100%",height="100%")
                        ),
         tabItem(tabName = "help",
-                h1("Breach Dashboard Help"),
-                fluidRow(title = "Help"))
+                h3("Breach Dashboard Help"),
+                fluidRow(box(width = 12,uiOutput("helpOverview"))),
+                fluidRow(title = "Help",
+                         box(width=4,title="Time Range",uiOutput("helpTimeRange")),
+                             box(width=4,title="Covered Entity Type",uiOutput("helpCoveredEntity"))))
 ))
 
 dashboardPage(dashboardHeader(title = "U.S. PHI Breaches"),
