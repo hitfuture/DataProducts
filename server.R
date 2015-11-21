@@ -208,14 +208,15 @@ function(input, output) {
                 ) )
 
                 })
-        output$helpOverview <- renderUI({div(p("As required by section 13402(e)(4) of the HITECH Act, the Secretary must post a list of breaches of unsecured protected health information affecting 500 or more individuals. These breaches are now posted in a new, more accessible format that allows users to search and sort the posted breaches. Additionally, this new format includes brief summaries of the breach cases that OCR has investigated and closed, as well as the names of private practice providers who have reported breaches of unsecured protected health information to the Secretary. The following breaches have been reported to the Secretary:
+        output$helpOverview <- renderUI({div(tags$link(rel="stylesheet",type="text/css",href="help.css"),
+p("As required by section 13402(e)(4) of the HITECH Act, the Secretary must post a list of breaches of unsecured protected health information affecting 500 or more individuals. These breaches are now posted in a new, more accessible format that allows users to search and sort the posted breaches. Additionally, this new format includes brief summaries of the breach cases that OCR has investigated and closed, as well as the names of private practice providers who have reported breaches of unsecured protected health information to the Secretary. The following breaches have been reported to the Secretary:
 "))})
         output$helpTimeRange <- renderUI({
                 (div(
                         p("Personal Health Information Breaches have been tracked by the Office of the National Coordinator for Health Information Technology (ONC) of the United States government since the year 2009. The time range is controlled by the Years slider in the left side panel. "),
                         tags$table(tags$tr(tags$td(img(src="yearRange.png", height=200,width=100)),
                                            tags$td(""),
-                                           tags$td(" To select the range of time that you would like to investigate, use the  'Years:` slider to select the start and finish times.  This allows you to control all tabs on the Breach Dashboard.")))
+                                           tags$td(class="howTo", " To select the range of time that you would like to investigate, use the  'Years:` slider to select the start and finish times.  This allows you to control all tabs on the Breach Dashboard.")))
                         
                 )
                 )
@@ -226,8 +227,19 @@ function(input, output) {
                         p("Covered entities are defined in the HIPAA rules as (1) health plans, (2) health care clearinghouses, and (3) health care providers who electronically transmit any health information in connection with transactions for which HHS has adopted standards. "),
                         tags$table(tags$tr(tags$td(img(src="coveredEntityTypes.png", height=200,width=100)),
                                            tags$td(""),
-                                           tags$td(" To select the covered entity type that you would like to investigate, use the  'Covered Entity Type:` slider to select the start and finish times.  This allows you to control all tabs on the Breach Dashboard.")))
+                                           tags$td(class="howTo", " To select the covered entity type that you would like to investigate, use the  'Covered Entity Type:` slider to select the start and finish times.  This allows you to control all tabs on the Breach Dashboard.")))
                         
+                )
+                )
+                
+        })
+        output$helpBreachData <- renderUI({
+                (div(
+                        p("The Breach Data is made available by the Office of the National Coordinator on a frequent basis through the " ,
+                          tags$a(href="https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf", target="_blank", "website."),
+                          tags$div("")
+                          ,margin=10)
+                            
                 )
                 )
                 

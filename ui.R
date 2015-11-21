@@ -25,7 +25,8 @@ sidebar <-         dashboardSidebar(
                 min = minYear,
                 max = maxYear,
                 value = c(minYear, maxYear),
-                step = 1
+                step = 1,
+                sep = ""
         ),
         sidebarMenu(
                
@@ -33,7 +34,8 @@ sidebar <-         dashboardSidebar(
                 menuItem("Breach by Devices", tabName = "breachByDevice", icon = icon("map")),
                 menuItem("Breach Geography", tabName = "breachByGeo", icon = icon("map")),
                 menuItem("Breach Data", tabName = "breachData", icon = icon("table")),
-                menuItem("Help", tabName = "help", icon = icon("question-circle"))),
+             menuItem("Help", tabName = "help", icon = icon("question-circle"))
+                ),
        
         
        
@@ -45,7 +47,9 @@ sidebar <-         dashboardSidebar(
               selected = list(
                         "Business Associate", "Health Plan", "Healthcare Clearing House","Healthcare Provider"
                 )
-        )
+        ),
+  sidebarMenu(               menuItem("Help", tabName = "help", icon = icon("question-circle"))
+)
 )
 body <-  dashboardBody(tabItems(
         tabItem(tabName = "breachByYear",
@@ -80,8 +84,9 @@ body <-  dashboardBody(tabItems(
                 h3("Breach Dashboard Help"),
                 fluidRow(box(width = 12,uiOutput("helpOverview"))),
                 fluidRow(title = "Help",
-                         box(width=4,title="Time Range",uiOutput("helpTimeRange")),
-                             box(width=4,title="Covered Entity Type",uiOutput("helpCoveredEntity"))))
+                         box( title="Time Range",uiOutput("helpTimeRange")),
+                             box( title="Covered Entity Type",uiOutput("helpCoveredEntity"))),
+                fluidRow(box(width = 12,title = "Breach Data",uiOutput("helpBreachData"))))
 ))
 
 dashboardPage(dashboardHeader(title = "U.S. PHI Breaches"),
