@@ -73,7 +73,12 @@ body <-  dashboardBody(tabItems(
                         
                 )),
         tabItem(tabName = "breachByGeo",
-                box(title="Breach By Geography", rCharts::chartOutput('breachesByGeo', 'datamaps'),width = 12)),
+                fluidRow(box(title="Breach By Geography", rCharts::chartOutput('breachesByGeo', 'datamaps'),width = 12)),
+                fluidRow(box(title = "Corelation between Population and Breach Count", plotOutput("breachesPopCoorelationPlot")),
+                         box(title = "Corelation between Population and Individuals Impacted", plotOutput("breachesPopCoorelation2Plot"))),
+                fluidRow(box(title = "Corelation between Population and Breach Count", verbatimTextOutput("breachesPopCoorelation")),
+                 box(title = "Corelation between Population and Breach Impact", verbatimTextOutput("breachesPopCoorelation2")))
+                ),
         tabItem(tabName = "breachData",
                 h1("Breach Data"),
                         
@@ -86,6 +91,7 @@ body <-  dashboardBody(tabItems(
                 fluidRow(title = "Help",
                          box( title="Time Range",uiOutput("helpTimeRange")),
                              box( title="Covered Entity Type",uiOutput("helpCoveredEntity"))),
+                fluidRow(box(width = 12,title = "Breach Dashboards",uiOutput("helpBreachDashboards"))),
                 fluidRow(box(width = 12,title = "Breach Data",uiOutput("helpBreachData"))))
 ))
 

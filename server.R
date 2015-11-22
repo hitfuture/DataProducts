@@ -7,6 +7,7 @@
 #
 
 library(shiny)
+library(scales)
 library(ggplot2)
 library(rMaps)
 library(rCharts)
@@ -72,6 +73,27 @@ function(input, output) {
                 breach.types <- breach.types %>% select(-Breach.X)
                 breach.types
         })
+        populationBreachCountFit <- reactive( {
+                stateBreaches <- stateBreachReactive() 
+                fit <- lm(count ~ Population, data=stateBreaches)
+                fit
+        })
+        
+       populationBreachImpactFit <- reactive( {stateBreaches <- stateBreachReactive() 
+        fit <- lm(Individuals.Affected ~ Population , data=stateBreaches)})
+        
+        stateBreachReactive <- reactive ( {
+                breach.filtered() %>%filter(!is.na(Individuals.Affected)&!is.na(State))%>%
+                        group_by(State )%>%
+                        #                  group_by(State,Breach.Year )%>%
+                        summarize(Individuals.Affected=sum(Individuals.Affected),count=n())%>%
+                        mutate( State.Name =state.name[match(State,state.abb)] ,
+                                Population = (statePop$POPESTIMATE2014)[match(State,statePop$STUSAB)] ,
+                                popup = sprintf("<strong>State:</strong> %s <br/><strong>Impacted:</strong> %s <br/><strong>Count:</strong> %s<br/><strong>Population: </strong>%s", 
+                                                State.Name, prettyNum(Individuals.Affected,big.mark=",") ,prettyNum(count,big.mark=","),prettyNum(Population,big.mark=",")) 
+                        )%>%ungroup()%>%
+                        arrange( State)%>%
+                        filter(State != "DC")})
         
         output$breachPlotByYear <- renderPlot({
                 breachesInRange <- breach.filtered()
@@ -93,8 +115,7 @@ function(input, output) {
                 
         })
         output$breachImpactPlotByYear <- renderPlot({
-                message("impact plot by year")
-                breachesInRange <- breach.filtered()
+                 breachesInRange <- breach.filtered()
                 if (nrow(breachesInRange) == 0) return()
                 
                 breachesRange <-
@@ -132,7 +153,6 @@ function(input, output) {
                                 x = as.factor(Breach.Year),fill = Breach.Type
                         )) +
                                 geom_histogram(color = "black") +
-                                #              facet_grid(.~Covered.Entity.Type)
                                 scale_y_continuous(labels=comma)+
                                 xlab("Year - Breach Submitted") +
                                 ylab("Breach Type - Count") +
@@ -171,26 +191,12 @@ function(input, output) {
                 
         })
         output$breachesByGeo <- renderChart2({
-               # message("plot breaches")
-                
-                stateBreaches <- breach.filtered()%>%filter(!is.na(Individuals.Affected)&!is.na(State))%>%
-   #                     group_by(State,Breach.Year)%>%
-                        group_by(State)%>%
-                        summarize(Individuals.Affected=sum(Individuals.Affected),count=n())%>%
-                       mutate(  
-                                popup = sprintf("<strong>State:</strong> %s <br/><strong>Impacted:</strong> %s <br/><strong>Count:</strong> %s", 
-                                                State, prettyNum(Individuals.Affected,big.mark=",") ,prettyNum(count,big.mark=",") ) 
-                        )%>%ungroup()#%>%
- #               arrange(Breach.Year,State)
-                if(nrow(stateBreaches) == 0)stop("No Data Available")
-                str(stateBreaches)
-                ichoropleth(
-                        Individuals.Affected ~ State,
-                        data = stateBreaches,
-                        ncuts = 4,
-                        legend = TRUE, pal = "YlOrRd",
-#                        animate='Breach.Year',
-                        geographyConfig = list(
+                stateBreaches <- stateBreachReactive() 
+                ichoropleth(Individuals.Affected ~ State,
+                            data = stateBreaches,
+                            pal = 'PuRd',
+                            ncuts = 5,
+                         geographyConfig = list(
                                 popupTemplate = "#! function(geography, data){
         Shiny.onInputChange('State', geography.properties.name)
         return '<div class=hoverinfo><strong>' + data.popup + '</strong></div>';
@@ -198,7 +204,22 @@ function(input, output) {
 
                         
                 })
-        
+        output$breachesPopCoorelation <- renderPrint({
+                fit <- populationBreachCountFit() #Reactive
+                (summary(fit)) # show results
+        })
+        output$breachesPopCoorelationPlot <- renderPlot({
+                fit <- populationBreachCountFit()
+                plot(fit)
+        })
+        output$breachesPopCoorelation2 <- renderPrint({
+               fit <- populationBreachImpactFit()
+                (summary(fit)) # show results
+        })
+        output$breachesPopCoorelation2Plot <- renderPlot({
+                fit <- populationBreachImpactFit()
+                plot(fit)
+        })
         output$breachData <- DT::renderDataTable({
                 bdata <- breach.filtered()[,1:10]
                 if(nrow(bdata) == 0)return(datatable(bdata))

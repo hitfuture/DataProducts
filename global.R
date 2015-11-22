@@ -5,6 +5,7 @@ library(lubridate)
 library(dplyr)
 library(tidyr)
 library(leaflet)
+library(datasets)
 
 
 breaches <- read.csv("./data/onc_breach_report.csv" ,na.strings = c("","\\N"), encoding = "UTF-8")
@@ -36,8 +37,14 @@ breachTypesByYear <- breaches[,c("Breach.Year","Covered.Entity.Type","Individual
 
 breach.types <- breachTypesByYear%>%gather(Breach.X,Breach.Type,-Breach.Year,-Covered.Entity.Type,-Individuals.Affected,na.rm=TRUE)
 breach.types <- breach.types%>%select(-Breach.X)
+ 
+breaches <- breaches%>%separate(Location.of.Breached.Information,into=c("location.of.breached.info.1","location.of.breached.info.2") ,sep = ",",extra="drop")
 
 minYear <- min(breaches$Breach.Year)
 maxYear <- max(breaches$Breach.Year)
 midYear <- minYear + round((maxYear - minYear) / 2)
- 
+
+statePop <- read.csv("http://www.census.gov/popest/data/state/asrh/2014/files/SCPRC-EST2014-18+POP-RES.csv")
+sfips <- read.csv("http://www2.census.gov/geo/docs/reference/state.txt",sep = "|")
+statePop <- left_join(statePop,sfips)%>%na.exclude()
+statePop$STATE <- as.character(statePop$STATE)
