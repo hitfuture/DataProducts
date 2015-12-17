@@ -1,3 +1,5 @@
+#require(devtools)  
+#install_github('adymimos/rWordCloud')
 
 #Read in the data
 library(data.table)
@@ -6,7 +8,7 @@ library(dplyr)
 library(tidyr)
 library(leaflet)
 library(datasets)
-
+library(rWordCloud)
 
 breaches <- read.csv("./data/onc_breach_report.csv" ,na.strings = c("","\\N"), encoding = "UTF-8")
 #Clean Data
@@ -49,15 +51,3 @@ sfips <- read.csv("http://www2.census.gov/geo/docs/reference/state.txt",sep = "|
 statePop <- left_join(statePop,sfips)%>%na.exclude()
 statePop$STATE <- as.character(statePop$STATE)
 
-contentList <- list(content = "Web.Description", author = "Name.of.Covered.Entity", heading = "Name.of.Covered.Entity",topic="Type.of.Breach")
-reader <- readTabular(mapping = contentList)
-dataSource <- DataframeSource(breaches)
-breachCorpus <- Corpus(dataSource, readerControl = list(reader = reader))
-skipWords <- function(x) removeWords(x, stopwords("english"))
-as.lower <- function(x) content_transformer(tolower)
-list.of.functions <- list(tolower,  removePunctuation, removeNumbers, stripWhitespace, skipWords)
-bcMap <- tm_map(breachCorpus, FUN = tm_reduce, tmFuns = list.of.functions)
-# doc.term.matrix  <- DocumentTermMatrix(bcMap, control = list(wordLengths = c(3,10)))
-# inspect(doc.term.matrix)
-writeLines((bcMap))
-str(bcMap)

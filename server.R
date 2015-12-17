@@ -229,6 +229,32 @@ function(input, output) {
                 ) )
 
                 })
+     
+        output$webDescription <- renderPlot({
+                library(wordcloud)
+                library(RColorBrewer)
+                
+                message("web description cloud")
+                contentList <- list(content = "Web.Description", author = "Name.of.Covered.Entity", heading = "Name.of.Covered.Entity",topic="Type.of.Breach")
+                reader <- readTabular(mapping = contentList)
+                dataSource <- DataframeSource(breach.filtered())
+                breachCorpus <- Corpus(dataSource, readerControl = list(reader = reader))
+                skipWords <- function(x) removeWords(x, stopwords("english"))
+                as.lower <- function(x) content_transformer(tolower)
+                list.of.functions <- list(tolower,  removePunctuation, removeNumbers, stripWhitespace, skipWords)
+                bcMap <- tm_map(breachCorpus, FUN = tm_reduce, tmFuns = list.of.functions)
+                doc.term.matrix  <- DocumentTermMatrix(bcMap, control = list(wordLengths = c(3,10)))
+                dt.mat <- as.matrix(doc.term.matrix)
+                freq <- colSums(dt.mat)
+                hiFreq <- sort(freq,decreasing = TRUE)
+                pal <- brewer.pal(9,"BuGn")
+                pal <- pal[-(1:4)]
+                words <- names(hiFreq)
+                wordcloud(words[2:101], hiFreq[1:100],colors = pal)
+        })   
+        
+        
+# Help area
         output$helpOverview <- renderUI({div(tags$link(rel="stylesheet",type="text/css",href="help.css"),
 p("As required by section 13402(e)(4) of the HITECH Act, the Secretary must post a list of breaches of unsecured protected health information affecting 500 or more individuals. These breaches are now posted in a new, more accessible format that allows users to search and sort the posted breaches. Additionally, this new format includes brief summaries of the breach cases that OCR has investigated and closed, as well as the names of private practice providers who have reported breaches of unsecured protected health information to the Secretary. The following breaches have been reported to the Secretary:
 "))})

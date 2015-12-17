@@ -14,6 +14,7 @@ library(shiny)
 library(shinydashboard)
 library(DT)
 require(rCharts)
+library(rWordCloud)
 #options(RCHART_LIB = 'polycharts')
 
 
@@ -34,6 +35,8 @@ sidebar <-         dashboardSidebar(
                 menuItem("Breach by Devices", tabName = "breachByDevice", icon = icon("map")),
                 menuItem("Breach Geography", tabName = "breachByGeo", icon = icon("map")),
                 menuItem("Breach Data", tabName = "breachData", icon = icon("table")),
+                menuItem("Breach Info", tabName = "textAnalysis", icon = icon("cloud")),
+                
              menuItem("Help", tabName = "help", icon = icon("question-circle"))
                 ),
        
@@ -64,14 +67,11 @@ body <-  dashboardBody(tabItems(
                 )),
         tabItem(tabName = "breachByDevice",
                 fluidRow(
-#                         box(title = "Breach Count",plotOutput("breachPlotByYear")),
-#                         box(title = "Breach Impact",plotOutput("breachImpactPlotByYear"))
-                ),
-                fluidRow(
-#                         box(title = "Breach Types - Count",plotOutput("breachTypePlotByYear")),
-#                         box(title = "Breach Types - Impact",plotOutput("breachTypeImpactPlotByYear"))
-                        
+                        box(title = "Number of Breaches by Source of Data (Device)",width=12,plotOutput("breachBySourceOfDataCount")
                 )),
+                fluidRow( 
+                        box(title = "Individuals Impacted through Breaches by Source of Data (Device)",width=12,plotOutput("breachBySourceOfDataImpact")) 
+                )       ),
         tabItem(tabName = "breachByGeo",
                 fluidRow(box(title="Breach By Geography", rCharts::chartOutput('breachesByGeo', 'datamaps'),width = 12)),
                 fluidRow(box(title = "Corelation between Population and Breach Count", plotOutput("breachesPopCoorelationPlot")),
@@ -85,6 +85,11 @@ body <-  dashboardBody(tabItems(
                                 title = "Breach Data",        
                                 DT::dataTableOutput("breachData",width="100%",height="100%")
                        ),
+        tabItem(tabName = "textAnalysis",
+                h1("Breach Information Cloud"),
+                 title = "Breach Text Cloud",        
+                 ((plotOutput("webDescription",width = "100%", height = 720 )))
+),
         tabItem(tabName = "help",
                 h3("Breach Dashboard Help"),
                 fluidRow(box(width = 12,uiOutput("helpOverview"))),
